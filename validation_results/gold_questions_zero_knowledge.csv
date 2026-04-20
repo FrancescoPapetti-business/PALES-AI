@@ -1,0 +1,26 @@
+question_id,question,groundedness,self_contained,relevance,consistency,context_precision,citation_accuracy,critical_flags,status,answer_preview,num_chunks
+CF_001,Qual è la definizione di operatore?,1.000,0.800,0.498,0.997,0.400,0.000,2,MODERATE,"L'operatore è definito, ai sensi del Regolamento UE 429/2016, come qualsiasi persona fisica o giurid...",5
+CF_002,Qual è la definizione di delegato?,1.000,0.800,0.507,1.000,0.200,0.000,2,MODERATE,"Il delegato dell'Operatore è la figura designata dall'operatore responsabile degli animali, con la s...",5
+CF_003,Come richiedo il profilo da operatore?,0.750,0.800,0.684,0.992,0.900,0.000,2,MODERATE,"Per richiedere il profilo da operatore, segui questi passaggi:
+
+1. Redigi la richiesta di accesso co...",5
+CF_004,Come seleziono l'azienda?,1.000,1.000,0.301,1.000,1.000,1.000,1,GOOD,"Per selezionare un'azienda, segui questi passaggi:
+
+1. **Seleziona l'opzione**: Clicca su «Selezione...",5
+CF_005,"Non riesco a visualizzare il cruscotto, cosa devo fare?",1.000,0.800,0.300,1.000,0.800,1.000,1,GOOD,"Dopo 48 ore, sarà possibile accedere al cruscotto interattivo: selezionare ""Dashboard""....",5
+CF_006,Come faccio ad associare un valutatore?,1.000,1.000,0.640,0.984,0.667,1.000,1,GOOD,"Per associare un valutatore, segui questi passaggi:
+
+1. Inserisci il codice fiscale del Valutatore c...",6
+CF_007,Come faccio a finire un esito di valutazione che non avevo terminato?,1.000,1.000,0.734,0.995,0.800,1.000,0,EXCELLENT,"Per finire un esito di valutazione che non avevi terminato e che è stato salvato come bozza, segui q...",5
+CF_008,Come faccio a continuare una compilazione di checklist di valutazione salvata in bozza?,1.000,0.800,0.863,1.000,0.700,1.000,0,EXCELLENT,"Per continuare la compilazione di una checklist di valutazione salvata in bozza, segui questi passag...",5
+CF_009,Come faccio a scaricare il report SQNBA?,0.958,1.000,0.680,0.918,0.500,1.000,2,MODERATE,"Per scaricare il report SQNBA, segui questi passaggi:
+
+1. Completa la compilazione del questionario....",5
+CF_010,Per cosa sta BDN?,1.000,0.800,0.651,0.997,0.700,0.000,1,GOOD,BDN sta per Banca Dati Nazionale. Si tratta di un sistema informativo nazionale che raccoglie i dati...,5
+CF_011,Cosa mi serve per inserire i dati di valutazione del Benessere Animale e della Biosicurezza tramite app?,1.000,0.800,0.774,0.991,1.000,0.000,0,EXCELLENT,Per inserire i dati di valutazione del Benessere Animale e della Biosicurezza tramite l'app ClassyFa...,5
+CF_012,Come faccio ad associarmi all'allevamento?,1.000,1.000,0.408,0.997,1.000,1.000,1,GOOD,"Per associarti all'allevamento nel sistema integrato «ClassyFarm», segui questi passaggi:
+
+1. **Sceg...",5
+CF_013,Perché se clicco su Visualizza in una bozza non me lo fa modificare?,1.000,0.800,0.477,0.956,0.600,0.000,1,GOOD,"Quando clicchi su ""Visualizza"" in una bozza, il pulsante consente esclusivamente di visualizzare le ...",5
+CF_014,"Cosa vogliono dire Q1, Q2, Q3, Q4 nei cruscotti?",1.000,0.800,0.357,0.979,0.100,0.000,2,MODERATE,"Nei cruscotti, Q1, Q2, Q3 e Q4 si riferiscono ai quartili, che delimitano il passaggio tra le divers...",5
+CF_015,Cosa mi dice Sintesi risposte nel cruscotto?,1.000,0.800,0.220,1.000,0.300,1.000,2,MODERATE,Una volta che il questionario è stato compilato correttamente in tutte le sue sezioni e si è cliccat...,5

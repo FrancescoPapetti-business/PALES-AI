@@ -1,0 +1,252 @@
+{"question_id": "CF_GOLD_001", "question": "Come faccio ad associare un allevamento se sono un Veterinario Aziendale e non vedo nessun allevamento in elenco?", "faithfulness": 1.0, "answer_relevancy": 0.7847, "context_precision": 1.0, "context_recall": 0.8, "answer_correctness": 0.8557}
+{"question_id": "CF_GOLD_002", "question": "Sono un veterinario incaricato: quali documenti devo caricare per associare l’allevamento?", "faithfulness": 1.0, "answer_relevancy": 0.8702, "context_precision": 0.9617, "context_recall": 1.0, "answer_correctness": 0.9778}
+{"question_id": "CF_GOLD_003", "question": "Quando cerco un allevamento inserendo il codice BDN mi compare errore o non trovo risultati, cosa devo controllare?", "faithfulness": 0.375, "answer_relevancy": 0.7268, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.7899}
+{"question_id": "CF_GOLD_004", "question": "Non riesco a proseguire perché il pulsante Carica questionario non compare, come mai?", "faithfulness": 0.6364, "answer_relevancy": 0.877, "context_precision": 0.8393, "context_recall": 1.0, "answer_correctness": 0.7088}
+{"question_id": "CF_GOLD_005", "question": "Posso modificare un questionario già caricato?", "faithfulness": 0.5, "answer_relevancy": 0.791, "context_precision": 0.375, "context_recall": 0.0, "answer_correctness": 0.1633}
+{"question_id": "CF_GOLD_006", "question": "Come faccio a riprendere un questionario salvato in bozza?", "faithfulness": 1.0, "answer_relevancy": 0.9822, "context_precision": 0.7679, "context_recall": 0.6667, "answer_correctness": 0.6103}
+{"question_id": "CF_GOLD_007", "question": "Nel cruscotto Benessere Avicoli cosa significa il pallino rosso nella colonna Conf. Leg.?", "faithfulness": 0.6667, "answer_relevancy": 0.0, "context_precision": 0.0, "context_recall": 0.0, "answer_correctness": 0.1101}
+{"question_id": "CF_GOLD_008", "question": "Come vengono calcolati e interpretati i quartili nei cruscotti ClassyFarm?", "faithfulness": 1.0, "answer_relevancy": 0.9778, "context_precision": 0.925, "context_recall": 1.0, "answer_correctness": 0.6538}
+{"question_id": "CF_GOLD_009", "question": "Nel cruscotto Biosicurezza Ruminanti il punteggio sufficiente da quale valore dipende?", "faithfulness": 0.3333, "answer_relevancy": 0.9127, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.2076}
+{"question_id": "CF_GOLD_010", "question": "Come posso visualizzare solo le risposte insufficienti di un singolo allevamento?", "faithfulness": 0.7857, "answer_relevancy": 0.6732, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.4214}
+{"question_id": "CF_GOLD_011", "question": "Nel BioCheck Suini qual è la soglia di sufficienza del punteggio?", "faithfulness": 0.6667, "answer_relevancy": 0.9497, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.7269}
+{"question_id": "CF_GOLD_012", "question": "Come faccio a esportare i dati da un grafico o da una tabella del cruscotto?", "faithfulness": 1.0, "answer_relevancy": 0.9355, "context_precision": 0.9107, "context_recall": 1.0, "answer_correctness": 0.4891}
+{"question_id": "CF_GOLD_013", "question": "Durante la compilazione della checklist ho creato una tipologia per errore, posso eliminarla?", "faithfulness": 1.0, "answer_relevancy": 0.5317, "context_precision": 0.6593, "context_recall": 0.5, "answer_correctness": 0.6337}
+{"question_id": "CF_GOLD_014", "question": "Perché alcune risposte si autocompilano quando uso i contatori ABM?", "faithfulness": 1.0, "answer_relevancy": 0.8842, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.698}
+{"question_id": "CF_GOLD_015", "question": "Come posso annullare una risposta automatica inserita dai contatori?", "faithfulness": 1.0, "answer_relevancy": 0.577, "context_precision": 0.6862, "context_recall": 1.0, "answer_correctness": 0.5317}
+{"question_id": "CF_GOLD_016", "question": "Dove trovo il report PDF di un questionario appena compilato?", "faithfulness": 0.6, "answer_relevancy": 0.9652, "context_precision": 0.2, "context_recall": 1.0, "answer_correctness": 0.1583}
+{"question_id": "CF_GOLD_017", "question": "Perché non vedo subito i report nella Dashboard dopo il caricamento del questionario?", "faithfulness": 0.6667, "answer_relevancy": 0.9815, "context_precision": 0.8393, "context_recall": 1.0, "answer_correctness": 0.776}
+{"question_id": "CF_GOLD_018", "question": "Nel cruscotto Benessere Suino cosa indica l’area Taglio Coda nello storico?", "faithfulness": 0.0, "answer_relevancy": 0.1226, "context_precision": 0.0, "context_recall": 0.5, "answer_correctness": 0.0717}
+{"question_id": "CF_GOLD_019", "question": "Chi può richiedere l’abilitazione con il ruolo di Operatore in caso di soccida?", "faithfulness": 0.875, "answer_relevancy": 0.675, "context_precision": 0.5139, "context_recall": 0.5, "answer_correctness": 0.5847}
+{"question_id": "CF_GOLD_020", "question": "Se durante la compilazione ho problemi di caricamento dei cruscotti, cosa devo fare?", "faithfulness": 1.0, "answer_relevancy": 0.6614, "context_precision": 0.75, "context_recall": 0.5, "answer_correctness": 0.3037}
+{"question_id": "CF_GOLD_021", "question": "Non vedo il pulsante per iniziare un nuovo controllo di benessere, dove lo trovo in ClassyFarm?", "faithfulness": 0.8, "answer_relevancy": 0.8208, "context_precision": 0.826, "context_recall": 0.0, "answer_correctness": 0.6174}
+{"question_id": "CF_GOLD_022", "question": "Come faccio ad associare il veterinario aziendale alla mia azienda?", "faithfulness": 1.0, "answer_relevancy": 0.7926, "context_precision": 1.0, "context_recall": 0.0, "answer_correctness": 0.1774}
+{"question_id": "CF_GOLD_023", "question": "In caso di soccida chi può richiedere l’abilitazione come Operatore?", "faithfulness": 0.6667, "answer_relevancy": 0.9413, "context_precision": 0.6218, "context_recall": 1.0, "answer_correctness": 0.3596}
+{"question_id": "CF_GOLD_024", "question": "Durante la compilazione della checklist vedo solo NA, è corretto usarlo?", "faithfulness": 1.0, "answer_relevancy": 0.9035, "context_precision": 0.9821, "context_recall": 1.0, "answer_correctness": 0.4629}
+{"question_id": "CF_GOLD_025", "question": "Se non voglio compilare l’Area A – Scorta medicinali veterinari cosa devo fare?", "faithfulness": 1.0, "answer_relevancy": 0.9075, "context_precision": 0.8774, "context_recall": 1.0, "answer_correctness": 0.7806}
+{"question_id": "CF_GOLD_026", "question": "Ho errore in ricerca allevamento sull’app, come lo risolvo?", "faithfulness": 0.7333, "answer_relevancy": 0.634, "context_precision": 0.6496, "context_recall": 0.0, "answer_correctness": 0.1401}
+{"question_id": "CF_GOLD_027", "question": "Dove consulto il livello di rischio dell’azienda dopo il controllo?", "faithfulness": 0.4, "answer_relevancy": 0.9277, "context_precision": 0.7962, "context_recall": 1.0, "answer_correctness": 0.127}
+{"question_id": "CF_GOLD_028", "question": "Come viene calcolato il rischio per il taglio della coda?", "faithfulness": 1.0, "answer_relevancy": 0.9991, "context_precision": 0.8333, "context_recall": 0.6667, "answer_correctness": 0.1319}
+{"question_id": "CF_GOLD_029", "question": "Posso salvare una checklist incompleta e riprenderla dopo?", "faithfulness": 0.8333, "answer_relevancy": 0.9776, "context_precision": 0.7226, "context_recall": 0.5, "answer_correctness": 0.4628}
+{"question_id": "CF_GOLD_030", "question": "Chi può firmare la registrazione della verifica?", "faithfulness": 1.0, "answer_relevancy": 0.8308, "context_precision": 0.6417, "context_recall": 1.0, "answer_correctness": 0.928}
+{"question_id": "CF_GOLD_031", "question": "Se l’esito è sfavorevole cosa devo indicare?", "faithfulness": 1.0, "answer_relevancy": 0.5819, "context_precision": 0.8552, "context_recall": 1.0, "answer_correctness": 0.5858}
+{"question_id": "CF_GOLD_032", "question": "Come verifico le prescrizioni se non ne sono state assegnate?", "faithfulness": 0.5714, "answer_relevancy": 0.613, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.4328}
+{"question_id": "CF_GOLD_033", "question": "La checklist biosicurezza è obbligatoria insieme al benessere?", "faithfulness": 0.6, "answer_relevancy": 0.8369, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.6181}
+{"question_id": "CF_GOLD_034", "question": "Perché non vedo il cruscotto PAC?", "faithfulness": 0.75, "answer_relevancy": 0.1127, "context_precision": 0.9094, "context_recall": 1.0, "answer_correctness": 0.1353}
+{"question_id": "CF_GOLD_035", "question": "Posso modificare una checklist già chiusa?", "faithfulness": 0.0, "answer_relevancy": 0.1924, "context_precision": 0.5833, "context_recall": 0.5, "answer_correctness": 0.0943}
+{"question_id": "CF_GOLD_036", "question": "Come vengono usate le Animal-Based Measures (ABMs)?", "faithfulness": 1.0, "answer_relevancy": 0.7506, "context_precision": 0.9379, "context_recall": 0.5, "answer_correctness": 0.1801}
+{"question_id": "CF_GOLD_037", "question": "Cosa succede se non rispetto le tempistiche di adeguamento?", "faithfulness": 1.0, "answer_relevancy": 0.5944, "context_precision": 0.7546, "context_recall": 1.0, "answer_correctness": 0.1571}
+{"question_id": "CF_GOLD_038", "question": "Come collego più documenti per il rischio complessivo?", "faithfulness": 0.5217, "answer_relevancy": 0.8077, "context_precision": 0.625, "context_recall": 1.0, "answer_correctness": 0.1595}
+{"question_id": "CF_GOLD_039", "question": "Perché il veterinario non vede la mia azienda dopo la delega?", "faithfulness": 0.625, "answer_relevancy": 0.0, "context_precision": 0.81, "context_recall": 0.5, "answer_correctness": 0.1705}
+{"question_id": "CF_GOLD_040", "question": "Dove scarico il riepilogo finale del controllo?", "faithfulness": 0.8, "answer_relevancy": 0.3647, "context_precision": 0.0, "context_recall": 0.0, "answer_correctness": 0.1262}
+{"question_id": "CF_GOLD_041", "question": "Non vedo il pulsante per creare un nuovo controllo, dove devo entrare in ClassyFarm?", "faithfulness": 0.8571, "answer_relevancy": 0.7494, "context_precision": 0.3667, "context_recall": 0.0, "answer_correctness": 0.1779}
+{"question_id": "CF_GOLD_042", "question": "In caso di soccida, chi può fare richiesta di abilitazione come Operatore su ClassyFarm?", "faithfulness": 0.7143, "answer_relevancy": 0.9283, "context_precision": 0.4028, "context_recall": 1.0, "answer_correctness": 0.4569}
+{"question_id": "CF_GOLD_043", "question": "Come faccio ad associare il veterinario aziendale all’allevamento?", "faithfulness": 1.0, "answer_relevancy": 0.8444, "context_precision": 0.9617, "context_recall": 0.0, "answer_correctness": 0.1625}
+{"question_id": "CF_GOLD_044", "question": "Sto compilando una checklist CL e non so cosa mettere su una domanda che non verifico", "faithfulness": 0.6667, "answer_relevancy": 0.4882, "context_precision": 0.5655, "context_recall": 0.0, "answer_correctness": 0.1352}
+{"question_id": "CF_GOLD_045", "question": "Se non ho prescrizioni assegnate cosa devo indicare nella verifica delle prescrizioni?", "faithfulness": 0.5, "answer_relevancy": 0.8399, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.9449}
+{"question_id": "CF_GOLD_046", "question": "Durante la compilazione dell’Area A – Scorta medicinali posso saltare tutta la sezione?", "faithfulness": 1.0, "answer_relevancy": 0.7197, "context_precision": 0.8135, "context_recall": 1.0, "answer_correctness": 0.5245}
+{"question_id": "CF_GOLD_047", "question": "Il sistema non mi fa salvare il controllo, dice che mancano risposte obbligatorie", "faithfulness": 0.6, "answer_relevancy": 0.5038, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.4392}
+{"question_id": "CF_GOLD_048", "question": "Dove vedo l’esito finale del controllo ufficiale?", "faithfulness": 1.0, "answer_relevancy": 0.7491, "context_precision": 0.826, "context_recall": 1.0, "answer_correctness": 0.3077}
+{"question_id": "CF_GOLD_049", "question": "Se il controllo è sfavorevole devo inserire anche la diffida?", "faithfulness": 1.0, "answer_relevancy": 0.5108, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.3453}
+{"question_id": "CF_GOLD_050", "question": "Non riesco a trovare un allevamento, mi dà errore in ricerca", "faithfulness": 0.5714, "answer_relevancy": 0.5922, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.323}
+{"question_id": "CF_GOLD_051", "question": "Dove consulto il rischio complessivo dell’allevamento in ClassyFarm?", "faithfulness": 0.5714, "answer_relevancy": 0.9226, "context_precision": 0.4693, "context_recall": 0.0, "answer_correctness": 0.1726}
+{"question_id": "CF_GOLD_052", "question": "Il cruscotto Taglio Coda da dove prende i dati?", "faithfulness": 0.8, "answer_relevancy": 0.6669, "context_precision": 0.2, "context_recall": 0.0, "answer_correctness": 0.3402}
+{"question_id": "CF_GOLD_053", "question": "Chi può compilare una checklist CL di autocontrollo?", "faithfulness": 0.875, "answer_relevancy": 0.9417, "context_precision": 0.8304, "context_recall": 0.0, "answer_correctness": 0.1826}
+{"question_id": "CF_GOLD_054", "question": "Come registro i dati del proprietario presente all’ispezione?", "faithfulness": 1.0, "answer_relevancy": 0.7391, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.552}
+{"question_id": "CF_GOLD_055", "question": "Posso chiudere il controllo senza indicare se le prescrizioni sono state eseguite?", "faithfulness": 0.6667, "answer_relevancy": 0.7193, "context_precision": 1.0, "context_recall": 0.5, "answer_correctness": 0.6283}
+{"question_id": "CF_GOLD_056", "question": "Le informazioni della checklist si collegano automaticamente alla BDN?", "faithfulness": 0.8, "answer_relevancy": 0.8837, "context_precision": 0.9583, "context_recall": 1.0, "answer_correctness": 0.1787}
+{"question_id": "CF_GOLD_057", "question": "Dove vedo se un allevamento è programmato per controllo PNBA?", "faithfulness": 0.6667, "answer_relevancy": 0.9447, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.1434}
+{"question_id": "CF_GOLD_058", "question": "Un veterinario può operare su più allevamenti con lo stesso profilo?", "faithfulness": 0.875, "answer_relevancy": 0.0, "context_precision": 0.7546, "context_recall": 1.0, "answer_correctness": 0.4083}
+{"question_id": "CF_GOLD_059", "question": "Cosa succede se non completo una checklist CL di autocontrollo?", "faithfulness": 0.0, "answer_relevancy": 0.2174, "context_precision": 0.925, "context_recall": 0.0, "answer_correctness": 0.0767}
+{"question_id": "CF_GOLD_060", "question": "Dove posso verificare lo storico dei controlli di un allevamento?", "faithfulness": 0.9, "answer_relevancy": 0.9721, "context_precision": 0.5417, "context_recall": 1.0, "answer_correctness": 0.1951}
+{
+  "statistical_summary": {
+    "total_questions": 60,
+    "source_report": "ragas_report_20260205_162158.csv",
+    "timestamp": "2026-02-05T18:26:25.019832",
+    "faithfulness": {
+      "mean": 0.7579,
+      "median": 0.8,
+      "mode": 1.0,
+      "std": 0.2608,
+      "variance": 0.068,
+      "min": 0.0,
+      "max": 1.0,
+      "range": 1.0,
+      "q1": 0.6188,
+      "q3": 1.0,
+      "iqr": 0.3812,
+      "outliers_low_count": 3,
+      "outliers_high_count": 0,
+      "outliers_low": [
+        "CF_GOLD_018",
+        "CF_GOLD_035",
+        "CF_GOLD_059"
+      ],
+      "outliers_high": []
+    },
+    "answer_relevancy": {
+      "mean": 0.7067,
+      "median": 0.7878,
+      "mode": 0.0,
+      "std": 0.2716,
+      "variance": 0.0738,
+      "min": 0.0,
+      "max": 0.9991,
+      "range": 0.9991,
+      "q1": 0.5939,
+      "q3": 0.9152,
+      "iqr": 0.3213,
+      "outliers_low_count": 3,
+      "outliers_high_count": 0,
+      "outliers_low": [
+        "CF_GOLD_007",
+        "CF_GOLD_039",
+        "CF_GOLD_058"
+      ],
+      "outliers_high": []
+    },
+    "context_precision": {
+      "mean": 0.7578,
+      "median": 0.8318,
+      "mode": 1.0,
+      "std": 0.2736,
+      "variance": 0.0749,
+      "min": 0.0,
+      "max": 1.0,
+      "range": 1.0,
+      "q1": 0.6375,
+      "q3": 1.0,
+      "iqr": 0.3625,
+      "outliers_low_count": 3,
+      "outliers_high_count": 0,
+      "outliers_low": [
+        "CF_GOLD_007",
+        "CF_GOLD_018",
+        "CF_GOLD_040"
+      ],
+      "outliers_high": []
+    },
+    "context_recall": {
+      "mean": 0.6939,
+      "median": 1.0,
+      "mode": 1.0,
+      "std": 0.4094,
+      "variance": 0.1676,
+      "min": 0.0,
+      "max": 1.0,
+      "range": 1.0,
+      "q1": 0.5,
+      "q3": 1.0,
+      "iqr": 0.5,
+      "outliers_low_count": 0,
+      "outliers_high_count": 0,
+      "outliers_low": [],
+      "outliers_high": []
+    },
+    "answer_correctness": {
+      "mean": 0.4002,
+      "median": 0.3524,
+      "mode": 0.0717,
+      "std": 0.2582,
+      "variance": 0.0667,
+      "min": 0.0717,
+      "max": 0.9778,
+      "range": 0.906,
+      "q1": 0.1631,
+      "q3": 0.6121,
+      "iqr": 0.449,
+      "outliers_low_count": 0,
+      "outliers_high_count": 0,
+      "outliers_low": [],
+      "outliers_high": []
+    },
+    "correlations": {
+      "faithfulness_vs_answer_relevancy": 0.326,
+      "faithfulness_vs_context_precision": 0.2155,
+      "faithfulness_vs_context_recall": 0.1242,
+      "faithfulness_vs_answer_correctness": 0.3157,
+      "answer_relevancy_vs_context_precision": 0.2918,
+      "answer_relevancy_vs_context_recall": 0.2459,
+      "answer_relevancy_vs_answer_correctness": 0.3428,
+      "context_precision_vs_context_recall": 0.4581,
+      "context_precision_vs_answer_correctness": 0.394,
+      "context_recall_vs_answer_correctness": 0.4465
+    },
+    "critical_questions": [
+      {
+        "question_id": "CF_GOLD_007",
+        "question": "Nel cruscotto Benessere Avicoli cosa significa il pallino rosso nella colonna Conf. Leg.?",
+        "reason": "Low answer_relevancy (0.00); Low context_precision (0.00)",
+        "affected_metrics": [
+          "answer_relevancy",
+          "context_precision"
+        ],
+        "severity": "high"
+      },
+      {
+        "question_id": "CF_GOLD_018",
+        "question": "Nel cruscotto Benessere Suino cosa indica l’area Taglio Coda nello storico?",
+        "reason": "Low faithfulness (0.00); Low context_precision (0.00)",
+        "affected_metrics": [
+          "faithfulness",
+          "context_precision"
+        ],
+        "severity": "high"
+      },
+      {
+        "question_id": "CF_GOLD_035",
+        "question": "Posso modificare una checklist già chiusa?",
+        "reason": "Low faithfulness (0.00)",
+        "affected_metrics": [
+          "faithfulness"
+        ],
+        "severity": "medium"
+      },
+      {
+        "question_id": "CF_GOLD_039",
+        "question": "Perché il veterinario non vede la mia azienda dopo la delega?",
+        "reason": "Low answer_relevancy (0.00)",
+        "affected_metrics": [
+          "answer_relevancy"
+        ],
+        "severity": "medium"
+      },
+      {
+        "question_id": "CF_GOLD_040",
+        "question": "Dove scarico il riepilogo finale del controllo?",
+        "reason": "Low context_precision (0.00)",
+        "affected_metrics": [
+          "context_precision"
+        ],
+        "severity": "medium"
+      },
+      {
+        "question_id": "CF_GOLD_058",
+        "question": "Un veterinario può operare su più allevamenti con lo stesso profilo?",
+        "reason": "Low answer_relevancy (0.00)",
+        "affected_metrics": [
+          "answer_relevancy"
+        ],
+        "severity": "medium"
+      },
+      {
+        "question_id": "CF_GOLD_059",
+        "question": "Cosa succede se non completo una checklist CL di autocontrollo?",
+        "reason": "Low faithfulness (0.00)",
+        "affected_metrics": [
+          "faithfulness"
+        ],
+        "severity": "medium"
+      }
+    ],
+    "health_score": {
+      "overall_score": 1.8,
+      "rating": "poor",
+      "breakdown": {
+        "base_score": 39.8,
+        "outlier_penalty": 18,
+        "critical_penalty": 20
+      }
+    }
+  }
+}

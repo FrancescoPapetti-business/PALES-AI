@@ -1,0 +1,54 @@
+# --- SEGRETI E CONFIGURAZIONI ---
+.env
+*.env
+.env.example
+config.json
+credentials.json
+secrets.py
+
+# --- AMBIENTI VIRTUALI ---
+venv/
+.venv/
+env/
+bin/
+lib/
+__pycache__/
+*.py[cod]
+
+# --- DATI E INDICI (RAG) ---
+# Escludi i documenti PDF originali se sono pesanti o riservati
+data/raw/
+# Escludi l'indice vettoriale locale (es. ChromaDB, FAISS)
+storage/
+vector_db/
+*.db
+
+# --- SISTEMA E IDE ---
+.DS_Store
+.vscode/
+.idea/
+*.log
+# --- WEB SCRAPING CACHE ---
+# File HTML scaricati (riproducibili, non committare)
+data/web_cache/
+# PDF scaricati automaticamente dal web
+data/pdf_input/web_downloaded/
+
+# --- INDICI GENERATI (ricostruibili) ---
+data/vector_store/
+data/palesai.db
+data/datasets/
+
+# NOTA: data/master_faq/ e data/faq_input/ vanno COMMITTATI (fonti primarie)
+
+# --- NODE ---
+node_modules/
+.next/
+frontend/node_modules/
+frontend/.next/
+
+# --- LOG ---
+logs/
+
+# --- CLAUDE ---
+.claude/

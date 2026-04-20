@@ -1,0 +1,291 @@
+[
+  {
+    "Termine": "DDDAit",
+    "Definizione": "Defined Daily Dose Animal for Italy. È la dose standard in milligrammi di principio attivo necessaria per trattare un chilogrammo di peso vivo animale per 24 ore. Rappresenta un indicatore normalizzato per il monitoraggio del consumo di antimicrobici negli allevamenti italiani.",
+    "Categoria": "Indicatori di consumo",
+    "Contesto": "Calcolo consumo antimicrobici in ClassyFarm"
+  },
+  {
+    "Termine": "DCDAit",
+    "Definizione": "Defined Course Dose Animal for Italy. Indica la quantità totale di principio attivo necessaria per trattare un chilogrammo di peso vivo animale per l’intera durata del trattamento. Si calcola moltiplicando la DDDAit per i giorni di terapia.",
+    "Categoria": "Indicatori di consumo",
+    "Contesto": "Monitoraggio farmaci veterinari"
+  },
+  {
+    "Termine": "PCU",
+    "Definizione": "Population Correction Unit. Unità di misura utilizzata da ESVAC per confrontare i consumi di antimicrobici tra Paesi europei, basata sul rapporto tra quantità di antimicrobico venduto e biomassa animale a rischio (1 PCU = 1 kg di peso vivo).",
+    "Categoria": "Indicatori internazionali",
+    "Contesto": "Confronti ESVAC UE"
+  },
+  {
+    "Termine": "Principio attivo (PA)",
+    "Definizione": "Sostanza chimica che produce l’effetto terapeutico di un medicinale veterinario. Nei sistemi di sorveglianza, il consumo viene calcolato sulla base dei milligrammi di principio attivo contenuti nei prodotti utilizzati.",
+    "Categoria": "Farmaci veterinari",
+    "Contesto": "Tracciabilità e calcolo DDDAit"
+  },
+  {
+    "Termine": "Animali a rischio",
+    "Definizione": "Popolazione di animali potenzialmente esposti all’uso di antimicrobici in un dato periodo. È la base di riferimento per normalizzare i consumi nel calcolo DDDAit.",
+    "Categoria": "Definizioni statistiche",
+    "Contesto": "Calcolo biomassa animale"
+  },
+  {
+    "Termine": "Biomassa animale esposta",
+    "Definizione": "Peso totale, espresso in chilogrammi, degli animali allevati o trattati in un determinato periodo. È utilizzata come denominatore nel calcolo degli indicatori DDDAit e DCDAit.",
+    "Categoria": "Definizioni statistiche",
+    "Contesto": "Base di calcolo ClassyFarm"
+  },
+  {
+    "Termine": "RCP (Riassunto delle Caratteristiche del Prodotto)",
+    "Definizione": "Documento ufficiale approvato per ciascun medicinale veterinario, che riporta dosi, posologie, durata del trattamento e specie target. Costituisce la base tecnica per definire le DDDAit.",
+    "Categoria": "Regolamentazione farmaci",
+    "Contesto": "Definizione parametri nazionali"
+  },
+  {
+    "Termine": "BDN (Banca Dati Nazionale)",
+    "Definizione": "Sistema informativo nazionale che raccoglie i dati anagrafici e produttivi degli allevamenti. Fornisce le informazioni sulla biomassa animale utilizzate per i calcoli DDDAit e DCDAit.",
+    "Categoria": "Banche dati",
+    "Contesto": "Riferimento ClassyFarm e farmacosorveglianza"
+  },
+  {
+    "Termine": "ClassyFarm",
+    "Definizione": "Sistema integrato di classificazione e valutazione del rischio degli allevamenti, sviluppato dal Ministero della Salute. Include moduli per biosicurezza, benessere animale, uso del farmaco e consumo di antimicrobici.",
+    "Categoria": "Sistema informativo",
+    "Contesto": "Gestione e monitoraggio allevamenti"
+  },
+  {
+    "Termine": "Antimicrobico-resistenza (AMR)",
+    "Definizione": "Fenomeno per cui un microrganismo sviluppa resistenza a uno o più antibiotici. La riduzione del consumo di antimicrobici e il monitoraggio DDDAit rientrano nelle azioni del Piano Nazionale di Contrasto all’Antimicrobico-Resistenza (PNCAR).",
+    "Categoria": "Concetti generali",
+    "Contesto": "Salute pubblica veterinaria"
+  }
+]
+[
+  {
+    "Termine": "ESVAC",
+    "Definizione": "European Surveillance of Veterinary Antimicrobial Consumption. Programma europeo coordinato dall’EMA che raccoglie e analizza i dati sull’uso di antimicrobici negli animali da produzione alimentare.",
+    "Categoria": "Iniziative europee",
+    "Contesto": "Monitoraggio UE dei consumi"
+  },
+  {
+    "Termine": "AACTING",
+    "Definizione": "Rete di esperti europei che definisce metodologie armonizzate per la raccolta e l’analisi dei dati di utilizzo degli antimicrobici negli animali. Fornisce linee guida su DDDA e DCDA.",
+    "Categoria": "Reti internazionali",
+    "Contesto": "Standardizzazione metodologica"
+  },
+  {
+    "Termine": "IZSLER",
+    "Definizione": "Istituto Zooprofilattico Sperimentale della Lombardia e dell’Emilia-Romagna. Collabora con il Ministero della Salute nello sviluppo e aggiornamento della metodologia DDDAit.",
+    "Categoria": "Enti di ricerca",
+    "Contesto": "Supporto tecnico-scientifico"
+  },
+  {
+    "Termine": "Medicinali intramammari",
+    "Definizione": "Farmaci antimicrobici destinati al trattamento delle mastiti, somministrati per via intramammaria. Nel calcolo DDDAit si considera un trattamento per ciascun quarto mammario.",
+    "Categoria": "Farmaci veterinari",
+    "Contesto": "Trattamenti specifici bovini"
+  },
+  {
+    "Termine": "Medicinali intrauterini",
+    "Definizione": "Medicinali antimicrobici somministrati direttamente nell’utero per trattare infezioni uterine. Il dosaggio è calcolato per singola somministrazione e non in funzione del peso vivo.",
+    "Categoria": "Farmaci veterinari",
+    "Contesto": "Trattamenti specifici riproduttivi"
+  },
+  {
+    "Termine": "Principi attivi critici",
+    "Definizione": "Antimicrobici considerati di importanza cruciale per la medicina umana secondo OMS ed EMA. Il loro uso negli animali è monitorato con particolare attenzione.",
+    "Categoria": "Farmaci prioritari",
+    "Contesto": "Sorveglianza antimicrobici"
+  },
+  {
+    "Termine": "PNCAR",
+    "Definizione": "Piano Nazionale di Contrasto dell’Antimicrobico-Resistenza. Programma interministeriale che stabilisce obiettivi e misure per ridurre l’uso di antibiotici e contrastare l’AMR.",
+    "Categoria": "Politiche nazionali",
+    "Contesto": "Salute pubblica e veterinaria"
+  },
+  {
+    "Termine": "Vetinfo",
+    "Definizione": "Portale del Ministero della Salute che raccoglie i servizi digitali veterinari nazionali, tra cui ClassyFarm, BDN e sistemi di tracciabilità dei farmaci veterinari.",
+    "Categoria": "Piattaforme informatiche",
+    "Contesto": "Accesso sistemi ministeriali"
+  },
+  {
+    "Termine": "Registro trattamenti",
+    "Definizione": "Documento obbligatorio per ogni allevamento che riporta i trattamenti farmacologici somministrati agli animali. È integrato nei sistemi informatici Vetinfo e ClassyFarm per il calcolo dei consumi.",
+    "Categoria": "Obblighi gestionali",
+    "Contesto": "Tracciabilità aziendale"
+  }
+]
+
+[
+  {
+    "Domanda": "Che cosa significa l'acronimo DDDAit?",
+    "Risposta": "DDDAit significa Defined Daily Dose Animal for Italy. È la dose in milligrammi di principio attivo necessaria per mantenere sotto trattamento un chilogrammo di peso vivo animale per 24 ore. La DDDAit rappresenta una dose standard di riferimento, non quella realmente somministrata, ed è definita sulla base del Riassunto delle Caratteristiche del Prodotto (RCP) dei farmaci veterinari.",
+    "Categoria": "Definizioni",
+    "Contesto": "Indicatori di consumo antimicrobici"
+  },
+  {
+    "Domanda": "Che cosa si intende per DCDAit?",
+    "Risposta": "La DCDAit (Defined Course Dose Animal for Italy) è la quantità totale di principio attivo, espressa in milligrammi, necessaria per mantenere un chilogrammo di peso vivo sotto trattamento per l’intero ciclo terapeutico. È calcolata moltiplicando la DDDAit per il numero di giorni di trattamento previsti.",
+    "Categoria": "Definizioni",
+    "Contesto": "Indicatori di consumo antimicrobici"
+  },
+  {
+    "Domanda": "Qual è l’obiettivo del sistema DDDAit?",
+    "Risposta": "L’obiettivo del sistema DDDAit è fornire uno strumento standardizzato per misurare e confrontare il consumo di antimicrobici negli allevamenti italiani, contribuendo alla riduzione dell’uso eccessivo e alla prevenzione dell’antimicrobico-resistenza.",
+    "Categoria": "Definizioni",
+    "Contesto": "Scopo della metodologia"
+  },
+  {
+    "Domanda": "Qual è la fonte dei dati utilizzati per il calcolo del consumo di antimicrobici?",
+    "Risposta": "I dati provengono dal sistema informatizzato di tracciabilità dei medicinali veterinari e dei mangimi medicati, che include la ricetta veterinaria elettronica e il registro dei trattamenti. In assenza di tali registri, si utilizzano i dati relativi agli scarichi di scorte autorizzate di medicinali veterinari.",
+    "Categoria": "Procedure",
+    "Contesto": "Raccolta dati ClassyFarm e BDN"
+  },
+  {
+    "Domanda": "Cosa significa 'animali a rischio' nel contesto del calcolo DDDAit?",
+    "Risposta": "Gli 'animali a rischio' sono gli animali potenzialmente esposti ai medicinali antimicrobici in un dato periodo. La loro biomassa viene utilizzata per normalizzare i consumi di antimicrobici e rappresenta la base di calcolo per gli indicatori di consumo.",
+    "Categoria": "Definizioni",
+    "Contesto": "Classificazione animali a rischio"
+  },
+  {
+    "Domanda": "Perché è importante monitorare il consumo di antimicrobici negli allevamenti?",
+    "Risposta": "Monitorare il consumo di antimicrobici consente di valutare l’esposizione reale degli animali, analizzare i trend di utilizzo e prevenire la diffusione dell’antimicrobico-resistenza, in linea con il Piano Nazionale di Contrasto dell’Antimicrobico-Resistenza (PNCAR).",
+    "Categoria": "Avvertenze",
+    "Contesto": "Obiettivi del monitoraggio"
+  },
+  {
+    "Domanda": "Cosa si intende per 'principio attivo' (PA)?",
+    "Risposta": "Il principio attivo (PA) è la sostanza chimica contenuta in un medicinale veterinario che produce l’effetto terapeutico. Nei calcoli DDDAit, il PA è espresso in milligrammi e rappresenta l’unità base per quantificare i consumi.",
+    "Categoria": "Definizioni",
+    "Contesto": "Farmacosorveglianza veterinaria"
+  },
+  {
+    "Domanda": "Come si calcola la quantità di principio attivo consumato?",
+    "Risposta": "Il sistema ClassyFarm calcola automaticamente i milligrammi di principio attivo presenti nelle confezioni registrate, utilizzando i dati dell’autorizzazione all’immissione in commercio (AIC) e il Riassunto delle Caratteristiche del Prodotto (RCP).",
+    "Categoria": "Procedure",
+    "Contesto": "Calcolo quantità principio attivo"
+  },
+  {
+    "Domanda": "Cosa significa l’indicatore 'mg/PCU' usato da ESVAC?",
+    "Risposta": "L’indicatore 'mg/PCU' rappresenta il rapporto tra la massa di antimicrobici venduti e la biomassa animale 'a rischio' in un Paese. Una PCU (Population Correction Unit) equivale a un chilogrammo di peso vivo animale a rischio. È utilizzato per confrontare i consumi tra Stati europei.",
+    "Categoria": "Definizioni",
+    "Contesto": "Standard ESVAC e confronto internazionale"
+  },
+  {
+    "Domanda": "Perché il sistema DDDAit è preferito rispetto all’indicatore mg/PCU?",
+    "Risposta": "Il sistema DDDAit tiene conto delle differenze di posologia tra i vari antimicrobici, superando i limiti dell’indicatore mg/PCU che considera solo la massa venduta. Questo permette una stima più accurata del reale impiego terapeutico negli animali.",
+    "Categoria": "Definizioni",
+    "Contesto": "Scelta della metrica nazionale"
+  },
+  {
+    "Domanda": "Chi collabora alla definizione della metodologia DDDAit?",
+    "Risposta": "La metodologia è stata sviluppata dal Ministero della Salute con la collaborazione dell’Istituto Zooprofilattico Sperimentale della Lombardia e dell’Emilia-Romagna (IZSLER) e in conformità con i progetti europei ESVAC e AACTING.",
+    "Categoria": "Definizioni",
+    "Contesto": "Collaborazioni e fonti scientifiche"
+  },
+  {
+    "Domanda": "Cosa succede se i dati di trattamento non contengono l’indicazione della categoria animale?",
+    "Risposta": "Se manca l’indicazione della categoria animale durante la registrazione dei trattamenti, il sistema visualizza un messaggio di errore: 'In assenza delle informazioni sulla categoria animale non sarà possibile eseguire il calcolo dei consumi'.",
+    "Categoria": "Risoluzione problemi",
+    "Contesto": "Controllo qualità dati ClassyFarm"
+  }
+]
+[
+  {
+    "Domanda": "Come si calcola il valore di DDDAit per un trattamento veterinario?",
+    "Risposta": "Il valore DDDAit si ottiene dividendo la quantità totale di principio attivo somministrato (in milligrammi) per la dose giornaliera definita per specie e via di somministrazione, moltiplicata per il peso vivo medio standard della categoria animale trattata. Il risultato rappresenta il numero di dosi giornaliere definite per animale trattato.",
+    "Categoria": "Procedure",
+    "Contesto": "Formula di calcolo DDDAit"
+  },
+  {
+    "Domanda": "Qual è la formula generale per calcolare il consumo di antimicrobici?",
+    "Risposta": "Il consumo di antimicrobici è calcolato come: (Quantità di principio attivo utilizzato in mg) / (DDDAit × biomassa animale esposta). Questo valore consente di stimare l’intensità di utilizzo dei medicinali veterinari in relazione al peso totale degli animali trattati.",
+    "Categoria": "Comandi operativi",
+    "Contesto": "Calcolo consumo antimicrobici"
+  },
+  {
+    "Domanda": "Che cosa rappresenta la 'biomassa animale esposta' nel calcolo DDDAit?",
+    "Risposta": "La biomassa animale esposta rappresenta il peso totale, espresso in chilogrammi, degli animali potenzialmente trattati in un determinato periodo. È un valore stimato sulla base dei dati anagrafici, produttivi e di movimentazione registrati nella Banca Dati Nazionale (BDN).",
+    "Categoria": "Definizioni",
+    "Contesto": "Parametri di calcolo"
+  },
+  {
+    "Domanda": "Come si calcola il numero di giorni di trattamento?",
+    "Risposta": "Il numero di giorni di trattamento viene definito in base alla posologia riportata nel Riassunto delle Caratteristiche del Prodotto (RCP) e può variare per principio attivo, specie animale e via di somministrazione. Il sistema ClassyFarm utilizza valori standardizzati definiti a livello nazionale.",
+    "Categoria": "Procedure",
+    "Contesto": "Calcolo giorni di trattamento"
+  },
+  {
+    "Domanda": "Quali categorie animali vengono considerate nel sistema DDDAit?",
+    "Risposta": "Le categorie considerate includono: bovini da latte, bovini da carne, suini, avicoli, ovicaprini e conigli. Per ogni specie sono definiti pesi medi standard e parametri di consumo specifici per garantire uniformità di confronto tra allevamenti.",
+    "Categoria": "Definizioni",
+    "Contesto": "Categorie animali"
+  },
+  {
+    "Domanda": "Quali sono i pesi vivi standard utilizzati nel calcolo?",
+    "Risposta": "Il peso vivo standard è un valore medio di riferimento, espresso in chilogrammi, assegnato a ciascuna categoria animale. Ad esempio, 600 kg per bovini da latte, 100 kg per suini da ingrasso e 2,5 kg per polli da carne. Questi valori consentono di armonizzare i calcoli tra aziende diverse.",
+    "Categoria": "Definizioni",
+    "Contesto": "Pesi standard zootecnici"
+  },
+  {
+    "Domanda": "Come vengono considerati i prodotti intramammari nel calcolo DDDAit?",
+    "Risposta": "Per i prodotti intramammari, la dose standard è calcolata in base al numero di quarti trattati e alla quantità di principio attivo per singolo quarto. Il sistema considera automaticamente quattro quarti per vacca in lattazione, salvo specifiche diverse nel RCP.",
+    "Categoria": "Procedure",
+    "Contesto": "Prodotti intramammari"
+  },
+  {
+    "Domanda": "Come vengono gestiti i prodotti intrauterini nel sistema di calcolo?",
+    "Risposta": "Per i prodotti intrauterini, la DDDAit corrisponde alla quantità di principio attivo per singolo trattamento. In questo caso non si applica il peso vivo standard, ma il numero di somministrazioni registrate nel periodo di riferimento.",
+    "Categoria": "Procedure",
+    "Contesto": "Prodotti intrauterini"
+  },
+  {
+    "Domanda": "Come si calcola la DDDAit per medicinali a uso orale e iniettabile?",
+    "Risposta": "Per i medicinali orali e iniettabili, la DDDAit è determinata sulla base della posologia media giornaliera riportata nel RCP, espressa in mg/kg di peso vivo. Il sistema ClassyFarm applica la dose standardizzata nazionale per ciascun principio attivo.",
+    "Categoria": "Procedure",
+    "Contesto": "Vie di somministrazione"
+  },
+  {
+    "Domanda": "Cosa sono i 'principi attivi critici' nel monitoraggio antimicrobico?",
+    "Risposta": "I principi attivi critici sono sostanze antimicrobiche considerate di importanza fondamentale per la medicina umana secondo le classificazioni OMS ed EMA. L’uso veterinario di questi principi è soggetto a monitoraggio prioritario e richiede particolare cautela.",
+    "Categoria": "Avvertenze",
+    "Contesto": "Farmaci critici e priorità"
+  },
+  {
+    "Domanda": "Come vengono gestiti i principi attivi critici in ClassyFarm?",
+    "Risposta": "Il sistema ClassyFarm identifica automaticamente i trattamenti contenenti principi attivi critici e li evidenzia nei report di consumo. Questo permette di monitorare la frequenza d’uso e di adottare misure correttive in caso di utilizzo eccessivo.",
+    "Categoria": "Procedure",
+    "Contesto": "Monitoraggio principi attivi critici"
+  },
+  {
+    "Domanda": "Cosa devo fare se i dati di consumo risultano incompleti o anomali?",
+    "Risposta": "In presenza di dati mancanti o incoerenti, è necessario verificare la corretta registrazione dei trattamenti nella BDN o nel registro elettronico aziendale. Il sistema ClassyFarm segnala automaticamente eventuali incongruenze e richiede la revisione dei dati.",
+    "Categoria": "Risoluzione problemi",
+    "Contesto": "Validazione dati"
+  },
+  {
+    "Domanda": "Cosa indica un valore elevato di DDDAit in un’azienda?",
+    "Risposta": "Un valore elevato di DDDAit può indicare un utilizzo intenso di antimicrobici o una frequenza elevata di trattamenti. È consigliato confrontare il valore con la media di settore e, se necessario, consultare il veterinario aziendale per ottimizzare i protocolli terapeutici.",
+    "Categoria": "Avvertenze",
+    "Contesto": "Interpretazione risultati"
+  },
+  {
+    "Domanda": "Chi è responsabile della corretta registrazione dei trattamenti farmacologici?",
+    "Risposta": "La responsabilità della corretta registrazione dei trattamenti farmacologici ricade sul veterinario prescrittore e sull’operatore responsabile dell’allevamento. Entrambi devono garantire che i dati siano completi, corretti e caricati nei tempi previsti.",
+    "Categoria": "Regole operative",
+    "Contesto": "Responsabilità dati trattamenti"
+  },
+  {
+    "Domanda": "Come viene aggiornato il database dei principi attivi utilizzati nel calcolo?",
+    "Risposta": "Il database dei principi attivi e dei relativi dosaggi di riferimento viene aggiornato periodicamente dal Ministero della Salute in collaborazione con gli Istituti Zooprofilattici. Gli aggiornamenti sono integrati automaticamente nel sistema ClassyFarm.",
+    "Categoria": "Comandi operativi",
+    "Contesto": "Aggiornamenti sistema"
+  },
+  {
+    "Domanda": "Cosa succede se il sistema non riconosce un medicinale veterinario registrato?",
+    "Risposta": "Se un medicinale non è riconosciuto, il sistema segnala l’anomalia e blocca il calcolo automatico del consumo per evitare risultati errati. È necessario segnalare il problema all’assistenza tecnica ClassyFarm allegando il numero di AIC del prodotto.",
+    "Categoria": "Risoluzione problemi",
+    "Contesto": "Errori identificazione farmaci"
+  }
+]

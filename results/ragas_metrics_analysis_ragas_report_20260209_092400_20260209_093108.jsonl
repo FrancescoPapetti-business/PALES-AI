@@ -1,0 +1,160 @@
+{"question_id": "q001", "question": "come devono essere i pavimenti delle stalle dei suini?", "faithfulness": 1.0, "answer_relevancy": 0.9247, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.4748}
+{"question_id": "q002", "question": "come devo porgettare le strutture di stabulazione delle galline?", "faithfulness": 1.0, "answer_relevancy": 0.8774, "context_precision": 0.9627, "context_recall": 0.3333, "answer_correctness": 0.289}
+{"question_id": "q003", "question": "come faccio a salvare la check list che ho compilato?", "faithfulness": 1.0, "answer_relevancy": 0.7645, "context_precision": 0.5545, "context_recall": 1.0, "answer_correctness": 0.7471}
+{"question_id": "q004", "question": "in che strutture è consentito l'utilizzo di educatori elettrici?", "faithfulness": 1.0, "answer_relevancy": 0.6952, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.5127}
+{"question_id": "q005", "question": "qul'è la definizione di operatore?", "faithfulness": 1.0, "answer_relevancy": 0.7029, "context_precision": 0.0, "context_recall": 0.0, "answer_correctness": 0.3481}
+{"question_id": "q006", "question": "dove trovo la sezione dell'operatore e dei suoi delegati?", "faithfulness": 1.0, "answer_relevancy": 0.41, "context_precision": 0.869, "context_recall": 1.0, "answer_correctness": 0.4553}
+{"question_id": "q007", "question": "come si accede ai cruscotti interattivi di ClassyFarm?", "faithfulness": 1.0, "answer_relevancy": 0.7387, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.8008}
+{"question_id": "q008", "question": "cosa devo fare per nominare un delegato da singolo operatore?", "faithfulness": 1.0, "answer_relevancy": 0.9005, "context_precision": 0.9889, "context_recall": 1.0, "answer_correctness": 0.6267}
+{"question_id": "q009", "question": "come posso selezionare il veterinario aziendale in ClassyFarm?", "faithfulness": 1.0, "answer_relevancy": 0.8033, "context_precision": 0.9526, "context_recall": 1.0, "answer_correctness": 0.8469}
+{"question_id": "q010", "question": "come accedo all'area riservata di VetINFO?", "faithfulness": 1.0, "answer_relevancy": 0.7748, "context_precision": 0.7857, "context_recall": 1.0, "answer_correctness": 0.7124}
+{
+  "statistical_summary": {
+    "total_questions": 10,
+    "source_report": "ragas_report_20260209_092400.csv",
+    "timestamp": "2026-02-09T09:31:08.031993",
+    "faithfulness": {
+      "mean": 1.0,
+      "median": 1.0,
+      "mode": 1.0,
+      "std": 0.0,
+      "variance": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "range": 0.0,
+      "q1": 1.0,
+      "q3": 1.0,
+      "iqr": 0.0,
+      "outliers_low_count": 0,
+      "outliers_high_count": 0,
+      "outliers_low": [],
+      "outliers_high": []
+    },
+    "answer_relevancy": {
+      "mean": 0.7592,
+      "median": 0.7697,
+      "mode": 0.41,
+      "std": 0.1465,
+      "variance": 0.0215,
+      "min": 0.41,
+      "max": 0.9247,
+      "range": 0.5147,
+      "q1": 0.7118,
+      "q3": 0.8589,
+      "iqr": 0.147,
+      "outliers_low_count": 1,
+      "outliers_high_count": 0,
+      "outliers_low": [
+        "q006"
+      ],
+      "outliers_high": []
+    },
+    "context_precision": {
+      "mean": 0.8113,
+      "median": 0.9576,
+      "mode": 1.0,
+      "std": 0.3179,
+      "variance": 0.101,
+      "min": 0.0,
+      "max": 1.0,
+      "range": 1.0,
+      "q1": 0.8065,
+      "q3": 0.9972,
+      "iqr": 0.1907,
+      "outliers_low_count": 1,
+      "outliers_high_count": 0,
+      "outliers_low": [
+        "q005"
+      ],
+      "outliers_high": []
+    },
+    "context_recall": {
+      "mean": 0.8333,
+      "median": 1.0,
+      "mode": 1.0,
+      "std": 0.36,
+      "variance": 0.1296,
+      "min": 0.0,
+      "max": 1.0,
+      "range": 1.0,
+      "q1": 1.0,
+      "q3": 1.0,
+      "iqr": 0.0,
+      "outliers_low_count": 2,
+      "outliers_high_count": 0,
+      "outliers_low": [
+        "q002",
+        "q005"
+      ],
+      "outliers_high": []
+    },
+    "answer_correctness": {
+      "mean": 0.5814,
+      "median": 0.5697,
+      "mode": 0.289,
+      "std": 0.1936,
+      "variance": 0.0375,
+      "min": 0.289,
+      "max": 0.8469,
+      "range": 0.558,
+      "q1": 0.4602,
+      "q3": 0.7384,
+      "iqr": 0.2782,
+      "outliers_low_count": 0,
+      "outliers_high_count": 0,
+      "outliers_low": [],
+      "outliers_high": []
+    },
+    "correlations": {
+      "faithfulness_vs_answer_relevancy": null,
+      "faithfulness_vs_context_precision": null,
+      "faithfulness_vs_context_recall": null,
+      "faithfulness_vs_answer_correctness": null,
+      "answer_relevancy_vs_context_precision": 0.2106,
+      "answer_relevancy_vs_context_recall": -0.0473,
+      "answer_relevancy_vs_answer_correctness": 0.1015,
+      "context_precision_vs_context_recall": 0.6898,
+      "context_precision_vs_answer_correctness": 0.2632,
+      "context_recall_vs_answer_correctness": 0.6828
+    },
+    "critical_questions": [
+      {
+        "question_id": "q005",
+        "question": "qul'è la definizione di operatore?",
+        "reason": "Low context_precision (0.00); Low context_recall (0.00)",
+        "affected_metrics": [
+          "context_precision",
+          "context_recall"
+        ],
+        "severity": "high"
+      },
+      {
+        "question_id": "q002",
+        "question": "come devo porgettare le strutture di stabulazione delle galline?",
+        "reason": "Low context_recall (0.33)",
+        "affected_metrics": [
+          "context_recall"
+        ],
+        "severity": "medium"
+      },
+      {
+        "question_id": "q006",
+        "question": "dove trovo la sezione dell'operatore e dei suoi delegati?",
+        "reason": "Low answer_relevancy (0.41)",
+        "affected_metrics": [
+          "answer_relevancy"
+        ],
+        "severity": "medium"
+      }
+    ],
+    "health_score": {
+      "overall_score": 30.82,
+      "rating": "poor",
+      "breakdown": {
+        "base_score": 47.82,
+        "outlier_penalty": 8,
+        "critical_penalty": 9
+      }
+    }
+  }
+}

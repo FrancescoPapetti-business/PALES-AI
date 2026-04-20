@@ -1,0 +1,120 @@
+{
+  "question": "qual'è la definizione di delegato?",
+  "normalized": {
+    "normalized_text": "qual'è la definizione di delegato?",
+    "canonical_concepts": []
+  },
+  "retrieved_docs_count": 8,
+  "retrieved_docs_metadata": [
+    {
+      "filename": "Manuale_SUINO_GRASSO_APERTO_2025_.pdf",
+      "page": 36,
+      "category": null,
+      "canonical": [],
+      "preview": "Controllo degli infestanti, inclusi piani di derattizzazione con descrizione dei principi attivi impiegati, schede di sicurezza e planimetria con localizzazione delle esche. È prevista la definizione "
+    },
+    {
+      "filename": "Manuale-PECORA-DA-LATTE-Classyfarm-autocontrollo-23.03.2023_def.pdf",
+      "page": 16,
+      "category": null,
+      "canonical": [],
+      "preview": "Nel caso di un abuso, gli antimicrobici contribuiscono all'insorgenza del preoccupante fenomeno dell'antibiotico-resistenza. Pertanto, la prevenzione dell'ingresso delle patologie, attraverso l'implem"
+    },
+    {
+      "filename": "Manuale_controllo_ufficiale_benessere_suini_rev2_03.01.2024.pdf",
+      "page": 131,
+      "category": null,
+      "canonical": [],
+      "preview": "Il testo discute le condizioni adeguate e non adeguate per il controllo degli infestanti, evidenziando i potenziali vettori per la diffusione di patogeni. \n\nIn una condizione non adeguata, si verifica"
+    },
+    {
+      "filename": "Ovini__Caprini__Benessere_Manuale.pdf",
+      "page": 40,
+      "category": null,
+      "canonical": [],
+      "preview": "Per garantire un corretto abbattimento, è fondamentale seguire alcune linee guida che includono la definizione delle responsabilità, l'utilizzo di strumenti adeguati e l'implementazione di verifiche p"
+    },
+    {
+      "filename": "Manuale-PECORA-DA-LATTE-Classyfarm-autocontrollo-23.03.2023_def.pdf",
+      "page": 17,
+      "category": null,
+      "canonical": [],
+      "preview": "Per contribuire alla riduzione della frequenza e della gravità dei rischi, è fondamentale identificare, per ciascun allevamento, i diversi pericoli presenti, stabilirne l'importanza e la priorità di i"
+    },
+    {
+      "filename": "Manuale-PECORA-DA-LATTE-Classyfarm-autocontrollo-23.03.2023_def.pdf",
+      "page": 24,
+      "category": null,
+      "canonical": [],
+      "preview": "La condizione ottimale prevede l'implementazione di azioni strutturate, definite e organiche, finalizzate al controllo degli infestanti. Queste azioni includono, ad esempio, piani di derattizzazione a"
+    },
+    {
+      "filename": "Vitelli__Benessere_Manuale.pdf",
+      "page": 26,
+      "category": null,
+      "canonical": [],
+      "preview": "Per la definizione dell'età di un neonato, ci sono diversi elementi utili da considerare. Innanzitutto, il cordone ombelicale inizia a disseccarsi dopo circa 4-5 giorni e cade completamente tra l'otta"
+    },
+    {
+      "filename": "Guida_alla_Registrazione_al_sistema_ClassyFarm VU.pdf",
+      "page": 9,
+      "category": null,
+      "canonical": "",
+      "preview": "**ISTRUZIONI PER LA DELEGA**\n\n1. Scaricare, compilare e firmare il modello di delega disponibile al seguente link.\n2. Inviare la delega e i documenti di identità (sia dell'allevatore che del delegato)"
+    }
+  ],
+  "result": {
+    "answer": "Dai documenti: i moduli devono essere caricati in ClassyFarm nella sezione ‘Seleziona azienda’ al momento dell’associazione.",
+    "sources": [
+      {
+        "filename": "Manuale_SUINO_GRASSO_APERTO_2025_.pdf",
+        "page_number": 36,
+        "rel_path": "moduli veterinario aziendale\\suini\\benessere\\Manuale_SUINO_GRASSO_APERTO_2025_.pdf",
+        "sha256": "9b98a21754759fb88159431c5df4a1bfb9400188c17dfeba139f812d910ab997"
+      },
+      {
+        "filename": "Manuale-PECORA-DA-LATTE-Classyfarm-autocontrollo-23.03.2023_def.pdf",
+        "page_number": 16,
+        "rel_path": "moduli veterinario aziendale\\ovini e caprini\\Manuale-PECORA-DA-LATTE-Classyfarm-autocontrollo-23.03.2023_def.pdf",
+        "sha256": "0f2bcefa9007dcf818b70480b2cf3b1821fff1fd328b0a123159d4cfd79e0bcc"
+      },
+      {
+        "filename": "Manuale_controllo_ufficiale_benessere_suini_rev2_03.01.2024.pdf",
+        "page_number": 131,
+        "rel_path": "moduli veterinario ufficiale\\Manuale_controllo_ufficiale_benessere_suini_rev2_03.01.2024.pdf",
+        "sha256": "2894f251a3f93e8ea86bd06bcb2153282bc7f73db508672bfd7bb924943eae93"
+      },
+      {
+        "filename": "Ovini__Caprini__Benessere_Manuale.pdf",
+        "page_number": 40,
+        "rel_path": "moduli veterinario ufficiale\\Ovini__Caprini__Benessere_Manuale.pdf",
+        "sha256": "dc9b197dd70a3ff68f3f71c27a9a3e0f5dfb6828eaf0906211218ae404845395"
+      },
+      {
+        "filename": "Manuale-PECORA-DA-LATTE-Classyfarm-autocontrollo-23.03.2023_def.pdf",
+        "page_number": 17,
+        "rel_path": "moduli veterinario aziendale\\ovini e caprini\\Manuale-PECORA-DA-LATTE-Classyfarm-autocontrollo-23.03.2023_def.pdf",
+        "sha256": "0f2bcefa9007dcf818b70480b2cf3b1821fff1fd328b0a123159d4cfd79e0bcc"
+      },
+      {
+        "filename": "Manuale-PECORA-DA-LATTE-Classyfarm-autocontrollo-23.03.2023_def.pdf",
+        "page_number": 24,
+        "rel_path": "moduli veterinario aziendale\\ovini e caprini\\Manuale-PECORA-DA-LATTE-Classyfarm-autocontrollo-23.03.2023_def.pdf",
+        "sha256": "0f2bcefa9007dcf818b70480b2cf3b1821fff1fd328b0a123159d4cfd79e0bcc"
+      },
+      {
+        "filename": "Vitelli__Benessere_Manuale.pdf",
+        "page_number": 26,
+        "rel_path": "moduli veterinario ufficiale\\Vitelli__Benessere_Manuale.pdf",
+        "sha256": "e38ba19292f091ea7c247b16a55c2fefa0558384bb72794fb07df9b0a43eef64"
+      },
+      {
+        "filename": "Guida_alla_Registrazione_al_sistema_ClassyFarm VU.pdf",
+        "page_number": 9,
+        "rel_path": "manuali veterinari ufficiali\\Guida_alla_Registrazione_al_sistema_ClassyFarm VU.pdf",
+        "sha256": "2df8de8c67a5483f4ea7d0adc2d0ac0d363ddae2ef7bcb66e29b29972d3d4ccb"
+      }
+    ],
+    "latency": 4.782
+  }
+}

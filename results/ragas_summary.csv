@@ -1,0 +1,340 @@
+user_input,response,reference,faithfulness,answer_relevancy,context_precision,context_recall,answer_correctness,factual_mismatch,answerable
+Qual è la definizione di operatore?,"L'operatore è definito come la persona responsabile della cura e dell'alimentazione degli animali e degli ambienti in cui vivono. Gli addetti possono essere il proprietario, il detentore o il custode degli animali e possono lavorare a tempo pieno o parziale. È importante notare che non si considerano come addetti coloro che operano esclusivamente nei campi o i tecnici, nel caso di filiere integrate.",Per operatore si intende una persona fisica o giuridica che ha la responsabilità di animali o prodotti. Non sono considerati operatori i detentori di animali da compagnia e i veterinari.,0.8889,0.4474,0.5494,1.0,0.1989,OK,True
+Qual è la definizione di delegato?,"Un delegato è una persona designata da un operatore (come un allevatore) per svolgere determinate funzioni o compiti in sua vece. Nel contesto del sistema ClassyFarm, il delegato può essere nominato da un singolo operatore o da più operatori e deve comunicare eventuali cessazioni della delega. Per ulteriori dettagli, è possibile consultare il sito [www.classyfarm.it](http://www.classyfarm.it).",Il delegato è una figura delegata da un operatore che ha solo la possibilità di visualizzare i cruscotti degli allevamenti afferenti all’operatore delegante.,0.8333,0.5982,0.3333,0.0,0.3466,OK,True
+Come richiedo il profilo da operatore?,"Per richiedere il profilo da operatore nel sistema ClassyFarm, segui questi passaggi:
+
+1. **Collegati al sito**: Vai su www.classyfarm.it.
+2. **Naviga nella sezione**: Seleziona ""Operatore e delegati"" per accedere alle informazioni specifiche per gli operatori.
+3. **Scarica il modulo**: Clicca sul link ""Richiesta di registrazione ClassyFarm"" per scaricare il modulo necessario.
+4. **Compila il modulo**: Inserisci i tuoi dati, tra cui nome, cognome, codice fiscale, e-mail (NO PEC), telefono cellulare, e la tua Username Vetinfo (se ne possiedi una, altrimenti richiedila contestualmente).
+5. **Invia la richiesta**: Una volta compilato e firmato il modulo, invialo direttamente all'indirizzo email [EMAIL_RIMOSSO].
+
+Assicurati di seguire le modalità e la documentazione necessaria indicate nella sezione ""OPERATORE E SUOI DELEGATI"" sul sito.","Per richiedere il profilo da operatore è necessario redigere una richiesta e inviarla a info@classyfarm.it. Le modalità e i documenti necessari sono disponibili nella sezione ""operatore e delegato"" del sito classyfarm.it.",1.0,0.7712,1.0,1.0,0.3257,EMAIL_MISMATCH,True
+Come seleziono l’azienda?,"Per selezionare un'azienda nel sistema integrato «ClassyFarm», segui questi passaggi:
+
+1. **Seleziona l'opzione «Selezione Azienda»** per associare il tuo profilo all'allevamento.
+2. **Clicca su «Nuovo Allevamento»**.
+3. **Inserisci il codice aziendale** (ad esempio, 001XX001) e fai clic su «Verifica». Questo permetterà al sistema di recuperare automaticamente i dati dell'allevamento.
+4. **Clicca su «Dettagli»** per visualizzare le informazioni relative all'allevamento, come la ragione sociale, la partita IVA e l'indirizzo. (Nota: se hai un veterinario aziendale, questo passaggio non è necessario).
+5. **Seleziona la checklist** che deve essere compilata per l'allevamento scelto.
+
+Dopo aver completato questi passaggi, potrai procedere con l'inserimento della checklist per il benessere dei riproduttori.","Per selezionare l’azienda bisogna cliccare su ""Selezione azienda"", poi su ""Nuovo allevamento"", inserire il codice aziendale e cliccare ""Verifica"". Successivamente si selezionano uno o più disciplinari, si inserisce la data di presentazione della domanda, si carica il file PDF della ""Domanda di certificazione"" e si clicca su ""Conferma"" e di nuovo su ""Conferma"" nella finestra che appare.",1.0,0.7022,0.6428,1.0,0.813,OK,True
+"Non riesco a visualizzare il cruscotto, cosa devo fare?","Dopo 48 ore, sarà possibile accedere al cruscotto interattivo: selezionare ""Dashboard"".","Per visualizzare il cruscotto è necessario cliccare su ""Dashboard"". Il cruscotto interattivo è visibile solo dopo 48 ore dall’associazione.",1.0,0.5545,0.637,1.0,0.9542,OK,True
+Come faccio ad associare un valutatore?,"Per associare un Valutatore, segui questi passaggi:
+
+1. **Seleziona l'opzione** «Selezione Valutatore».
+2. **Inserisci il codice fiscale** del Valutatore che desideri associare.
+3. **Clicca su «Cerca»**. 
+   - Se il Valutatore è già abilitato in ClassyFarm, il sistema troverà una corrispondenza e potrai selezionarlo dal menu a tendina.
+   - Se il Valutatore non è abilitato, potrai comunque associarlo creando un'utenza.
+4. **Conferma l'associazione** cliccando su ""Conferma"". Apparirà una finestra in cui sarà necessario confermare nuovamente.
+
+Ricorda che il Valutatore può essere associato all'azienda immediatamente oppure in un secondo momento.","Per associare un valutatore bisogna aver effettuato l’accesso come organismo di certificazione, cliccare su ""Selezione Valutatore"", inserire il codice fiscale del valutatore da associare e cliccare su ""Cerca"". Se il valutatore è già abilitato in ClassyFarm il sistema lo trova e va selezionato dal menù a tendina; se non è ancora abilitato è possibile associarlo creandogli un’utenza.",1.0,0.8851,0.875,1.0,0.9404,OK,True
+Come faccio a finire un esito di valutazione che non avevo terminato?,"Per finire un esito di valutazione che non avevi terminato, segui questi passaggi:
+
+1. Clicca su «Esito Valutazione».
+2. Individua la specie di interesse e clicca su di essa.
+3. Seleziona «Storico» per visualizzare gli esiti salvati.
+4. Trova l'esito della valutazione salvato in bozza che desideri completare.
+5. Clicca su «Modifica» per riprendere la compilazione.
+6. Completa le informazioni necessarie e assicurati di salvare nuovamente l'esito della valutazione in bozza se non desideri inviarlo immediatamente.
+
+Ricorda che se l'esito della valutazione è stato salvato come bozza, puoi continuare a modificarlo fino a quando non decidi di registrarlo ufficialmente.","Se l’esito è stato salvato in bozza, per riprendere la compilazione bisogna cliccare su ""Esito valutazione"", individuare la specie di interesse, cliccare il relativo tasto e successivamente ""Storico"". Poi si individua l’esito di valutazione da modificare, si clicca ""Modifica"" e, per completare e inviare, si clicca su ""Completa il questionario"".",0.7778,0.7318,0.7407,1.0,0.9322,OK,True
+Come faccio a continuare una compilazione di checklist di valutazione salvata in bozza?,"Per continuare la compilazione di una checklist di valutazione salvata in bozza, segui questi passaggi:
+
+1. Clicca su «Compilazione Checklist (Nuovo)».
+2. Individua il disciplinare di interesse e clicca su di esso.
+3. Seleziona «Storico».
+
+A questo punto, per continuare la compilazione, fai clic su ""Modifica"". Questo ti permetterà di riprendere la checklist salvata come bozza.","Se il questionario è stato salvato in bozza, per riprendere la compilazione bisogna cliccare su ""Compilazione checklist (nuovo)"", individuare il disciplinare di interesse e cliccare ""Storico"". Poi si individua il questionario da modificare, si clicca ""Modifica"", si completa la bozza e per terminare e inviare il questionario si clicca su ""Completa il questionario"".",1.0,0.9181,0.8755,0.5,0.6975,OK,True
+Come faccio a scaricare il report SQNBA?,"Per scaricare il report SQNBA, segui questi passaggi:
+
+1. Completa la compilazione del questionario.
+2. Dopo aver completato il questionario, clicca su «Report SQNBA» per procedere con il download del report.
+
+In alternativa, se desideri visualizzare il report in un altro modo, puoi seguire questi passaggi:
+
+1. Accedi a «Trasmissione Checklist (Nuovo)».
+2. Clicca su «Azioni» e poi su «Storico».
+3. Seleziona il controllo di interesse e clicca su «Azioni».
+4. Scorri fino in fondo alla pagina e clicca su «Salva PDF» per scaricare il report.
+
+Ricorda che questa modalità di download del report è temporanea; in futuro, il report sarà nuovamente scaricabile dal cruscotto.","Per scaricare il report di un questionario compilato bisogna cliccare su ""Report SQNBA"", scegliere il questionario di interesse e scaricare il report desiderato: per le sole risposte non conformi cliccare ""Download PDF risposte non conformi"", per tutte le risposte cliccare ""Download PDF con tutte le risposte"". Se si seleziona un questionario contenente file viene creato un file ZIP, se il questionario non contiene file viene scaricato un PDF.",1.0,0.9047,0.8819,0.5,0.376,OK,True
+Cosa si intende per OdC?,"Il contesto documentale recuperato non fornisce una definizione specifica per ""OdC"". Ti consiglio di consultare ulteriori risorse o documenti pertinenti per ottenere informazioni dettagliate su questo termine. Se hai bisogno di ulteriori chiarimenti o di assistenza, non esitare a chiedere.",OdC si intende l’organismo di certificazione.,0.3333,0.0,,0.0,0.1352,OK,True
+Cosa mi serve per inserire i dati di valutazione del Benessere Animale e della Biosicurezza tramite app?,"Per inserire i dati di valutazione del Benessere Animale e della Biosicurezza tramite l'app ClassyFarm 2.0, hai bisogno di:
+
+1. **Credenziali VETINFO**: Puoi ottenerle visitando il sito [www.vetinfo.it](http://www.vetinfo.it).
+2. **Iscrizione all'Elenco Pubblico Nazionale dei Veterinari Aziendali**: Necessaria per i Veterinari Aziendali.
+3. **Documenti essenziali**: 
+   - Documento di identità personale del veterinario.
+   - Documento di identità dell'allevatore.
+   - Modulo di richiesta di associazione all'operatore, compilato e firmato da entrambi (disponibile su [www.classyfarm.it](http://www.classyfarm.it)).
+
+Assicurati di avere tutti i documenti pronti prima di iniziare il processo di associazione.
+
+⏰ **Nota Temporale**: 16/07/2020","Prima di inserire i dati di valutazione, sia per il medico veterinario aziendale sia per il medico veterinario incaricato è necessario avere a disposizione, in formato foto o scansione, il documento di identità, il documento di identità dell’allevatore e il modulo di richiesta di associazione all’operatore compilato e firmato da veterinario e allevatore. Sono disponibili due moduli distinti, uno per il veterinario aziendale e uno per il veterinario incaricato.",0.8889,0.6168,0.9821,1.0,0.3643,OK,True
+Come faccio ad associarmi all’allevamento?,"Per associarti all'allevamento nel sistema integrato «ClassyFarm», segui questi passaggi:
+
+1. Accedi a ClassyFarm e seleziona l'opzione «Selezione Azienda».
+2. Clicca sul pulsante «Nuovo Allevamento».
+3. Inserisci il codice dell'allevamento e poi clicca su «Verifica».
+4. Seleziona l'allevamento da associare.
+5. Scegli le tipologie di questionario che desideri compilare tramite il menu a tendina.
+6. Carica i documenti richiesti, che includono:
+   - Il documento di identità del veterinario.
+   - Il documento di identità dell'allevatore.
+   - Il modulo di autorizzazione, noto come «Modulo di richiesta di associazione» (scaricabile dal link fornito).
+7. Clicca sul pulsante «Conferma» in fondo alla pagina per finalizzare il processo di associazione.
+
+Assicurati di utilizzare file in formato PDF per i documenti caricati e di selezionare tutte le checklist disponibili nel menu a tendina.","Per associarsi all’allevamento, una volta selezionato il ruolo bisogna cliccare su ""Seleziona azienda"", poi su ""Nuovo allevamento"", inserire il codice aziendale e cliccare su ""Verifica"". Solo per il veterinario incaricato è necessario selezionare la checklist che verrà compilata per l’allevamento selezionato. Infine si caricano i documenti richiesti (documento di identità, documento di identità dell’allevatore, modulo di autorizzazione) e si clicca su ""Conferma"".",1.0,0.7269,1.0,1.0,0.8401,OK,True
+"Perché se clicco su ""Visualizza"" in una bozza non me lo fa modificare?","Dopo 48 ore, sarà possibile accedere al cruscotto interattivo: selezionare ""Dashboard"".","Se si clicca sul pulsante ""Visualizza"" quando è selezionata una bozza, il sistema permette solo di visualizzare il questionario senza poter apportare modifiche. Per completare o modificare il questionario o la checklist, dopo aver selezionato la bozza di interesse, è necessario cliccare su ""Modifica"".",1.0,0.3355,1.0,1.0,0.1012,OK,True
+"Cosa vogliono dire Q1, Q2, Q3, Q4 nei cruscotti?","Il contesto documentale non fornisce informazioni specifiche su cosa significhino Q1, Q2, Q3 e Q4 nei cruscotti. Tuttavia, è possibile consultare la guida ai cruscotti interattivi per ulteriori dettagli. Puoi trovare la guida completa al seguente link: [GUIDA AI CRUSCOTTI INTERATTIVI](www.classyfarm.it).","Q1, Q2, Q3 e Q4 rappresentano i quartili in cui vengono raggruppati gli allevamenti. Gli allevamenti vengono ordinati in funzione del punteggio ottenuto, i quartili sono rappresentati da intensità di blu diverse e, in statistica, sono valori che dividono una distribuzione ordinata in quattro parti uguali. ClassyFarm li usa per semplificare la lettura dei dati.",1.0,0.0,,0.0,0.1323,OK,True
+"Cosa mi dice ""Sintesi risposte"" nel cruscotto?","Dopo 48 ore, sarà possibile accedere al cruscotto interattivo: selezionare ""Dashboard"".","Cliccando su ""Analisi risposte"" nella consultazione di un cruscotto compare il grafico relativo alla distribuzione delle risposte ai questionari per gli allevamenti selezionati.",1.0,0.5399,0.0,0.0,0.1103,OK,True
+Che codice devo inserire per poter compilare un controllo di farmacosorveglianza?,"Per compilare un controllo di farmacosorveglianza, devi inserire il codice aziendale BDN (es. 000XY000) e cliccare su «cerca». Se non visualizzi alcun risultato, contatta l'assistenza inviando un'email a [[EMAIL_RIMOSSO]](mailto:[EMAIL_RIMOSSO]).","Per compilare un controllo di farmacosorveglianza è necessario inserire il codice azienda BDN. Dopo aver inserito il codice si clicca su ""Cerca"" per poter scegliere l’allevamento corrispondente.",0.8,0.7787,,1.0,0.5956,OK,True
+Come faccio a modificare la data delle prescrizioni in un controllo già compilato?,"Per modificare la data delle prescrizioni in un controllo già compilato, segui questi passaggi:
+
+1. Utilizza la funzione ""Copia"": clicca sul pulsante ""Copia"" e attendi che venga creata una copia identica del controllo con tutte le risposte già fornite per quell'azienda.
+2. Apporta le modifiche necessarie, inclusa la modifica della data delle prescrizioni.
+3. Giustifica la variazione nei campi di testo appositi, spiegando il motivo della modifica.
+4. Carica il nuovo controllo.
+
+Assicurati di seguire queste istruzioni per garantire che le modifiche siano registrate correttamente.","Per modificare la data delle prescrizioni in un controllo già compilato bisogna utilizzare la funzione ""Copia"": si clicca sul relativo pulsante e si attende la creazione di una copia del controllo con tutte le risposte già fornite, si effettuano le variazioni necessarie, si giustifica nei campi testo il motivo della variazione e si carica il nuovo controllo.",0.9091,0.9843,,1.0,0.7579,OK,True
+"Sto creando un questionario, ho inserito il codice dell’allevamento e ho cliccato ""Cerca"": cosa devo fare per continuare?","Dopo aver inserito il codice dell’allevamento e cliccato ""Cerca"", devi attendere il caricamento della schermata successiva e poi fare clic sull'icona a forma di occhio per visualizzare i dettagli dell'allevamento. Da lì, puoi procedere con la compilazione del questionario.
+
+⏰ **Nota Temporale**: 48 ore","Dopo aver inserito il codice allevamento nell’apposita sezione e aver cliccato ""Cerca"", bisogna attendere il caricamento della schermata successiva, premere sull’icona a forma di occhio, attendere che la testa del questionario si compili automaticamente, procedere alla compilazione dei soli dati segnati in rosso e infine cliccare su ""Crea questionario"".",0.75,0.6748,0.875,0.25,0.6634,OK,True
+Perché non riesco a eliminare un questionario che ho creato?,"Non riesci a eliminare un questionario che hai creato perché l'opzione di eliminazione è disponibile solo per i questionari che non sono stati ancora caricati e che non sono stati completati. Se il questionario è già stato caricato o completato, non potrai procedere con la cancellazione. Assicurati di controllare lo stato del questionario per determinare se è possibile eliminarlo.","Per eliminare un questionario è necessario cliccare su ""Azioni"" e poi ""Cancella"". In alcuni casi, prima di poter cancellare il questionario, è necessario modificare una delle risposte e salvare le modifiche: per farlo si clicca sul questionario di interesse nell’elenco, poi su ""Azioni"" e infine su ""Modifica"".",0.8333,1.0,0.9056,1.0,0.192,OK,True
+Quali sono considerati principi attivi critici nell’ambito della DDDAit?,"I principi attivi critici nell'ambito della Dose Giornaliera Definita per gli Animali in Italia (DDDAit) sono sostanze antimicrobiche di fondamentale importanza per la medicina umana, classificate come ""di importanza critica"" dall'Organizzazione Mondiale della Sanità (OMS) e dall'Agenzia Europea per i Medicinali (EMA). Questi principi attivi richiedono un monitoraggio prioritario per preservare la loro efficacia e combattere l'antibiotico-resistenza. Attualmente, non esistono indicazioni univoche per la loro classificazione, e le linee guida possono variare tra le diverse agenzie.","Non sono disponibili indicazioni univoche per la classificazione delle molecole critiche e le linee guida delle agenzie nazionali e internazionali possono divergere. ClassyFarm adotta i seguenti criteri: i principi attivi sono critici quando fanno parte di una classe di antimicrobici che soddisfa due condizioni, essere classificata dall’OMS come HP-CIA e dall’EMA come categoria 2. I consumi di principi attivi sono considerati critici quando le molecole somministrate appartengono alle seguenti classi: cefalosporine di III e IV generazione, fluorchinoloni, polimixine.",1.0,0.0,,0.6667,0.2815,OK,True
+Per cosa sta BDN?,"BDN sta per Banca Dati Nazionale. È un sistema informativo nazionale che raccoglie i dati anagrafici e produttivi degli allevamenti, fornendo informazioni sulla biomassa animale utilizzate per i calcoli delle DDDAit e DCDAit.",BDN sta per Banca dati nazionale.,1.0,0.7971,,1.0,0.4468,OK,True
+Quali sono le aree in cui vengono divisi gli elementi di valutazione della check-list ufficiale?,"Gli elementi di valutazione della check-list ufficiale sono divisi in diverse aree, denominate A, B e C. Queste aree si riferiscono a indicazioni normative cogenti e sono utilizzate per verificare la conformità o la non conformità rispetto ai requisiti stabiliti dalla normativa vigente.",Gli elementi di valutazione della check-list ufficiale sono suddivisi nelle seguenti aree: Area A. Management aziendale; Area B. Strutture ed attrezzature; Area Grandi rischi e sistemi di allarme; Area C. Animal-based measures.,1.0,0.8851,0.4635,1.0,0.5766,OK,True
+Perché i liquami rappresentano una fonte di rischio?,"I liquami rappresentano una significativa fonte di rischio per la diffusione di agenti patogeni all'interno degli allevamenti. Il contatto, sia diretto che indiretto, con liquami provenienti da altre aziende può facilitare la trasmissione di malattie tra allevamenti, anche in assenza di movimentazione di animali. Pertanto, lo spargimento di liquami di aziende terze nelle vicinanze dell'allevamento deve essere evitato per garantire la biosicurezza. È fondamentale valutare la prossimità dei terreni non di proprietà dell'allevamento e accertarsi che in essi non vengano smaltiti liquami di altre aziende suinicole.",I liquami rappresentano una rilevante fonte di rischio per la diffusione degli agenti patogeni all’interno dell’allevamento. Il contatto diretto o indiretto con liquami provenienti da altre aziende può favorire la trasmissione di malattie tra allevamenti anche senza la movimentazione di animali.,1.0,0.7819,,1.0,0.7777,OK,True
+In caso di soccida chi può fare richiesta di abilitazione con il ruolo di Operatore?,"In caso di soccida, la richiesta di abilitazione con il ruolo di Operatore può essere effettuata dall'allevatore soccidario (affidatario dei suini) e dal soccidante (proprietario dei suini). È fondamentale che tutti gli operatori coinvolti nella gestione degli animali ricevano istruzioni pratiche riguardanti la gestione e il benessere degli animali.
+
+Per effettuare la richiesta di abilitazione al sistema ClassyFarm, è necessario inviare un'e-mail contenente i dati richiesti all'indirizzo [[EMAIL_RIMOSSO]](mailto:[EMAIL_RIMOSSO]) e seguire le istruzioni disponibili sul sito [www.classyfarm.it](http://www.classyfarm.it).",Può fare richiesta di abilitazione come Operatore colui che ai sensi del Reg 429/2016 risulti Operatore ovvero legale rappresentante/proprietario/dententore della Azienda. Se non siete Operatori è possibile procedere con la richiesta di abilitazione come Delegato da uno/più operatore/i.,0.7143,0.6868,0.7862,1.0,0.3944,OK,True
+Quale partita IVA deve essere indicata?,Il contesto documentale recuperato non fornisce informazioni specifiche riguardo alla partita IVA da indicare. Ti consiglio di consultare direttamente la documentazione pertinente o contattare un esperto in materia fiscale per ottenere indicazioni precise.,La partita IVA da indicare è quella associata al proprietario in BDN.,0.0,0.0,0.0,0.0,0.1609,OK,True
+Come faccio ad associare il mio veterinario?,"Per associare il tuo veterinario all'allevamento tramite il sistema integrato «ClassyFarm», segui questi passaggi:
+
+1. **Preparazione dei Documenti**: Assicurati di avere a disposizione i seguenti documenti:
+   - Documento di identità personale del veterinario.
+   - Documento di identità dell'allevatore.
+   - Modulo di richiesta di associazione all'operatore (noto anche come ""Modulo di autorizzazione""), che deve essere compilato in tutte le sue parti e firmato sia dal veterinario che dall'allevatore. Questo modulo è disponibile per il download sul sito www.classyfarm.it.
+
+2. **Accesso a ClassyFarm**: Accedi al sistema ClassyFarm.
+
+3. **Selezione dell'Azienda**: Seleziona l'opzione ""Selezione Azienda"".
+
+4. **Nuovo Allevamento**: Clicca sul pulsante ""Nuovo Allevamento"".
+
+5. **Inserimento del Codice**: Inserisci il codice dell'allevamento e clicca sul pulsante ""Verifica"" per selezionare l'allevamento da associare.
+
+6. **Scelta del Questionario**: Scegli le tipologie di questionario che desideri compilare tramite il menu a tendina.
+
+7. **Caricamento dei Documenti**: Carica i documenti richiesti. Si consiglia di utilizzare file in formato PDF.
+
+8. **Conferma**: Clicca sul pulsante ""Conferma"" in fondo alla pagina per finalizzare il processo di associazione.
+
+Ricorda che esistono due moduli di associazione distinti: uno per il Medico Veterinario Aziendale e uno per il Medico Veterinario Incaricato. Assicurati di utilizzare il modulo corretto in base al tuo ruolo.","Entrando in ClassyFarm nella sezione ""Seleziona Veterinario Aziendale"" è possibile associare il proprio veterinario, a condizione che lo stesso sia stato abilitato in ClassyFarm.",0.4667,0.645,1.0,0.0,0.3608,OK,True
+Qual è l’email del Ministero a cui inviare le deleghe?,L'email del Ministero a cui inviare le deleghe è [mailto:[EMAIL_RIMOSSO]](mailto:[EMAIL_RIMOSSO]).,Le deleghe e i documenti di identità devono essere inviati al Ministero della Salute sanita.animale@sanita.it e in copia conoscenza a info@classyfarm.it (nella stessa email).,0.0,0.9792,0.625,1.0,0.3869,EMAIL_MISMATCH,True
+Quanto tempo dovrò attendere per l’abilitazione?,Dai documenti: 26/04/2022.,"Generalmente le richieste di abilitazione vengono elaborate in due giorni lavorativi, al termine della procedura viene inviata una notifica con l’esito dell’abilitazione stessa.",0.0,0.1421,0.6389,0.0,0.1065,OK,True
+"Ho ricevuto l’e-mail di avvenuta abilitazione ma non la password, potete inviarmela?","Gentile utente,
+
+per ricevere la password dopo aver ricevuto l'email di avvenuta abilitazione, ti consigliamo di contattare direttamente il servizio di assistenza di ClassyFarm. Puoi inviare un'email all'indirizzo [[EMAIL_RIMOSSO]](mailto:[EMAIL_RIMOSSO]) per richiedere assistenza.
+
+Grazie per aver scelto ClassyFarm!
+
+⏰ **Nota Temporale**: 21 giorni","Le credenziali di accesso al sistema ClassyFarm sono le stesse che vengono utilizzate per entrare in Vetinfo. È sempre possibile recuperare le proprie credenziali nella pagina di Vetinfo tramite il tasto ""Non ricordo le mie credenziali"" o accedere con SPID o CIE.",0.1667,0.0,0.0,0.0,0.5339,OK,True
+Vorrei informazioni riguardo i contributi PAC?,"I contributi della Politica Agricola Comune (PAC) sono legati a diversi interventi e condizioni di ammissibilità per gli agricoltori. In particolare, per accedere ai pagamenti, è necessario che gli allevamenti rispettino determinati requisiti, come la registrazione nel sistema ClassyFarm entro il 31 dicembre 2023. 
+
+Gli aiuti possono essere concessi per allevamenti di bovini, suini, ovini e caprini, e sono soggetti a controlli basati su dati provenienti dalla Banca Dati Nazionale (BDN) e dal sistema ClassyFarm. È importante notare che gli importi unitari per i pagamenti sono stabiliti annualmente e dipendono dal numero di Unità di Base Agricole (UBA) ammissibili.
+
+Per ulteriori dettagli, puoi consultare la Circolare AGEA.2024.2664 del 12.01.24, che fornisce informazioni specifiche sui requisiti e le procedure per l'accesso ai contributi.",Per informazioni inerenti i contributi PAC è necessario rivolgersi al Ministero dell’Agricoltura.,1.0,0.6993,,0.0,0.1799,OK,True
+Come richiedere l’accesso?,"Per richiedere l'accesso al sistema ClassyFarm, segui questi passaggi:
+
+1. **Invia un'email** all'indirizzo [EMAIL_RIMOSSO].
+   
+2. **Fornisci le seguenti informazioni** per ciascun utente che desideri abilitare (massimo 3 utenti):
+   - Nome
+   - Cognome
+   - Codice Fiscale
+   - Data di nascita
+   - Indirizzo email
+
+3. **Allega alla richiesta**:
+   - La richiesta su carta intestata, completa dell'elenco degli utenti da abilitare.
+   - Una copia del documento d’identità di ciascun utente.
+
+4. **Compila il modulo di richiesta** di accesso, specificando il ruolo desiderato (es. medico veterinario aziendale o Delegato per un singolo/multiple Operatori).
+
+5. **Dichiara di essere consapevole** delle conseguenze penali in caso di dichiarazioni false, come previsto dal D.P.R. 445/2000.
+
+6. **Attendi una conferma** via email che confermerà il codice CSD e l'esito della tua richiesta di abilitazione.
+
+Assicurati di verificare che tutti i dati siano corretti prima di inviare la tua richiesta.",Può inviare un’email generica a info@classyfarm.it indicando l’ASL di appartenenza. Riceverà un’email di risposta con un file Excel da compilare e verrà messo in copia conoscenza il proprio Referente Regionale ClassyFarm.,1.0,0.6403,,0.0,0.1614,EMAIL_MISMATCH,True
+Dove trovo gli allevamenti che hanno effettuato l’autocontrollo per il taglio coda?,"Per trovare gli allevamenti che hanno effettuato l’autocontrollo per il taglio coda, puoi seguire questi passaggi utilizzando il sistema integrato ""ClassyFarm"":
+
+1. **Inserisci il codice di allevamento**: Inizia inserendo il codice aziendale dell'allevamento che desideri cercare.
+
+2. **Cerca nel database nazionale**: Clicca sulla lente d’ingrandimento, che funge da funzione di ricerca, per cercare l'allevamento nel database nazionale (BDN).
+
+3. **Seleziona l'allevamento**: Una volta effettuata la ricerca, il sistema restituirà un elenco di allevamenti che corrispondono al codice aziendale inserito. Seleziona l'allevamento desiderato con un clic.
+
+4. **Compila i dati anagrafici**: Il sistema provvederà automaticamente a completare i dati anagrafici dell'allevamento utilizzando le informazioni presenti nel BDN. È importante non inserire il prefisso ""IT"" o eventuali sottocodici.
+
+5. **Compila la check-list**: Procedi con la compilazione della testata del questionario, che è suddivisa in diverse sezioni numerate.
+
+Questi passaggi ti permetteranno di accedere alle informazioni relative agli allevamenti che hanno effettuato l'autocontrollo per il taglio coda.","Entrando in ""Dashboard"" - cruscotto ""Benessere suino aggregato"", sul filtro ""Tipo"" selezionare ""TC"" e poi cliccare sul tasto ""Tabella allev."" è possibile scaricare l’elenco degli allevamenti. Sul sito www.classyfarm.it è disponibile la guida ai Cruscotti Interattivi per avere informazioni più dettagliate.",1.0,0.9223,,0.0,0.1622,OK,True
+Come posso scaricare l’elenco degli allevamenti controllati/controllabili?,"Per scaricare l’elenco degli allevamenti controllati/controllabili, puoi seguire questi passaggi:
+
+1. Visita il sito web www.classyfarm.it.
+2. Seleziona la voce ""Tabella Allevamenti"" nel menu.
+3. Una volta nella sezione, potrai visualizzare l'elenco degli allevamenti. Puoi filtrare i risultati in base alla categoria e alla quota desiderata, come quota regionale, casuale, a rischio e piccole dimensioni.
+4. Se necessario, puoi anche filtrare per tipologia di allevamento e anno di riferimento per ottenere informazioni più specifiche.
+
+Non è indicato un metodo di invio via email per ottenere l'elenco, quindi l'accesso diretto al sito è il modo principale per scaricare le informazioni desiderate.","Entrando in ""Dashboard"" - cruscotto ""Rischio programmazione"", selezionando i filtri opportuni e poi cliccando su ""Tabella allev."" è possibile scaricare l’elenco degli allevamenti. Sul sito www.classyfarm.it è disponibile la guida ai Cruscotti Interattivi per avere informazioni più dettagliate.",1.0,0.9803,0.5644,1.0,0.7068,OK,True
+Perché non riesco a trovare l’allevamento quando compilo una CL?,"*Gli utenti ufficiali sono autorizzati a effettuare la compilazione per il proprio territorio di competenza. Qualora si inserisca un codice e non venga visualizzato alcun risultato, si prega di contattare l'assistenza inviando un'email a info@classyfarm.it.","Il sistema non può trovare codici BDN associati ad allevamenti chiusi o allevamenti appartenenti a un’ASL differente da quella del veterinario compilatore. Inoltre, per alcune specie (pesci e lagomorfi), se l’allevamento non viene trovato, è necessario compilare i dati anagrafici in modalità manuale contattando l’assistenza.",1.0,0.3736,,0.5,0.1419,OK,True
+Dove posso vedere le CL caricate dai colleghi?,"Puoi vedere le checklist compilate dai colleghi direttamente dal cruscotto. Ecco i passaggi da seguire:
+
+1. Accedi al sito: https://www.vetinfo.it/.
+2. Clicca su «ACCEDI all’Area riservata» e inserisci le credenziali d'accesso fornite dal Sistema Veterinario Informativo.
+3. Una volta effettuato il login, clicca su «Dashboard» per accedere alla consultazione dei cruscotti.
+4. Nella sezione ""Dashboard"", potrai visualizzare le checklist compilate in formato tabellare.
+
+Assicurati di controllare anche che i report dei questionari caricati siano disponibili, poiché saranno accessibili solo 48 ore dopo il caricamento.",Al momento è possibile visualizzare le CL compilate dai veterinari della propria ASL nella sezione Dashboard.,0.875,0.6091,0.824,1.0,0.4476,OK,True
+È necessario compilare una nuova CL al momento della verifica della prescrizione?,"Sì, è necessario compilare una nuova check-list (CL) al momento della verifica della prescrizione. Durante la verifica, si deve registrare se le prescrizioni sono state eseguite, segnando ""Sì"" o ""No"", e fornire una descrizione della situazione. Inoltre, è fondamentale annotare la data della verifica e i dati del proprietario o operatore presente all'ispezione.
+
+⏰ **Nota Temporale**: 30 giorni","Sì, è necessario compilare una nuova CL per tenere traccia dell’andamento dell’azienda.",0.7143,0.8654,1.0,0.0,0.3186,OK,True
+"Per quanto riguarda gli allevamenti con equidi non DPA o a indirizzo misto, dove devono essere inserite le CL?","Non ci sono informazioni specifiche nei documenti forniti riguardo all'inserimento delle CL (Classificazioni) per gli allevamenti con equidi non DPA o a indirizzo misto. Pertanto, non posso fornire una risposta precisa a questa domanda.","Come da indicazioni del Ministero (capitolo 4 del Piano Farmacosorveglianza) i controlli per equidi non DPA devono essere caricati sul portale Vetinfo – Sistema informativo nazionale della farmacosorveglianza – sezione ""Verifiche da remoto, Controlli ufficiali, Indicatori"" – voce ""Controllo ufficiali"" utilizzando l’apposita sezione. Nel caso di allevamenti a indirizzo misto è necessario compilare due CL, una su ogni sistema.",1.0,0.0,,0.0,0.1481,OK,True
+Qual è la differenza tra veterinario incaricato ed aziendale?,"La differenza principale tra il veterinario incaricato e il veterinario aziendale risiede nel loro ruolo e nelle responsabilità all'interno dell'azienda. 
+
+- **Veterinario Aziendale**: È un professionista designato specificamente per seguire un allevamento. Ha il compito di garantire la salute e il benessere degli animali, gestendo le pratiche veterinarie quotidiane e monitorando le condizioni di allevamento. La sua presenza è fondamentale per l'attuazione di procedure di biosicurezza e per la registrazione dei trattamenti farmacologici.
+
+- **Veterinario Incaricato**: Può essere un veterinario libero professionista che fornisce consulenze e supporto all'azienda, ma non è necessariamente presente in modo continuativo come il veterinario aziendale. Il suo ruolo può includere la supervisione di specifiche pratiche veterinarie o la consulenza su questioni sanitarie.
+
+Entrambi i ruoli sono essenziali per garantire il benessere animale, ma il veterinario aziendale ha un impegno più diretto e costante nell'allevamento.","La figura del veterinario aziendale è definita dagli articoli 3 e 4 del Decreto del Ministro della salute 7 dicembre 2017: è un veterinario privato scelto volontariamente dall’operatore e svolge le sue funzioni in base a un rapporto formale con l’operatore che si instaura attraverso la sottoscrizione, da parte di entrambi, dello schema di designazione di cui all’allegato 3 del DM. In ClassyFarm può visualizzare tutti i dati relativi alle aziende alle quali è associato, compreso il farmaco. Il veterinario incaricato viene incaricato dall’operatore per la compilazione dei questionari relativi alla valutazione del rischio per il benessere animale e la biosicurezza; in ClassyFarm può visualizzare solo le checklist che ha compilato.",0.5,0.9534,,0.0,0.5851,OK,True
+Perché non vedo la CL in Dashboard?,"Dopo 48 ore, sarà possibile accedere al cruscotto interattivo: selezionare ""Dashboard"".","Il report è visibile entro 48 ore dalla data di caricamento. Assicurarsi di aver associato l’azienda, di aver compilato correttamente la checklist e che sia presente la data di caricamento.",1.0,0.3999,0.5271,0.5,0.1158,OK,True
+"Perché esce la scritta ""Errore"" quando cerco un allevamento con la app?","La scritta ""Errore"" può apparire quando si cerca un allevamento con l'app a causa di un problema di autenticazione. Per risolvere questo problema, puoi provare a ricaricare la pagina seguendo il punto 4.1 della guida, oppure effettuare il Logout e ripartire dal primo passaggio per tentare nuovamente l'accesso, come indicato nel punto 4.2 della guida [Guida_Inserimento_Checklist_Benessere_e_biosicurezza_Bovino_11.12.2023.pdf](https://www.classyfarm.it/index.php/register-it).
+
+⏰ **Nota Temporale**: 24 ore","È necessario aggiornare l’app; in alternativa è possibile utilizzare il sistema ""Questionari"".",0.5,0.9195,0.0,0.0,0.1199,OK,True
+Perché non riesco ad associare l’azienda?,"Potresti avere difficoltà ad associare l'azienda per vari motivi. Assicurati di seguire questi passaggi:
+
+1. Accedi al sistema e seleziona l'opzione ""Selezione Azienda"".
+2. Clicca su ""Nuovo Allevamento"".
+3. Inserisci correttamente il codice aziendale e clicca su ""Verifica"". Assicurati che il codice sia valido.
+4. Seleziona l'azienda dall'elenco recuperato.
+
+Se hai già seguito questi passaggi e continui a riscontrare problemi, verifica che il tuo profilo abbia i permessi necessari per associare un'azienda. In caso di ulteriori difficoltà, considera di contattare il supporto tecnico per assistenza.",È possibile che l’azienda sia associata a un altro veterinario aziendale.,0.5556,0.7019,0.7155,0.0,0.1385,OK,True
+Come faccio a cancellare una CL?,"Per cancellare una check-list (CL) nel sistema integrato ""ClassyFarm"", segui questi passaggi:
+
+1. Accedi alla home page del sistema, dove puoi visualizzare l'elenco dei questionari.
+2. Se il questionario che desideri cancellare non è stato completato, puoi cliccare sull'icona a forma di ""cestino"" accanto al questionario per procedere con la cancellazione.
+3. Se il questionario è stato completato e caricato, tieni presente che non sarà possibile cancellarlo. I questionari caricati possono essere modificati solo entro una settimana dall'upload; dopo questo termine, non sarà più possibile apportare modifiche.
+
+In sintesi, puoi cancellare solo i questionari non completati utilizzando l'icona ""cestino"". I questionari completati non possono essere cancellati.",Entro 10 giorni dalla data di caricamento è possibile cancellare una CL.,0.875,0.5997,,0.0,0.1514,OK,True
+Come faccio a modificare una CL?,"Per modificare una CL (Checklist), segui questi passaggi:
+
+1. **Seleziona il questionario da modificare**: Accedi al sistema e seleziona il questionario di interesse.
+2. **Clicca su ""Azioni""**: Dopo aver selezionato il questionario, clicca sul pulsante ""Azioni"".
+3. **Scegli ""Modifica""**: Seleziona l'opzione ""Modifica"" per apportare le modifiche necessarie.
+4. **Apporta le modifiche**: Effettua le modifiche desiderate nel questionario.
+5. **Giustifica le variazioni**: Assicurati di giustificare le modifiche nei campi di testo dedicati, specificando il motivo della variazione.
+6. **Carica il nuovo controllo**: Una volta completate le modifiche, carica il nuovo controllo.
+
+Se hai bisogno di modificare la data relativa alle prescrizioni, puoi utilizzare la funzione ""Copia"" per creare una copia identica del controllo e poi procedere con le modifiche necessarie.",Entro 10 giorni dalla data di caricamento è possibile modificare una CL.,1.0,0.5529,0.0,0.0,0.1594,OK,True
+Perché non riesco a trovare l’allevamento quando compilo una CL?,"*Gli utenti ufficiali sono autorizzati a effettuare la compilazione per il proprio territorio di competenza. Qualora si inserisca un codice e non venga visualizzato alcun risultato, si prega di contattare l'assistenza inviando un'email a info@classyfarm.it.",Prima di inserire una CL è necessario associare l’azienda; se l’allevamento ha cambiato ragione sociale è necessario effettuare una nuova associazione.,1.0,0.3735,0.7603,1.0,0.1051,OK,True
+A chi devo inviare l’associazione Operatore–Veterinario?,"Devi inviare l'associazione Operatore–Veterinario all'ASL della tua località e all'Ordine dei Medici Veterinari della stessa area. Assicurati di compilare il ""Modulo di richiesta di associazione all'operatore"", disponibile sul sito [www.classyfarm.it](https://www.classyfarm.it).","I moduli di associazione Operatore–Veterinario devono essere caricati in ClassyFarm nell’apposita sezione ""Seleziona azienda"" nel momento in cui viene associato l’allevamento.",0.75,0.6091,0.6782,1.0,0.1826,OK,True
+Come devono essere i pavimenti delle stalle dei suini?,"I pavimenti delle stalle dei suini devono rispettare specifiche caratteristiche per garantire il benessere degli animali. Ecco i requisiti principali:
+
+1. **Antisdrucciolevolezza e Assenza di Asperità**: I pavimenti devono essere progettati per essere antisdrucciolevoli e privi di asperità, al fine di prevenire lesioni ai suini.
+
+2. **Superficie Adeguata**: In assenza di lettiera, i pavimenti devono costituire una superficie rigida, piana e stabile, adeguata alle dimensioni e al peso dei suini.
+
+3. **Pulizia e Manutenzione**: È fondamentale che gli escrementi, l'urina e i foraggi non mangiati vengano rimossi regolarmente per minimizzare odori sgradevoli e la presenza di insetti o roditori.
+
+4. **Tipologie di Pavimentazione**: Sono ammesse diverse tipologie di pavimentazione, tra cui:
+   - Pavimentazione in calcestruzzo fessurato con misure idonee.
+   - Pavimento pieno.
+   - Grigliato in plastica o in metallo.
+   - Pavimento pieno con lettiera permanente.
+
+5. **Misure per Pavimenti Fessurati**: Se si utilizzano pavimenti fessurati, le aperture devono rispettare specifiche dimensioni:
+   - Ampiezza massima delle aperture: 11 mm per lattonzoli, 14 mm per suinetti, 18 mm per suini all'ingrasso.
+   - Ampiezza minima dei travetti: 50 mm per lattonzoli e suinetti, 80 mm per suini all'ingrasso, scrofette dopo la fecondazione e scrofe.
+
+6. **Condizioni di Adeguatezza**: La condizione di adeguatezza dei pavimenti è definita dalla presenza di tutti i parametri richiesti. Anche la mancanza di un solo parametro compromette la conformità.
+
+7. **Superficie Libera**: Per le scrofette dopo la fecondazione e le scrofe, è necessario garantire che una parte della superficie totale a disposizione per ciascun animale sia costituita da pavimento pieno continuo, con aree specifiche di almeno 0,95 mq per scrofetta e 1,3 mq per scrofa.
+
+Questi requisiti sono fondamentali per garantire il benessere degli animali e la conformità alle normative vigenti.","I pavimenti devono essere progettati in modo da essere antisdrucciolevoli e privi di asperità, per prevenire lesioni ai suini. Devono essere mantenuti in modo tale da non causare danni o sofferenze agli animali e devono essere adeguati alle dimensioni e al peso dei suini. Se non è presente una lettiera nel recinto, i pavimenti devono costituire una superficie rigida, piana e stabile. Consulta D.Lgs. 122/2011, allegato 1, parte I, punto 5.",1.0,0.8984,0.9627,0.75,0.9524,OK,True
+Come devo progettare le strutture di stabulazione delle galline?,"Per progettare le strutture di stabulazione delle galline, è fondamentale seguire alcune linee guida specifiche che garantiscano il benessere animale. Ecco i passaggi da considerare:
+
+1. **Adeguatezza delle Strutture**: Le strutture devono essere progettate in modo da non essere nocive e devono consentire alle galline di esprimere il loro repertorio comportamentale naturale. È essenziale che le strutture non presentino rischi per la salute degli animali.
+
+2. **Gestione delle Situazioni Particolari**: È necessario disporre di strutture suppletive adeguate, come un'infermeria, per gestire situazioni particolari.
+
+3. **Densità di Allevamento**: Considerare non solo la densità di allevamento, ma anche la capacità delle galline di adattarsi alle strutture in cui sono allevate.
+
+4. **Progettazione delle Gabbie**: Le gabbie devono essere progettate in modo che le galline adulte possano essere ritirate senza subire sofferenze inutili o ferite. È consigliato effettuare una verifica pratica per accertarsi che non ci siano superfici taglienti o sporgenti.
+
+5. **Sistemi a Più Piani**: È previsto l'uso di strutture a più piani, poiché le galline tendono a rifugiarsi ai livelli superiori per riposare. Tuttavia, il numero massimo di livelli sovrapposti non deve superare quattro. È compito del veterinario ufficiale verificare il rispetto di questo requisito.
+
+6. **Altezza Libera nei Sistemi Alternativi**: Nei sistemi alternativi di allevamento, come le voliere, l'altezza libera minima tra i vari livelli deve essere di almeno 45 cm.
+
+7. **Prevenzione della Fuga**: Le strutture devono essere progettate per prevenire la fuga delle galline, garantendo un ambiente controllato e sicuro.
+
+8. **Dimensioni delle Mangiatrici**: Ogni gallina deve avere a disposizione almeno 4 cm di lunghezza nella mangiatoia. È necessario verificare che lo spazio disponibile rispetti questi parametri.
+
+9. **Posatoi**: I posatoi devono offrire stabilità e non devono essere scivolosi. Devono essere sufficientemente larghi per permettere una buona presa da parte delle zampe delle galline.
+
+10. **Verifica delle Dimensioni**: Assicurarsi che le dimensioni del fessurato calpestabile siano adeguate rispetto alle dimensioni delle zampe delle galline e che la pavimentazione consenta il passaggio delle deiezioni.
+
+Seguendo questi passaggi, si può garantire che le strutture di stabulazione siano progettate in modo da promuovere il benessere delle galline ovaiole.","Le strutture di stabulazione devono essere progettate in modo da non essere nocive e devono permettere alle galline di esprimere il loro repertorio comportamentale naturale. È necessario che le strutture presentino condizioni microclimatiche adeguate all'interno, per non compromettere il benessere degli animali; tali condizioni includono temperatura, umidità e qualità dell'aria.",1.0,0.899,0.906,0.5,0.3074,OK,True
+Come faccio a salvare la checklist che ho compilato?,"Per salvare la checklist che hai compilato, segui questi passaggi:
+
+1. Clicca sul pulsante ""Salva"" una volta completata la compilazione della checklist.
+2. Apparirà una finestra di avviso che conferma che il questionario è completo e può essere caricato. Clicca su ""Ok"" per confermare.
+3. Successivamente, clicca su ""Carica"" per avviare il caricamento del questionario.
+4. Dopo aver completato il caricamento, comparirà un'altra finestra che conferma che il questionario è stato caricato con successo; anche in questo caso, clicca su ""Ok"".
+5. Infine, per uscire dal questionario appena completato e tornare alla home, clicca sull'icona ""Albero di navigazione"" e seleziona ""Home"".
+
+Assicurati di seguire questi passaggi per garantire che la tua checklist sia salvata correttamente.","Una volta completata la compilazione della checklist, è necessario cliccare sul pulsante ""Salva"". A questo punto appare una finestra di avviso che conferma il completamento del questionario con il messaggio ""Questionario Completo – Questo questionario può essere caricato""; per confermare cliccare su ""Ok"". Successivamente cliccare su ""Carica"" per caricare il questionario. Verrà visualizzata una finestra di avviso che conferma il caricamento del questionario con il messaggio ""Questo questionario è stato caricato""; cliccare su ""Ok"" per confermare.",1.0,0.8074,0.3562,1.0,0.9718,OK,True
+In che strutture è consentito l'utilizzo di educatori elettrici?,"L'uso degli educatori elettrici è consentito esclusivamente in strutture già progettate per il loro utilizzo, dove sono fondamentali per garantire l'igiene e il benessere degli animali. È importante che tali dispositivi non siano posizionati a meno di 5 cm dagli animali in stazione eretta e non devono essere utilizzati sugli animali nell'ultimo mese di gravidanza. Inoltre, l'autorità competente deve stabilire limiti riguardanti l'intensità delle scariche elettriche, la durata e le procedure operative.","Gli educatori elettrici dovrebbero essere impiegati esclusivamente in strutture già progettate per il loro utilizzo, dove sono fondamentali per garantire l’igiene e il benessere degli animali. In ogni caso, l'autorità competente che concede l'autorizzazione per l'uso di educatori elettrici deve stabilire dei limiti.",1.0,0.7416,0.9207,1.0,0.8414,OK,True
+Qual è la definizione di operatore ai sensi del Regolamento UE 429/2016?,"Ai sensi del Regolamento UE 429/2016, l'operatore è definito come ""qualsiasi persona fisica o giuridica responsabile della gestione di animali o prodotti, anche per un periodo limitato"", ad eccezione dei detentori di animali da compagnia e dei veterinari.","Ai sensi del Regolamento UE 429/2016, l'operatore è definito come qualsiasi persona fisica o giuridica responsabile della gestione di animali o prodotti, anche per un periodo limitato, ad eccezione dei detentori di animali da compagnia e dei veterinari.",1.0,0.9248,0.6667,1.0,0.9986,OK,True
+Dove trovo la sezione dell'operatore e dei suoi delegati?,"Puoi trovare la sezione ""OPERATORE E SUOI DELEGATI"" sul sito www.classyfarm.it. In questa sezione sono forniti dettagli sul percorso da seguire e sui documenti da compilare e caricare su ClassyFarm per ottenere l'autorizzazione all'accesso come operatore o delegato. 
+
+In particolare, per la richiesta di accesso con la qualifica di Delegato da parte di più operatori, è necessario redigere e inviare la richiesta al Ministero della Salute, con copia conoscenza all'indirizzo email [EMAIL_RIMOSSO]. Le modalità e la documentazione necessaria sono disponibili nella stessa sezione. 
+
+Per il Delegato da singolo operatore, la richiesta deve essere inviata anch'essa al Ministero della Salute, con copia conoscenza a [EMAIL_RIMOSSO], seguendo le indicazioni presenti nella sezione ""OPERATORE E SUOI DELEGATI"".","La sezione è disponibile sul sito www.classyfarm.it alla voce ""Operatore e i suoi Delegati"".",1.0,0.5262,0.8644,1.0,0.3173,OK,True
+Come si accede ai cruscotti interattivi di ClassyFarm?,"Per accedere ai cruscotti interattivi di ClassyFarm, segui questi passaggi:
+
+1. Accedi all'area riservata di VETINFO (www.vetinfo.it) utilizzando le tue credenziali di accesso (username e password, SPID o CNS) attraverso il browser Google Chrome.
+2. Seleziona l'opzione ""ClassyFarm"".
+3. Scegli ""ClassyFarm 2.0"".
+4. Seleziona il tuo PROFILO.
+5. Clicca su ""Dashboard"".
+
+Inoltre, puoi consultare la GUIDA AI CRUSCOTTI INTERATTIVI al seguente link: www.classyfarm.it.","Per accedere ai cruscotti interattivi è necessario: 1) accedere a Vetinfo, 2) selezionare ClassyFarm → ClassyFarm 2.0, 3) selezionare il proprio profilo, 4) cliccare su ""Dashboard"".",1.0,0.6061,1.0,1.0,0.8742,OK,True
+Cosa devo fare per nominare un delegato da singolo operatore?,"Per nominare un delegato da singolo operatore, segui questi passaggi:
+
+1. Redigi la richiesta di accesso con la qualifica di Delegato da singolo operatore.
+2. Invia la richiesta al Ministero della Salute, con copia conoscenza all'indirizzo [[EMAIL_RIMOSSO]](mailto:[EMAIL_RIMOSSO]).
+3. Assicurati di includere la documentazione necessaria, che puoi trovare nella sezione ""OPERATORE E SUOI DELEGATI"" sul sito [www.classyfarm.it](http://www.classyfarm.it).
+4. Il Delegato è tenuto a comunicare la cessazione della delega attraverso i canali sopra indicati.
+
+Per ulteriori dettagli, consulta la guida disponibile sul sito.","Devi compilare la richiesta di accesso con la qualifica di Delegato da singolo operatore e inviarla al Ministero della Salute, con copia conoscenza a info@classyfarm.it, seguendo le modalità e la documentazione descritte nella sezione ""Operatore e i suoi Delegati"" sul sito www.classyfarm.it.",1.0,0.9075,0.9325,1.0,0.8057,EMAIL_MISMATCH,True
+Come posso selezionare il veterinario aziendale in ClassyFarm?,"Per selezionare il Veterinario Aziendale in ClassyFarm, segui questi passaggi:
+
+1. Accedi a VETINFO.
+2. Seleziona ""ClassyFarm"" e poi ""ClassyFarm 2.0"".
+3. Seleziona il tuo PROFILO.
+   1. Clicca su ""Selezione Veterinario Aziendale"".
+   2. Nella sezione ""Dottore"", clicca, cerca e seleziona il professionista abilitato.
+   **Nota Bene:** Il Veterinario Aziendale dovrà validare e caricare la documentazione come indicato nella guida specifica.
+   3. Clicca su ""Conferma"".
+   **Nota Bene:** Per revocare la nomina, clicca sull'icona di revoca e poi su ""Conferma"".
+
+Assicurati di seguire questi passaggi attentamente per completare la selezione o la revoca del Veterinario Aziendale.","Dopo aver effettuato l'accesso a ClassyFarm (o ClassyFarm 2.0) e selezionato il profilo, clicca su ""Selezione Veterinario Aziendale"", quindi cerca e seleziona il professionista abilitato nella sezione ""Dottore"" e conferma. Il veterinario aziendale dovrà poi validare e caricare la documentazione richiesta.",1.0,0.9148,0.7798,1.0,0.8811,OK,True
+Come accedo all'area riservata di Vetinfo?,"Per accedere all'area riservata di VETINFO, segui questi passaggi:
+
+1. Visita il sito [www.vetinfo.it](https://www.vetinfo.it/).
+2. Clicca su ""ACCEDI all’Area riservata"".
+3. Inserisci le tue credenziali di accesso (Username e Password).
+4. Dopo aver effettuato l'accesso, seleziona l'opzione ""ClassyFarm"" per procedere.","Per accedere all'area riservata di Vetinfo devi collegarti al sito https://www.vetinfo.it/, cliccare su ""ACCEDI all’Area riservata"" e inserire le credenziali di accesso rilasciate dal Sistema Veterinario Informativo (credenziali Vetinfo).",1.0,0.7574,0.6845,1.0,0.6779,OK,True

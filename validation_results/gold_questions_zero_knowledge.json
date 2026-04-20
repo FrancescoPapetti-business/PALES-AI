@@ -1,0 +1,3014 @@
+{
+  "test_name": "gold_questions_zero_knowledge",
+  "timestamp": "20260303_220559",
+  "elapsed_time_seconds": 473.3815977573395,
+  "dataset_size": 15,
+  "num_consistency_runs": 3,
+  "thresholds": {
+    "groundedness": 0.85,
+    "self_contained": 0.7,
+    "relevance": 0.7,
+    "consistency": 0.75,
+    "context_precision": 0.6
+  },
+  "metrics_aggregate": {
+    "groundedness": {
+      "mean": 0.9805555555555556,
+      "min": 0.75,
+      "max": 1.0,
+      "below_threshold": 1
+    },
+    "self_contained": {
+      "mean": 0.8666666666666669,
+      "min": 0.8,
+      "max": 1.0,
+      "below_threshold": 0
+    },
+    "relevance": {
+      "mean": 0.5395502328872681,
+      "min": 0.22040098905563354,
+      "max": 0.862544596195221,
+      "below_threshold": 12
+    },
+    "consistency": {
+      "mean": 0.9869937684800889,
+      "min": 0.9179438749949137,
+      "max": 1.0,
+      "below_threshold": 0
+    },
+    "context_precision": {
+      "mean": 0.6444444444444445,
+      "min": 0.1,
+      "max": 1.0,
+      "below_threshold": 5
+    },
+    "citation_accuracy": {
+      "mean": 0.5333333333333333,
+      "min": 0.0,
+      "max": 1.0
+    }
+  },
+  "health_score": 60.0,
+  "status_distribution": {
+    "EXCELLENT": 3,
+    "GOOD": 6,
+    "MODERATE": 6,
+    "CRITICAL": 0
+  },
+  "status_percentages": {
+    "EXCELLENT": 20.0,
+    "GOOD": 40.0,
+    "MODERATE": 40.0,
+    "CRITICAL": 0.0
+  },
+  "critical_questions": [
+    {
+      "question_id": "CF_001",
+      "question": "Qual è la definizione di operatore?",
+      "critical_flags": 2,
+      "failed_metrics": [
+        "relevance",
+        "context_precision"
+      ],
+      "status": "MODERATE"
+    },
+    {
+      "question_id": "CF_002",
+      "question": "Qual è la definizione di delegato?",
+      "critical_flags": 2,
+      "failed_metrics": [
+        "relevance",
+        "context_precision"
+      ],
+      "status": "MODERATE"
+    },
+    {
+      "question_id": "CF_003",
+      "question": "Come richiedo il profilo da operatore?",
+      "critical_flags": 2,
+      "failed_metrics": [
+        "groundedness",
+        "relevance"
+      ],
+      "status": "MODERATE"
+    },
+    {
+      "question_id": "CF_009",
+      "question": "Come faccio a scaricare il report SQNBA?",
+      "critical_flags": 2,
+      "failed_metrics": [
+        "relevance",
+        "context_precision"
+      ],
+      "status": "MODERATE"
+    },
+    {
+      "question_id": "CF_014",
+      "question": "Cosa vogliono dire Q1, Q2, Q3, Q4 nei cruscotti?",
+      "critical_flags": 2,
+      "failed_metrics": [
+        "relevance",
+        "context_precision"
+      ],
+      "status": "MODERATE"
+    },
+    {
+      "question_id": "CF_015",
+      "question": "Cosa mi dice Sintesi risposte nel cruscotto?",
+      "critical_flags": 2,
+      "failed_metrics": [
+        "relevance",
+        "context_precision"
+      ],
+      "status": "MODERATE"
+    }
+  ],
+  "num_critical": 6,
+  "detailed_results": [
+    {
+      "question_id": "CF_001",
+      "question": "Qual è la definizione di operatore?",
+      "timestamp": "2026-03-03T22:06:33.716187",
+      "answer_main": "L'operatore è definito, ai sensi del Regolamento UE 429/2016, come qualsiasi persona fisica o giuridica responsabile della gestione di animali o prodotti, anche per un periodo limitato, ad eccezione dei detentori di animali da compagnia e dei veterinari [Doc 1].",
+      "additional_answers": [
+        "L'operatore, ai sensi del Regolamento UE 429/2016, è definito come qualsiasi persona fisica o giuridica responsabile della gestione di animali o prodotti, anche per un periodo limitato, ad eccezione dei detentori di animali da compagnia e dei veterinari [Doc 1].",
+        "L'operatore, ai sensi del Regolamento UE 429/2016, è definito come qualsiasi persona fisica o giuridica responsabile della gestione di animali o prodotti, anche per un periodo limitato, ad eccezione dei detentori di animali da compagnia e dei veterinari [Doc 1]."
+      ],
+      "retrieved_chunks": [
+        "**Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati**\n\n**PAG**  \n**OPERATORE**  \n2  \n\nAi sensi del Regolamento UE 429/2016, l'operatore è definito come:  \nQualsiasi persona fisica o giuridica responsabile della gestione di animali o prodotti, anche per un periodo limitato, ad eccezione dei detentori di animali da compagnia e dei veterinari.",
+        "Qualsiasi persona che possiede conigli o li tiene sotto il proprio controllo diretto, comunemente definita \"allevatore\", ha delle responsabilità specifiche. Inoltre, ogni altra persona che è destinata ad accudire i conigli deve anch'essa garantire, in base alle proprie responsabilità, che vengano adottate tutte le misure necessarie per salvaguardare il benessere degli animali.",
+        "Il numero ottimale di addetti per un allevamento è indicativamente di un operatore per meno di 400 animali. Gli addetti sono coloro che lavorano in allevamento, sia a tempo pieno che parziale, e si occupano delle operazioni di alimentazione e cura degli animali, nonché della manutenzione degli ambienti. È importante notare che in questo contesto non si considerano gli operatori che lavorano esclusivamente nei campi. Nel caso specifico dell’allevamento bovino da carne, si applicano le stesse indicazioni riguardo al numero di addetti.",
+        "Nel contesto della gestione degli allevamenti, si stabiliscono specifiche indicazioni riguardo al numero di operatori necessari in base alla tipologia e al numero di animali. \n\nPer quanto riguarda i riproduttori, è previsto un operatore per un numero di animali compreso tra 500 e 800. Invece, per gli animali all’ingrasso, è necessario un operatore per un numero di animali inferiore a 5000. Per i riproduttori, la situazione cambia ulteriormente: è richiesto un operatore per meno di 500 animali.\n\nGli addetti, che possono essere il proprietario, il detentore o il custode degli animali, sono definiti come le persone responsabili della cura e dell'alimentazione degli animali e degli ambienti in cui vivono. Questi addetti possono lavorare a tempo pieno, corrispondente a una persona, oppure a tempo parziale, con un minimo di mezza giornata, che equivale a mezza persona. È importante notare che non si considerano come addetti coloro che operano esclusivamente nei campi o i tecnici, nel caso di filiere integrate.\n\nInfine, il numero di addetti può variare in base a diversi fattori, tra cui la fase di allevamento, il livello di meccanizzazione e l'organizzazione dell'azienda, come ad esempio se si opera in ciclo aperto o chiuso e il numero di capannoni disponibili.",
+        "Per rispondere al quesito in oggetto, è fondamentale effettuare una valutazione approfondita delle competenze, delle capacità e delle conoscenze complessive del personale addetto alla cura degli animali. Questo personale può includere il proprietario, il detentore o il custode, ovvero la persona che, anche in modo temporaneo, si assume la responsabilità e si occupa degli animali, come stabilito dal Decreto Legislativo 146 del 2001."
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "page_number": 2,
+          "rel_path": "manuali operatori\\ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "sha256": "61dfe7b9ea27b3508099eda6f2c20ba1690c6fe30674b24e87dd76a6caccd33a"
+        },
+        {
+          "filename": "Manuale_controllo_ufficiale_coniglio_def_rev.pdf",
+          "page_number": 23,
+          "rel_path": "moduli veterinario ufficiale\\Manuale_controllo_ufficiale_coniglio_def_rev.pdf",
+          "sha256": "a96c97e4b56d2ad4d624ab2ac547e627b17e4de35c9f1629b365afe988ab4efc"
+        },
+        {
+          "filename": "Manuale-Benessere-e-Biosicurezza-Autocontrollo-BOVINO-DA-CARNE_Classyfarm_REV019-18_01_2020.pdf",
+          "page_number": 43,
+          "rel_path": "moduli veterinario aziendale\\bovini\\Manuale-Benessere-e-Biosicurezza-Autocontrollo-BOVINO-DA-CARNE_Classyfarm_REV019-18_01_2020.pdf",
+          "sha256": "43f6180b34f208ce160eb36ce0eec03830331dbcd89cca68c09fa338138bc08f"
+        },
+        {
+          "filename": "Man-ClassyFarm-Ben-Autocontrollo_Coniglio_sett2025def.pdf",
+          "page_number": 17,
+          "rel_path": "moduli veterinario aziendale\\conigli\\Man-ClassyFarm-Ben-Autocontrollo_Coniglio_sett2025def.pdf",
+          "sha256": "df4f6f2d470e4153a30832ccbe37b84e71f0597bd021e109c7010bc71bfe10d5"
+        },
+        {
+          "filename": "Manuale-CAPRA-DA-LATTE-2022_Classyfarm_01.06.2022.pdf",
+          "page_number": 47,
+          "rel_path": "moduli veterinario aziendale\\ovini e caprini\\Manuale-CAPRA-DA-LATTE-2022_Classyfarm_01.06.2022.pdf",
+          "sha256": "77187bf6d36b1d6113876f6164012b6f5b9e1733caf3145c71c1eaaea2156e54"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 1.0,
+          "details": {
+            "claims": [
+              {
+                "claim": "L'operatore è definito ai sensi del Regolamento UE 429/2016.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "L'operatore è qualsiasi persona fisica o giuridica responsabile della gestione di animali o prodotti.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "L'operatore è responsabile della gestione di animali o prodotti anche per un periodo limitato.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "I detentori di animali da compagnia non sono considerati operatori.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "I veterinari non sono considerati operatori.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 5,
+            "supported": 5,
+            "partial": 0,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 0.8,
+          "raw_score_1_5": 4.0,
+          "motivation": "La risposta fornisce una definizione chiara e precisa di \"operatore\" secondo il Regolamento UE 429/2016, ma potrebbe beneficiare di ulteriori dettagli o esempi pratici per essere completamente autosufficiente. L'utente può comunque comprendere il concetto senza necessità di ulteriori fonti."
+        },
+        "relevance": {
+          "score": 0.498019278049469,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 0.9970566431681315,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 0.9955849647521973
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 0.9955849647521973
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 1.0
+              }
+            ],
+            "min_similarity": 0.9955849647521973,
+            "max_similarity": 1.0,
+            "std_similarity": 0.002081267575265962
+          }
+        },
+        "context_precision": {
+          "score": 0.4,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "**Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati**\n\n**PAG**  \n**OPERATORE**  \n2  \n\nAi sensi del Regolamento UE 429/2016, l'operatore è definito come:  \nQualsiasi persona fisi...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "Qualsiasi persona che possiede conigli o li tiene sotto il proprio controllo diretto, comunemente definita \"allevatore\", ha delle responsabilità specifiche. Inoltre, ogni altra persona che è destinata...",
+              "status": "INUTILE",
+              "score": 0.0
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "Il numero ottimale di addetti per un allevamento è indicativamente di un operatore per meno di 400 animali. Gli addetti sono coloro che lavorano in allevamento, sia a tempo pieno che parziale, e si oc...",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "Nel contesto della gestione degli allevamenti, si stabiliscono specifiche indicazioni riguardo al numero di operatori necessari in base alla tipologia e al numero di animali. \n\nPer quanto riguarda i r...",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "Per rispondere al quesito in oggetto, è fondamentale effettuare una valutazione approfondita delle competenze, delle capacità e delle conoscenze complessive del personale addetto alla cura degli anima...",
+              "status": "INUTILE",
+              "score": 0.0
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 0.0,
+          "details": {
+            "citations": [
+              {
+                "citation": "- [Doc 1]",
+                "found": false
+              }
+            ],
+            "num_citations": 1,
+            "correct": 0,
+            "incorrect": 1
+          }
+        }
+      },
+      "critical_flags": 2,
+      "failed_metrics": [
+        "relevance",
+        "context_precision"
+      ],
+      "status": "MODERATE",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_002",
+      "question": "Qual è la definizione di delegato?",
+      "timestamp": "2026-03-03T22:06:56.400934",
+      "answer_main": "Il delegato dell'Operatore è la figura designata dall'operatore responsabile degli animali, con la sola facoltà di visualizzare i cruscotti degli allevamenti associati allo stesso operatore [Doc 1].",
+      "additional_answers": [
+        "Il delegato dell'Operatore è la figura designata dall'operatore responsabile degli animali, con la sola facoltà di visualizzare i cruscotti degli allevamenti associati allo stesso operatore [Doc 1].",
+        "Il delegato dell'Operatore è la figura designata dall'operatore responsabile degli animali, con la sola facoltà di visualizzare i cruscotti degli allevamenti associati allo stesso operatore [Doc 1]."
+      ],
+      "retrieved_chunks": [
+        "Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati\n\nDelegato dell'Operatore: figura designata dall'operatore responsabile degli animali, con la sola facoltà di visualizzare i cruscotti degli allevamenti associati allo stesso operatore.",
+        "Il testo fa riferimento alla figura del responsabile che si occupa degli animali, come definito dal Decreto Legislativo 146 del 2001, articolo 1, paragrafo 2, lettera b). Questa figura comprende coloro che lavorano in allevamento, sia a tempo pieno, che implica la presenza di una persona dedicata esclusivamente a questo compito, sia a tempo parziale, che richiede un impegno minimo di mezza giornata.",
+        "Il numero di addetti responsabili della cura degli animali deve essere sufficiente e dotato di adeguate capacità, conoscenze e competenze professionali, come stabilito dal Decreto Legislativo 146/2001. Gli addetti possono essere il proprietario, il detentore o il custode degli animali, oppure una persona che, anche temporaneamente, si occupa della loro gestione. \n\nQuesti addetti possono lavorare a tempo pieno, corrispondente a una persona, oppure a tempo parziale, con un minimo di mezza giornata, che equivale a mezza persona. Le loro mansioni comprendono l'alimentazione e la cura degli animali, nonché la manutenzione degli ambienti in cui vivono. È importante notare che non si considerano addetti coloro che lavorano esclusivamente nei campi o i tecnici, nel caso di filiere integrate.\n\nIn situazioni in cui la cura quotidiana degli animali e le operazioni di mungitura sono svolte da operatori diversi, è accettabile avere un addetto non mungitore per un certo numero di animali, a condizione che il rapporto tra addetti e animali sia adeguato.",
+        "Per rispondere al quesito in oggetto, è fondamentale effettuare una valutazione approfondita delle competenze, delle capacità e delle conoscenze complessive del personale addetto alla cura degli animali. Questo personale può includere il proprietario, il detentore o il custode, ovvero la persona che, anche in modo temporaneo, si assume la responsabilità e si occupa degli animali, come stabilito dal Decreto Legislativo 146 del 2001.",
+        "È fondamentale che il personale, durante i momenti di contatto con gli animali, che non sono così rari, come ad esempio durante le ispezioni giornaliere, le operazioni di carico e scarico, la movimentazione, il rimescolamento e l'esecuzione di trattamenti sanitari, mantenga una routine di lavoro costante. È essenziale che gli animali siano trattati con calma e tranquillità.\n\nPer affrontare questa questione, è necessario valutare attentamente le competenze, le capacità e le conoscenze complessive del personale addetto agli animali. Questo personale può includere il proprietario, il detentore o il custode, ovvero la persona che, anche temporaneamente, è responsabile degli animali e si occupa di loro, come stabilito dal D. Lgs. 146/2001, art. 1, par. 2, lett. b). \n\nLe competenze del personale possono derivare sia da esperienze pratiche, accumulate nel tempo, sia da conoscenze teoriche, come ad esempio il titolo di studio. Pertanto, è considerata accettabile la presenza di una lunga esperienza pratica nel settore."
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "page_number": 3,
+          "rel_path": "manuali operatori\\ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "sha256": "61dfe7b9ea27b3508099eda6f2c20ba1690c6fe30674b24e87dd76a6caccd33a"
+        },
+        {
+          "filename": "Ovini__Caprini__Benessere_Manuale.pdf",
+          "page_number": 26,
+          "rel_path": "moduli veterinario ufficiale\\Ovini__Caprini__Benessere_Manuale.pdf",
+          "sha256": "dc9b197dd70a3ff68f3f71c27a9a3e0f5dfb6828eaf0906211218ae404845395"
+        },
+        {
+          "filename": "Manuale-CAPRA-DA-LATTE-2022_Classyfarm_01.06.2022.pdf",
+          "page_number": 45,
+          "rel_path": "moduli veterinario aziendale\\ovini e caprini\\Manuale-CAPRA-DA-LATTE-2022_Classyfarm_01.06.2022.pdf",
+          "sha256": "77187bf6d36b1d6113876f6164012b6f5b9e1733caf3145c71c1eaaea2156e54"
+        },
+        {
+          "filename": "Manuale-CAPRA-DA-LATTE-2022_Classyfarm_01.06.2022.pdf",
+          "page_number": 47,
+          "rel_path": "moduli veterinario aziendale\\ovini e caprini\\Manuale-CAPRA-DA-LATTE-2022_Classyfarm_01.06.2022.pdf",
+          "sha256": "77187bf6d36b1d6113876f6164012b6f5b9e1733caf3145c71c1eaaea2156e54"
+        },
+        {
+          "filename": "Avicoli-Tacchino_da_carne-Benessere_Manuale.pdf",
+          "page_number": 21,
+          "rel_path": "moduli veterinario ufficiale\\Avicoli-Tacchino_da_carne-Benessere_Manuale.pdf",
+          "sha256": "82faa38f88a959bb163855f01006b29668d59b94818bea6088915b3e01dac343"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 1.0,
+          "details": {
+            "claims": [
+              {
+                "claim": "Il delegato dell'Operatore è una figura designata dall'operatore responsabile degli animali.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Il delegato dell'Operatore ha la facoltà di visualizzare i cruscotti degli allevamenti associati allo stesso operatore.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 2,
+            "supported": 2,
+            "partial": 0,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 0.8,
+          "raw_score_1_5": 4.0,
+          "motivation": "La risposta fornisce una definizione chiara e specifica del termine \"delegato\" nel contesto degli operatori responsabili degli animali, ma manca di ulteriori dettagli che potrebbero chiarire meglio il ruolo e le responsabilità del delegato. L'utente potrebbe avere bisogno di ulteriori informazioni per comprendere appieno il contesto."
+        },
+        "relevance": {
+          "score": 0.5073971748352051,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 1.0,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 1.0
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 1.0
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 1.0
+              }
+            ],
+            "min_similarity": 1.0,
+            "max_similarity": 1.0,
+            "std_similarity": 0.0
+          }
+        },
+        "context_precision": {
+          "score": 0.2,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati\n\nDelegato dell'Operatore: figura designata dall'operatore responsabile degli animali, con la sola facoltà di visualizzare i cru...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "Il testo fa riferimento alla figura del responsabile che si occupa degli animali, come definito dal Decreto Legislativo 146 del 2001, articolo 1, paragrafo 2, lettera b). Questa figura comprende color...",
+              "status": "INUTILE",
+              "score": 0.0
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "Il numero di addetti responsabili della cura degli animali deve essere sufficiente e dotato di adeguate capacità, conoscenze e competenze professionali, come stabilito dal Decreto Legislativo 146/2001...",
+              "status": "INUTILE",
+              "score": 0.0
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "Per rispondere al quesito in oggetto, è fondamentale effettuare una valutazione approfondita delle competenze, delle capacità e delle conoscenze complessive del personale addetto alla cura degli anima...",
+              "status": "INUTILE",
+              "score": 0.0
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "È fondamentale che il personale, durante i momenti di contatto con gli animali, che non sono così rari, come ad esempio durante le ispezioni giornaliere, le operazioni di carico e scarico, la moviment...",
+              "status": "INUTILE",
+              "score": 0.0
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 0.0,
+          "details": {
+            "citations": [
+              {
+                "citation": "Doc 1",
+                "found": false
+              }
+            ],
+            "num_citations": 1,
+            "correct": 0,
+            "incorrect": 1
+          }
+        }
+      },
+      "critical_flags": 2,
+      "failed_metrics": [
+        "relevance",
+        "context_precision"
+      ],
+      "status": "MODERATE",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_003",
+      "question": "Come richiedo il profilo da operatore?",
+      "timestamp": "2026-03-03T22:07:29.184536",
+      "answer_main": "Per richiedere il profilo da operatore, segui questi passaggi:\n\n1. Redigi la richiesta di accesso con la qualifica di Operatore.\n2. Invia la richiesta direttamente all'indirizzo email [EMAIL_RIMOSSO].\n3. Assicurati di seguire le modalità e i documenti indicati nella sezione \"OPERATORE E SUOI DELEGATI\" presente sul sito www.classyfarm.it.\n\nAssicurati di includere tutte le informazioni e la documentazione necessaria come specificato nella guida.",
+      "additional_answers": [
+        "Per richiedere il profilo da operatore, segui questi passaggi:\n\n1. Redigi la richiesta di accesso con la qualifica di Operatore.\n2. Invia la richiesta direttamente all'indirizzo email [EMAIL_RIMOSSO].\n3. Assicurati di seguire le modalità e i documenti indicati nella sezione \"OPERATORE E SUOI DELEGATI\" presente sul sito www.classyfarm.it.\n\nÈ importante che la richiesta sia completa e conforme alle indicazioni fornite nella documentazione.",
+        "Per richiedere il profilo da operatore, segui questi passaggi:\n\n1. Redigi la richiesta di accesso con la qualifica di Operatore.\n2. Invia la richiesta direttamente all'indirizzo email [EMAIL_RIMOSSO].\n3. Assicurati di seguire le modalità e i documenti indicati nella sezione \"OPERATORE E SUOI DELEGATI\" presente sul sito www.classyfarm.it.\n\nÈ importante che tu segua attentamente queste istruzioni per completare la richiesta correttamente."
+      ],
+      "retrieved_chunks": [
+        "**Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati**\n\n**RICHIESTA DI PROFILO**  \n**Operatore**  \nLa richiesta di accesso con la qualifica di Operatore deve essere redatta e inviata direttamente all'indirizzo email info@classyfarm.it, seguendo le modalità e i documenti indicati nella sezione \"OPERATORE E SUOI DELEGATI\" presente sul sito www.classyfarm.it.",
+        "**Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati**\n\n**RICHIESTA DI PROFILO**  \n**Delegato da Singolo Operatore**  \n\nLa richiesta di accesso con la qualifica di Delegato da singolo operatore deve essere redatta e inviata al Ministero della Salute, con copia conoscenza all'indirizzo info@classyfarm.it. Le modalità e la documentazione necessaria sono disponibili nella sezione \"OPERATORE E SUOI DELEGATI\" sul sito www.classyfarm.it. \n\nIl Delegato da singolo operatore è tenuto a comunicare, attraverso i canali sopra indicati, la cessazione della delega.",
+        "**Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati**\n\n**RICHIESTA DI PROFILO**\n\nLa richiesta di accesso con la qualifica di Delegato da parte di più operatori deve essere redatta e inviata al Ministero della Salute, con copia conoscenza all'indirizzo email info@classyfarm.it. Le modalità e la documentazione necessaria sono disponibili nella sezione \"OPERATORE E SUOI DELEGATI\" sul sito www.classyfarm.it.\n\nSuccessivamente, il Delegato da parte di più operatori sarà responsabile della raccolta, del caricamento e dell'aggiornamento delle singole adesioni dei vari operatori attraverso il pannello predisposto, selezionando l'opzione \"Selezione azienda\".",
+        "[ASSISTENZA_TELEFONICA] [INVIO_EMAIL] L'analisi dello screenshot della piattaforma ministeriale ClassyFarm si articola in diversi punti fondamentali che delineano il processo di registrazione per gli operatori. \n\nIn primo luogo, il titolo della pagina è \"OPERATORE\", il che indica chiaramente la sezione dedicata agli utenti che desiderano registrarsi o accedere come operatori. All'interno di questa sezione, è presente un elemento visivo importante: un numero e una freccia che guidano l'utente verso la sezione \"Operatore e delegati\" nel menu di navigazione. Questo suggerisce che l'utente deve selezionare questa opzione per procedere con la registrazione.\n\nSuccessivamente, un altro punto evidenziato è il testo \"Richiesta di registrazione ClassyFarm\", che funge da link per scaricare, compilare e firmare il modulo necessario per la registrazione. La freccia rossa che accompagna questo testo sottolinea l'importanza di questo passaggio, evidenziando che il modulo deve essere compilato e firmato per poter proseguire.\n\nLa procedura logica per la registrazione si articola in vari passaggi. Innanzitutto, l'utente deve collegarsi al sito www.classyfarm.it per iniziare la procedura di abilitazione. Una volta sul sito, è necessario navigare nella sezione \"Operatore e delegati\" per accedere alle informazioni specifiche per gli operatori. Il passo successivo consiste nel cliccare sul link \"Richiesta di registrazione ClassyFarm\" per scaricare il modulo necessario. Dopo aver scaricato il modulo, l'utente deve compilarlo e firmarlo, allegando i documenti richiesti. Infine, per completare la registrazione, è necessario inviare la richiesta online accedendo al link fornito, che consente di inviare la documentazione necessaria.\n\nTra i testi rilevanti che accompagnano questa procedura, si trovano frasi come \"Per far richiesta di abilitazione al sistema collegarsi al sito www.classyfarm.it\" e \"Sistema per la categorizzazione del rischio degli allevamenti in ambito sanità pubblica veterinar",
+        "[DASHBOARD] **Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati**\n\n**PAG**  \n**SCELTA DELL'AMBIENTE**  \n25  \n\n1. Selezionare l'opzione «Selezione Azienda» per associare il proprio profilo all'allevamento.  \n2. Cliccare su «Dashboard» per accedere alla consultazione dei cruscotti.  \n\n**Nome utente e profilo selezionato; cliccare qui per modificare il profilo.**"
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "page_number": 9,
+          "rel_path": "manuali operatori\\ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "sha256": "61dfe7b9ea27b3508099eda6f2c20ba1690c6fe30674b24e87dd76a6caccd33a"
+        },
+        {
+          "filename": "ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "page_number": 10,
+          "rel_path": "manuali operatori\\ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "sha256": "61dfe7b9ea27b3508099eda6f2c20ba1690c6fe30674b24e87dd76a6caccd33a"
+        },
+        {
+          "filename": "ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "page_number": 11,
+          "rel_path": "manuali operatori\\ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "sha256": "61dfe7b9ea27b3508099eda6f2c20ba1690c6fe30674b24e87dd76a6caccd33a"
+        },
+        {
+          "filename": "Guida Registrazione Operatore (3) (1) (1).pdf",
+          "page_number": 1,
+          "rel_path": "manuali operatori\\Guida Registrazione Operatore (3) (1) (1).pdf",
+          "sha256": "5cbab7a1ecfc31aac324e8f61bfc3a3f80e6925c4f3fdeeb1b39cb28910ae8cf"
+        },
+        {
+          "filename": "ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "page_number": 25,
+          "rel_path": "manuali operatori\\ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "sha256": "61dfe7b9ea27b3508099eda6f2c20ba1690c6fe30674b24e87dd76a6caccd33a"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 0.75,
+          "details": {
+            "claims": [
+              {
+                "claim": "È necessario redigere la richiesta di accesso con la qualifica di Operatore.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "La richiesta deve essere inviata all'indirizzo email [EMAIL_RIMOSSO].",
+                "status": "NON_SUPPORTATO",
+                "score": 0.0
+              },
+              {
+                "claim": "È necessario seguire le modalità e i documenti indicati nella sezione \"OPERATORE E SUOI DELEGATI\" presente sul sito www.classyfarm.it.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario includere tutte le informazioni e la documentazione necessaria come specificato nella guida.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 4,
+            "supported": 3,
+            "partial": 0,
+            "unsupported": 1
+          }
+        },
+        "self_contained": {
+          "score": 0.8,
+          "raw_score_1_5": 4.0,
+          "motivation": "La risposta fornisce una guida chiara e dettagliata su come richiedere il profilo da operatore, ma manca di specificare quali documenti siano necessari, il che potrebbe richiedere ulteriori assunzioni da parte dell'utente. Tuttavia, l'utente può comunque agire seguendo i passaggi indicati."
+        },
+        "relevance": {
+          "score": 0.6837834119796753,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 0.9916192690531412,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 0.9926785826683044
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 0.9883275032043457
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 0.9938517212867737
+              }
+            ],
+            "min_similarity": 0.9883275032043457,
+            "max_similarity": 0.9938517212867737,
+            "std_similarity": 0.002376391572252436
+          }
+        },
+        "context_precision": {
+          "score": 0.9,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "**Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati**\n\n**RICHIESTA DI PROFILO**  \n**Operatore**  \nLa richiesta di accesso con la qualifica di Operatore deve essere redatta e inv...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "**Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati**\n\n**RICHIESTA DI PROFILO**  \n**Delegato da Singolo Operatore**  \n\nLa richiesta di accesso con la qualifica di Delegato da si...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "**Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati**\n\n**RICHIESTA DI PROFILO**\n\nLa richiesta di accesso con la qualifica di Delegato da parte di più operatori deve essere redat...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "[ASSISTENZA_TELEFONICA] [INVIO_EMAIL] L'analisi dello screenshot della piattaforma ministeriale ClassyFarm si articola in diversi punti fondamentali che delineano il processo di registrazione per gli ...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "[DASHBOARD] **Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati**\n\n**PAG**  \n**SCELTA DELL'AMBIENTE**  \n25  \n\n1. Selezionare l'opzione «Selezione Azienda» per associare il propr...",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 0.0,
+          "details": {
+            "citations": [
+              {
+                "citation": "- \"sezione 'OPERATORE E SUOI DELEGATI'\"",
+                "found": false
+              },
+              {
+                "citation": "- \"guida\"",
+                "found": false
+              },
+              {
+                "citation": "- \"sito www.classyfarm.it\"",
+                "found": false
+              }
+            ],
+            "num_citations": 3,
+            "correct": 0,
+            "incorrect": 3
+          }
+        }
+      },
+      "critical_flags": 2,
+      "failed_metrics": [
+        "groundedness",
+        "relevance"
+      ],
+      "status": "MODERATE",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_004",
+      "question": "Come seleziono l'azienda?",
+      "timestamp": "2026-03-03T22:08:12.902955",
+      "answer_main": "Per selezionare un'azienda, segui questi passaggi:\n\n1. **Seleziona l'opzione**: Clicca su «Selezione Azienda».\n   \n2. **Scegli l'allevamento**: Nella parte superiore sinistra dello schermo, seleziona l'allevamento di interesse. Gli allevamenti disponibili nel menu a tendina sono quelli associati alla voce \"Selezione Azienda\".\n\n3. **Compila la checklist**: Procedi alla compilazione della checklist necessaria.\n\n4. **Inserisci il codice dell'allevamento**: Puoi inserire il codice dell'allevamento manualmente oppure selezionarlo dal menu a tendina.\n\n5. **Clicca su \"Nuovo Allevamento\"**: Dopo aver selezionato il profilo, clicca su «Nuovo Allevamento».\n\n6. **Inserisci il codice aziendale**: Digita il codice aziendale (ad esempio, 001XX001) e fai clic su \"Verifica\". Il sistema recupererà automaticamente i dati dell'allevamento.\n\n7. **Seleziona l'Azienda**: Dopo che i dati sono stati recuperati, seleziona l'azienda desiderata.\n\n8. **Visualizza dettagli**: Cliccando su «Dettagli», puoi visualizzare le informazioni relative all'allevamento, come Ragione sociale, Partita IVA, Indirizzo, ecc.\n\nSe ci sono più allevamenti, assicurati di selezionare quello desiderato dall'elenco fornito in base al codice aziendale.",
+      "additional_answers": [
+        "Per selezionare un'azienda, segui questi passaggi:\n\n1. **Seleziona l'opzione**: Clicca su «Selezione Azienda».\n\n2. **Scegli l'allevamento**: Nella parte superiore sinistra dello schermo, seleziona l'allevamento di interesse. Gli allevamenti disponibili nel menu a tendina sono quelli associati alla voce \"Selezione Azienda\".\n\n3. **Compila la checklist**: Procedi alla compilazione della checklist necessaria.\n\n4. **Inserisci il codice dell'allevamento**: Puoi inserire il codice dell'allevamento manualmente oppure selezionarlo dal menu a tendina.\n\n5. **Clicca su \"Nuovo Allevamento\"**: Dopo aver selezionato il profilo, clicca su «Nuovo Allevamento».\n\n6. **Inserisci il codice aziendale**: Digita il codice aziendale (ad esempio, 001XX001) e fai clic su \"Verifica\". Il sistema recupererà automaticamente i dati dell'allevamento.\n\n7. **Seleziona l'Azienda**: Dopo che i dati sono stati recuperati, seleziona l'azienda desiderata.\n\n8. **Visualizza i dettagli**: Cliccando su «Dettagli», puoi visualizzare le informazioni relative all'allevamento, come Ragione sociale, Partita IVA, Indirizzo, ecc.\n\nSe ci sono più allevamenti, assicurati di selezionare quello desiderato dall'elenco fornito in base al codice aziendale.",
+        "Per selezionare un'azienda, segui questi passaggi:\n\n1. **Seleziona l'opzione**: Clicca su «Selezione Azienda».\n\n2. **Scegli l'allevamento**: Nella parte superiore sinistra dello schermo, seleziona l'allevamento di interesse. Gli allevamenti disponibili nel menu a tendina sono quelli associati alla voce \"Selezione Azienda\".\n\n3. **Compila la checklist**: Procedi alla compilazione della checklist necessaria.\n\n4. **Inserisci il codice dell'allevamento**: Puoi inserire il codice dell'allevamento manualmente oppure selezionarlo dal menu a tendina.\n\n5. **Clicca su \"Nuovo Allevamento\"**: Dopo aver selezionato il profilo, clicca su «Nuovo Allevamento».\n\n6. **Inserisci il codice aziendale**: Digita il codice aziendale (ad esempio, 001XX001) e fai clic su \"Verifica\". Il sistema recupererà automaticamente i dati dell'allevamento.\n\n7. **Seleziona l'Azienda**: Una volta verificati i dati, seleziona l'azienda desiderata.\n\n8. **Visualizza dettagli**: Cliccando su «Dettagli», puoi visualizzare le informazioni relative all'allevamento, come Ragione sociale, Partita IVA, Indirizzo, ecc.\n\nSe ci sono più allevamenti, assicurati di selezionare quello desiderato dall'elenco fornito in base al codice aziendale."
+      ],
+      "retrieved_chunks": [
+        "**7. Selezione dell'Azienda**  \nPer associare un'azienda, selezionare l'opzione: «Selezione Azienda».",
+        "1. Selezionare l'allevamento di interesse nella parte superiore sinistra dello schermo.  \nNota Bene: Gli allevamenti visualizzati nel menu a tendina sono quelli associati alla voce \"Selezione Azienda\".  \n\n2. Procedere quindi alla compilazione della checklist.  \n2.1. È possibile inserire il codice dell'allevamento manualmente oppure selezionarlo dal menu a tendina.  \n\nComunicazione Esito Valutazione.",
+        "**Selezione Azienda**  \nPer associare un'azienda, selezionare l'opzione: «Selezione Azienda»  \n6",
+        "1. Cliccare su \"Nuovo Allevamento\".\n2. Inserire il codice aziendale (es. 001XX001) e fare clic su \"Verifica\".\n   - Il sistema recupererà automaticamente i dati dell'allevamento.\n3. Selezionare l'Azienda.",
+        "**PAG**  \nSistema Integrato «ClassyFarm» - Guida per Delegati Operatori - Filiera o Gruppo  \n\n**Procedura per l'abbinamento all'allevamento:**  \n1. Dopo aver selezionato il profilo, cliccare su «Selezione Azienda».  \n2. Cliccare su «Nuovo Allevamento».  \n3. Inserire il codice aziendale e cliccare su «Verifica».  \n\n**CARICAMENTO DELEGA**  \n1. Cliccando su «Dettagli», è possibile visualizzare le informazioni relative all'allevamento (Ragione sociale, Partita IVA, Indirizzo, ecc.).  \n(N.B. Se sono presenti più allevamenti, è necessario SELEZIONARE l'allevamento desiderato dall'elenco fornito in base al codice aziendale.)"
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 7,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 21,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "Nuovo_applicativo_-_Ovicaprini_da_Carne.pdf",
+          "page_number": 6,
+          "rel_path": "manuali Veterinario aziendale\\Nuovo_applicativo_-_Ovicaprini_da_Carne.pdf",
+          "sha256": "b946189f5b95bb9b72174dafb36a1bd82668d3a769517a665f9e8cb12ed6ef15"
+        },
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 8,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "page_number": 27,
+          "rel_path": "manuali operatori\\ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "sha256": "61dfe7b9ea27b3508099eda6f2c20ba1690c6fe30674b24e87dd76a6caccd33a"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 1.0,
+          "details": {
+            "claims": [
+              {
+                "claim": "È necessario cliccare su «Selezione Azienda».",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Nella parte superiore sinistra dello schermo, è necessario selezionare l'allevamento di interesse.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Gli allevamenti disponibili nel menu a tendina sono quelli associati alla voce \"Selezione Azienda\".",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario compilare la checklist necessaria.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È possibile inserire il codice dell'allevamento manualmente.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È possibile selezionare il codice dell'allevamento dal menu a tendina.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Dopo aver selezionato il profilo, è necessario cliccare su «Nuovo Allevamento».",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario digitare il codice aziendale (ad esempio, 001XX001).",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario fare clic su \"Verifica\".",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Il sistema recupererà automaticamente i dati dell'allevamento.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Dopo che i dati sono stati recuperati, è necessario selezionare l'azienda desiderata.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Cliccando su «Dettagli», è possibile visualizzare le informazioni relative all'allevamento.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Le informazioni relative all'allevamento includono Ragione sociale, Partita IVA, Indirizzo, ecc.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Se ci sono più allevamenti, è necessario selezionare quello desiderato dall'elenco fornito in base al codice aziendale.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 14,
+            "supported": 14,
+            "partial": 0,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 1.0,
+          "raw_score_1_5": 5.0,
+          "motivation": "La risposta fornisce una guida dettagliata e passo-passo su come selezionare un'azienda, includendo tutte le informazioni necessarie per completare il processo senza necessità di ulteriori fonti. Ogni passaggio è chiaro e specifico, rendendo l'azione immediatamente eseguibile."
+        },
+        "relevance": {
+          "score": 0.3012320399284363,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 0.9999999403953552,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 0.9999999403953552
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 0.9999999403953552
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 0.9999999403953552
+              }
+            ],
+            "min_similarity": 0.9999999403953552,
+            "max_similarity": 0.9999999403953552,
+            "std_similarity": 0.0
+          }
+        },
+        "context_precision": {
+          "score": 1.0,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "**7. Selezione dell'Azienda**  \nPer associare un'azienda, selezionare l'opzione: «Selezione Azienda».",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "1. Selezionare l'allevamento di interesse nella parte superiore sinistra dello schermo.  \nNota Bene: Gli allevamenti visualizzati nel menu a tendina sono quelli associati alla voce \"Selezione Azienda\"...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "**Selezione Azienda**  \nPer associare un'azienda, selezionare l'opzione: «Selezione Azienda»  \n6",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "1. Cliccare su \"Nuovo Allevamento\".\n2. Inserire il codice aziendale (es. 001XX001) e fare clic su \"Verifica\".\n   - Il sistema recupererà automaticamente i dati dell'allevamento.\n3. Selezionare l'Azien...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "**PAG**  \nSistema Integrato «ClassyFarm» - Guida per Delegati Operatori - Filiera o Gruppo  \n\n**Procedura per l'abbinamento all'allevamento:**  \n1. Dopo aver selezionato il profilo, cliccare su «Selez...",
+              "status": "UTILE",
+              "score": 1.0
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 1.0,
+          "details": {
+            "citations": [],
+            "message": "Nessuna citazione da verificare"
+          }
+        }
+      },
+      "critical_flags": 1,
+      "failed_metrics": [
+        "relevance"
+      ],
+      "status": "GOOD",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_005",
+      "question": "Non riesco a visualizzare il cruscotto, cosa devo fare?",
+      "timestamp": "2026-03-03T22:08:25.781496",
+      "answer_main": "Dopo 48 ore, sarà possibile accedere al cruscotto interattivo: selezionare \"Dashboard\".",
+      "additional_answers": [
+        "Dopo 48 ore, sarà possibile accedere al cruscotto interattivo: selezionare \"Dashboard\".",
+        "Dopo 48 ore, sarà possibile accedere al cruscotto interattivo: selezionare \"Dashboard\"."
+      ],
+      "retrieved_chunks": [
+        "[DASHBOARD] **14  \nDashboard: Cruscotto di Visualizzazione**  \nAzienda già associata al Valutatore.  \nSarà possibile visualizzare, tramite il cruscotto, tutti gli allevamenti associati nella sezione \"Selezione Azienda\".  \nÈ prevista la possibilità di visualizzare la tabella a schermo intero cliccando sull'icona corrispondente.  \nFiltri di Selezione: Azienda non ancora associata al Valutatore.",
+        "[DASHBOARD] Per scegliere l'ambiente, è necessario seguire alcuni passaggi specifici. Innanzitutto, si deve cliccare su \"Selezione Azienda\" per associarsi all'allevamento desiderato. In secondo luogo, è possibile cliccare su \"Trasmissione Checklist\" per accedere alla compilazione del controllo. Infine, per consultare i cruscotti, si deve cliccare su \"Dashboard\". \n\nIn aggiunta, è importante notare che è possibile cambiare il nome utente e il ruolo scelto, cliccando sull'apposito link.",
+        "[DASHBOARD] **12  \nCruscotto di Visualizzazione**  \nDopo 48 ore, sarà possibile accedere al cruscotto interattivo: selezionare \"Dashboard\".",
+        "[DASHBOARD] **16**  \nVisualizzazione a schermo intero della tabella  \nDashboard: Cruscotto di Visualizzazione  \nPossibilità di esportare i dati in Excel.",
+        "[DASHBOARD] **Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati**\n\n**PAG**  \n**SELEZIONE DELL'AMBIENTE**  \n20  \n\n1. Cliccare su «Dashboard» per accedere alla consultazione dei cruscotti.  \n1. Nome utente e profilo selezionato; cliccare qui per modificare il profilo."
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 14,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "Guida_Inserimento_Checklist_Benessere_e_biosicurezza_Bovino_11.12.2023.pdf",
+          "page_number": 8,
+          "rel_path": "manuali Veterinario aziendale\\Guida_Inserimento_Checklist_Benessere_e_biosicurezza_Bovino_11.12.2023.pdf",
+          "sha256": "a39f39f4d3f45c6936744cdb1455de4c7771059edba3e6cd7ec4ce640090e183"
+        },
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 12,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 16,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "page_number": 20,
+          "rel_path": "manuali operatori\\ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "sha256": "61dfe7b9ea27b3508099eda6f2c20ba1690c6fe30674b24e87dd76a6caccd33a"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 1.0,
+          "details": {
+            "claims": [
+              {
+                "claim": "Dopo 48 ore, sarà possibile accedere al cruscotto interattivo.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario selezionare \"Dashboard\".",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 2,
+            "supported": 2,
+            "partial": 0,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 0.8,
+          "raw_score_1_5": 4.0,
+          "motivation": "La risposta fornisce un'informazione chiara su quando sarà possibile accedere al cruscotto e un'azione specifica da compiere. Tuttavia, manca un contesto su cosa fare se il problema persiste o se ci sono ulteriori passaggi da seguire."
+        },
+        "relevance": {
+          "score": 0.2997221350669861,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 0.9999999403953552,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 0.9999999403953552
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 0.9999999403953552
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 0.9999999403953552
+              }
+            ],
+            "min_similarity": 0.9999999403953552,
+            "max_similarity": 0.9999999403953552,
+            "std_similarity": 0.0
+          }
+        },
+        "context_precision": {
+          "score": 0.8,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "[DASHBOARD] **14  \nDashboard: Cruscotto di Visualizzazione**  \nAzienda già associata al Valutatore.  \nSarà possibile visualizzare, tramite il cruscotto, tutti gli allevamenti associati nella sezione \"...",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "[DASHBOARD] Per scegliere l'ambiente, è necessario seguire alcuni passaggi specifici. Innanzitutto, si deve cliccare su \"Selezione Azienda\" per associarsi all'allevamento desiderato. In secondo luogo,...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "[DASHBOARD] **12  \nCruscotto di Visualizzazione**  \nDopo 48 ore, sarà possibile accedere al cruscotto interattivo: selezionare \"Dashboard\".",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "[DASHBOARD] **16**  \nVisualizzazione a schermo intero della tabella  \nDashboard: Cruscotto di Visualizzazione  \nPossibilità di esportare i dati in Excel.",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "[DASHBOARD] **Sistema Integrato «ClassyFarm» - Guida per l'Operatore e i suoi Delegati**\n\n**PAG**  \n**SELEZIONE DELL'AMBIENTE**  \n20  \n\n1. Cliccare su «Dashboard» per accedere alla consultazione dei c...",
+              "status": "UTILE",
+              "score": 1.0
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 1.0,
+          "details": {
+            "citations": [],
+            "message": "Nessuna citazione da verificare"
+          }
+        }
+      },
+      "critical_flags": 1,
+      "failed_metrics": [
+        "relevance"
+      ],
+      "status": "GOOD",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_006",
+      "question": "Come faccio ad associare un valutatore?",
+      "timestamp": "2026-03-03T22:09:09.977155",
+      "answer_main": "Per associare un valutatore, segui questi passaggi:\n\n1. Inserisci il codice fiscale del Valutatore che desideri associare.\n2. Clicca su «Cerca».\n\n   - Se il Valutatore è già abilitato in ClassyFarm, il sistema troverà una corrispondenza. In questo caso, selezionalo dal menu a tendina.\n   - Se il Valutatore non è abilitato in ClassyFarm, puoi comunque associarlo creando un'utenza.\n\n3. Seleziona l'opzione «Selezione Valutatore».\n4. Puoi associare il Valutatore all'azienda immediatamente oppure in un secondo momento.\n5. Clicca su \"Conferma\"; successivamente apparirà una finestra in cui sarà necessario confermare nuovamente.\n\nNota: I Valutatori visualizzati nel menu a tendina sono quelli precedentemente associati nella sezione \"Selezione Valutatore\".\n\nDopo aver completato questi passaggi, il Valutatore sarà associato all'azienda.",
+      "additional_answers": [
+        "Per associare un valutatore, segui questi passaggi:\n\n1. Inserisci il codice fiscale del Valutatore che desideri associare.\n2. Clicca su «Cerca».\n\n   - Se il Valutatore è già abilitato in ClassyFarm, il sistema troverà una corrispondenza e potrai selezionarlo dal menu a tendina.\n   - Se il Valutatore non è abilitato in ClassyFarm, potrai comunque associarlo creando un'utenza.\n\n3. Seleziona l'opzione «Selezione Valutatore».\n4. Puoi associare il Valutatore all'azienda immediatamente oppure in un secondo momento.\n5. Clicca su \"Conferma\"; successivamente apparirà una finestra in cui sarà necessario confermare nuovamente.\n\nNota: I Valutatori visualizzati nel menu a tendina sono quelli precedentemente associati nella sezione \"Selezione Valutatore\". \n\nAssicurati di completare anche la compilazione della Checklist di Valutazione e di seguire le fasi del processo di valutazione, che includono registrazioni nel sistema di farmacosorveglianza di Vetinfo e la consultazione di un veterinario.",
+        "Per associare un valutatore, segui questi passaggi:\n\n1. Inserisci il codice fiscale del Valutatore che desideri associare.\n2. Clicca su «Cerca».\n\n   - Se il Valutatore è già abilitato in ClassyFarm, il sistema troverà una corrispondenza. In questo caso, selezionalo dal menu a tendina.\n   - Se il Valutatore non è abilitato in ClassyFarm, puoi comunque associarlo creando un'utenza.\n\n3. Seleziona l'opzione «Selezione Valutatore» per procedere con l'associazione.\n4. Puoi associare il Valutatore all'azienda immediatamente oppure in un secondo momento.\n5. Clicca su \"Conferma\". Apparirà una finestra in cui sarà necessario confermare nuovamente l'associazione.\n\nNota: I Valutatori visualizzati nel menu a tendina sono quelli precedentemente associati nella sezione \"Selezione Valutatore\". \n\nAssicurati di completare anche la compilazione della Checklist di Valutazione e di seguire le fasi successive del processo di valutazione."
+      ],
+      "retrieved_chunks": [
+        "**ISTRUZIONI PER L'ASSOCIAZIONE DEL VALUTATORE**\n\n1. Inserire il codice fiscale del Valutatore che si desidera associare.\n2. Cliccare su «Cerca».\n\nSe il Valutatore è già abilitato in ClassyFarm, il sistema troverà una corrispondenza e sarà sufficiente selezionarlo dal menu a tendina.\n\nSe il Valutatore non è abilitato in ClassyFarm, sarà comunque possibile associarlo creando un'utenza.\n\n**Selezione Valutatore**  \nValutatori già associati dall'Odc.",
+        "Selezione del Valutatore  \nPer associare un Valutatore, selezionare l'opzione «Selezione Valutatore».",
+        "Il Valutatore può essere associato all'azienda immediatamente oppure in un secondo momento. \n\n6. Cliccare su \"Conferma\"; successivamente apparirà una finestra in cui sarà necessario confermare nuovamente (7).\n\n**Selezione Azienda**\n\nNota Bene: I Valutatori visualizzati nel menu a tendina sono quelli precedentemente associati nella sezione \"Selezione Valutatore\".",
+        "Selezionare il questionario di interesse, fare clic sull'icona e successivamente su «Compila». \n\nPiani di Controllo disponibili: \nOgni Valutatore avrà accesso esclusivamente ai Piani di Controllo associati al disciplinare attribuito dall'Organismo di Controllo. \n\nProcedere con la compilazione della Checklist di Valutazione.",
+        "Il processo di valutazione prevede due fasi principali. \n\nIn primo luogo, è necessario effettuare registrazioni nel sistema di farmacosorveglianza di Vetinfo. \n\nIn secondo luogo, è fondamentale consultare un veterinario. In questa fase, si deve verificare se è presente e documentata la figura del veterinario aziendale oppure quella di un veterinario libero professionista o privato che segua l'azienda. \n\nÈ importante sottolineare che per poter assegnare un giudizio conforme, tutte le condizioni sopra menzionate devono essere soddisfatte.",
+        "25  \n2.  \n3. Selezionare l'esito della valutazione da modificare, cliccare su «Modifica» e successivamente salvare l'esito della valutazione in bozza."
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 18,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 17,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 10,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "Guida_Valutatore_23.10.25.pdf",
+          "page_number": 13,
+          "rel_path": "manuali operatori\\Guida_Valutatore_23.10.25.pdf",
+          "sha256": "a8179efc915ad19feec5631c5f2066a697f01234032a6c6196f14eacba60de82"
+        },
+        {
+          "filename": "Man_ClassyFarm_Ben_Bio_Autocontrollo_Bov.Latte_20250228_def.pdf",
+          "page_number": 63,
+          "rel_path": "moduli veterinario aziendale\\bovini\\Man_ClassyFarm_Ben_Bio_Autocontrollo_Bov.Latte_20250228_def.pdf",
+          "sha256": "660d7db698154138f14fe402a6efa196a623b18891acba4cc7b08b392e6f21a2"
+        },
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 25,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        }
+      ],
+      "num_chunks": 6,
+      "metrics": {
+        "groundedness": {
+          "score": 1.0,
+          "details": {
+            "claims": [
+              {
+                "claim": "È necessario inserire il codice fiscale del Valutatore che si desidera associare.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare su «Cerca».",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Se il Valutatore è già abilitato in ClassyFarm, il sistema troverà una corrispondenza.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "In caso di corrispondenza, è necessario selezionare il Valutatore dal menu a tendina.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Se il Valutatore non è abilitato in ClassyFarm, è possibile associarlo creando un'utenza.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario selezionare l'opzione «Selezione Valutatore».",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È possibile associare il Valutatore all'azienda immediatamente oppure in un secondo momento.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare su \"Conferma\".",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Apparirà una finestra in cui sarà necessario confermare nuovamente.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "I Valutatori visualizzati nel menu a tendina sono quelli precedentemente associati nella sezione \"Selezione Valutatore\".",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Dopo aver completato questi passaggi, il Valutatore sarà associato all'azienda.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 11,
+            "supported": 11,
+            "partial": 0,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 1.0,
+          "raw_score_1_5": 5.0,
+          "motivation": "La risposta fornisce una guida dettagliata e passo-passo su come associare un valutatore, includendo tutte le informazioni necessarie per completare il compito senza necessità di ulteriori fonti. È chiara e facilmente comprensibile, permettendo all'utente di agire immediatamente."
+        },
+        "relevance": {
+          "score": 0.6400042772293091,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 0.9839758276939392,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 0.9821968674659729
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 0.9906065464019775
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 0.9791240692138672
+              }
+            ],
+            "min_similarity": 0.9791240692138672,
+            "max_similarity": 0.9906065464019775,
+            "std_similarity": 0.00485354476737591
+          }
+        },
+        "context_precision": {
+          "score": 0.6666666666666666,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "**ISTRUZIONI PER L'ASSOCIAZIONE DEL VALUTATORE**\n\n1. Inserire il codice fiscale del Valutatore che si desidera associare.\n2. Cliccare su «Cerca».\n\nSe il Valutatore è già abilitato in ClassyFarm, il si...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "Selezione del Valutatore  \nPer associare un Valutatore, selezionare l'opzione «Selezione Valutatore».",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "Il Valutatore può essere associato all'azienda immediatamente oppure in un secondo momento. \n\n6. Cliccare su \"Conferma\"; successivamente apparirà una finestra in cui sarà necessario confermare nuovame...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "Selezionare il questionario di interesse, fare clic sull'icona e successivamente su «Compila». \n\nPiani di Controllo disponibili: \nOgni Valutatore avrà accesso esclusivamente ai Piani di Controllo asso...",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "Il processo di valutazione prevede due fasi principali. \n\nIn primo luogo, è necessario effettuare registrazioni nel sistema di farmacosorveglianza di Vetinfo. \n\nIn secondo luogo, è fondamentale consul...",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            },
+            {
+              "chunk_index": 5,
+              "chunk_preview": "25  \n2.  \n3. Selezionare l'esito della valutazione da modificare, cliccare su «Modifica» e successivamente salvare l'esito della valutazione in bozza.",
+              "status": "INUTILE",
+              "score": 0.0
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 1.0,
+          "details": {
+            "citations": [],
+            "message": "Nessuna citazione da verificare"
+          }
+        }
+      },
+      "critical_flags": 1,
+      "failed_metrics": [
+        "relevance"
+      ],
+      "status": "GOOD",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_007",
+      "question": "Come faccio a finire un esito di valutazione che non avevo terminato?",
+      "timestamp": "2026-03-03T22:09:44.505907",
+      "answer_main": "Per finire un esito di valutazione che non avevi terminato e che è stato salvato come bozza, segui questi passaggi:\n\n1. Clicca su «Esito Valutazione».\n2. Individua la specie di interesse e clicca su di essa.\n3. Seleziona «Storico».\n4. Trova l'esito della valutazione salvato in bozza e selezionalo.\n5. Clicca su «Modifica» per riprendere la compilazione.\n6. Una volta completata la modifica, assicurati di salvare nuovamente l'esito della valutazione in bozza se non intendi inviarlo immediatamente.\n7. Se desideri completare e inviare l'esito, fai clic su \"Completa il questionario\".\n\nRicorda di salvare la bozza prima di uscire, per evitare di perdere le informazioni inserite.",
+      "additional_answers": [
+        "Per finire un esito di valutazione che non avevi terminato e che è stato salvato come bozza, segui questi passaggi:\n\n1. Clicca su «Esito Valutazione».\n2. Individua la specie di interesse e clicca su di essa.\n3. Seleziona «Storico».\n4. Trova l'esito della valutazione salvato in bozza e selezionalo.\n5. Clicca su «Modifica» per riprendere la compilazione.\n6. Una volta completata la modifica, assicurati di salvare nuovamente l'esito della valutazione in bozza, se necessario.\n7. Per completare e inviare l'esito della valutazione, fai clic su \"Completa il questionario\".\n\nRicorda di salvare la bozza prima di uscire per evitare di perdere le informazioni inserite.",
+        "Per finire un esito di valutazione che non avevi terminato e che è stato salvato come bozza, segui questi passaggi:\n\n1. Clicca su «Esito Valutazione».\n2. Individua la specie di interesse e clicca su di essa.\n3. Seleziona l'opzione «Storico».\n4. Trova l'esito della valutazione salvato in bozza e selezionalo.\n5. Clicca su «Modifica» per riprendere la compilazione.\n6. Una volta completata la modifica, assicurati di salvare nuovamente l'esito della valutazione in bozza se non desideri inviarlo immediatamente.\n\nSe desideri completare e inviare l'esito della valutazione, fai clic su \"Completa il questionario\". È consigliabile salvare la bozza prima di uscire."
+      ],
+      "retrieved_chunks": [
+        "Se l'esito della valutazione è stato salvato come bozza, per riprendere la compilazione seguire i seguenti passaggi:\n\n1. Cliccare su «Esito Valutazione».\n2. Individuare la specie di interesse, cliccare su di essa e successivamente selezionare «Storico».\n\nEsito della valutazione salvato in bozza: 24.",
+        "25  \n2.  \n3. Selezionare l'esito della valutazione da modificare, cliccare su «Modifica» e successivamente salvare l'esito della valutazione in bozza.",
+        "Per registrare l'esito della valutazione, selezionare l'opzione \"Esito valutazione\". Comunicazione dell'esito della valutazione.",
+        "Riprendere la compilazione di un Esito di Valutazione salvato in bozza.  \n23",
+        "Esempio di compilazione\n\nPer completare e inviare, fare clic su \"Completa il questionario\". Si raccomanda di salvare la bozza prima di uscire."
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 24,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 25,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 19,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 23,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 22,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 1.0,
+          "details": {
+            "claims": [
+              {
+                "claim": "È possibile finire un esito di valutazione salvato come bozza.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare su «Esito Valutazione».",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario individuare la specie di interesse.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare sulla specie di interesse.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario selezionare «Storico».",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario trovare l'esito della valutazione salvato in bozza.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario selezionare l'esito della valutazione salvato in bozza.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare su «Modifica» per riprendere la compilazione.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario salvare nuovamente l'esito della valutazione in bozza se non si intende inviarlo immediatamente.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È possibile completare e inviare l'esito cliccando su \"Completa il questionario\".",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario salvare la bozza prima di uscire per evitare di perdere le informazioni inserite.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 11,
+            "supported": 11,
+            "partial": 0,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 1.0,
+          "raw_score_1_5": 5.0,
+          "motivation": "La risposta fornisce una guida dettagliata e passo-passo su come completare un esito di valutazione salvato come bozza, consentendo all'utente di agire immediatamente senza necessità di ulteriori consultazioni. Include anche un promemoria utile per salvare le informazioni, rendendola completa e actionable."
+        },
+        "relevance": {
+          "score": 0.7339035868644714,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 0.9946552713712057,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 0.9967217445373535
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 0.9946790337562561
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 0.9925650358200073
+              }
+            ],
+            "min_similarity": 0.9925650358200073,
+            "max_similarity": 0.9967217445373535,
+            "std_similarity": 0.0016970524109806628
+          }
+        },
+        "context_precision": {
+          "score": 0.8,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "Se l'esito della valutazione è stato salvato come bozza, per riprendere la compilazione seguire i seguenti passaggi:\n\n1. Cliccare su «Esito Valutazione».\n2. Individuare la specie di interesse, cliccar...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "25  \n2.  \n3. Selezionare l'esito della valutazione da modificare, cliccare su «Modifica» e successivamente salvare l'esito della valutazione in bozza.",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "Per registrare l'esito della valutazione, selezionare l'opzione \"Esito valutazione\". Comunicazione dell'esito della valutazione.",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "Riprendere la compilazione di un Esito di Valutazione salvato in bozza.  \n23",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "Esempio di compilazione\n\nPer completare e inviare, fare clic su \"Completa il questionario\". Si raccomanda di salvare la bozza prima di uscire.",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 1.0,
+          "details": {
+            "citations": [],
+            "message": "Nessuna citazione da verificare"
+          }
+        }
+      },
+      "critical_flags": 0,
+      "failed_metrics": [],
+      "status": "EXCELLENT",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_008",
+      "question": "Come faccio a continuare una compilazione di checklist di valutazione salvata in bozza?",
+      "timestamp": "2026-03-03T22:10:08.826561",
+      "answer_main": "Per continuare la compilazione di una checklist di valutazione salvata in bozza, segui questi passaggi:\n\n1. Clicca su «Compilazione Checklist (Nuovo)».\n2. Individua il disciplinare di interesse e clicca su di esso.\n3. Seleziona l'opzione «Storico».\n\nIn questo modo potrai riprendere la compilazione della checklist salvata come bozza.",
+      "additional_answers": [
+        "Per continuare la compilazione di una checklist di valutazione salvata in bozza, segui questi passaggi:\n\n1. Clicca su «Compilazione Checklist (Nuovo)».\n2. Individua il disciplinare di interesse e clicca su di esso.\n3. Seleziona l'opzione «Storico».\n\nIn questo modo potrai riprendere la compilazione della checklist salvata come bozza.",
+        "Per continuare la compilazione di una checklist di valutazione salvata in bozza, segui questi passaggi:\n\n1. Clicca su «Compilazione Checklist (Nuovo)».\n2. Individua il disciplinare di interesse e clicca su di esso.\n3. Seleziona l'opzione «Storico».\n\nIn questo modo potrai riprendere la compilazione della checklist salvata come bozza."
+      ],
+      "retrieved_chunks": [
+        "**Checklist Salvata in Bozza**\n\nSe il questionario è stato salvato come bozza, per riprendere la compilazione seguire i seguenti passaggi:\n\n1. Cliccare su «Compilazione Checklist (Nuovo)».\n2. Individuare il disciplinare di interesse, cliccare su di esso e successivamente selezionare «Storico».",
+        "Riprendere la compilazione di una checklist salvata come bozza.",
+        "Riprendere la compilazione di un Esito di Valutazione salvato in bozza.  \n23",
+        "Riprendere la compilazione di un Piano di Rientro precedentemente salvato come bozza.",
+        "Per inserire una checklist, selezionare l'opzione «Compilazione Checklist (Nuovo)». Procedere con la compilazione della Checklist di Valutazione."
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "Guida_Valutatore_23.10.25.pdf",
+          "page_number": 20,
+          "rel_path": "manuali operatori\\Guida_Valutatore_23.10.25.pdf",
+          "sha256": "a8179efc915ad19feec5631c5f2066a697f01234032a6c6196f14eacba60de82"
+        },
+        {
+          "filename": "Guida_Valutatore_23.10.25.pdf",
+          "page_number": 19,
+          "rel_path": "manuali operatori\\Guida_Valutatore_23.10.25.pdf",
+          "sha256": "a8179efc915ad19feec5631c5f2066a697f01234032a6c6196f14eacba60de82"
+        },
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 23,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "Guida_PIANO_DI_RIENTRO_-_Veterinari_Aziendali.pdf",
+          "page_number": 7,
+          "rel_path": "manuali Veterinario aziendale\\Guida_PIANO_DI_RIENTRO_-_Veterinari_Aziendali.pdf",
+          "sha256": "a6a2adb273a073c10153453e03d1c71e6a242cf204d64503d076d21c412cec63"
+        },
+        {
+          "filename": "Guida_Valutatore_23.10.25.pdf",
+          "page_number": 12,
+          "rel_path": "manuali operatori\\Guida_Valutatore_23.10.25.pdf",
+          "sha256": "a8179efc915ad19feec5631c5f2066a697f01234032a6c6196f14eacba60de82"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 1.0,
+          "details": {
+            "claims": [
+              {
+                "claim": "È possibile continuare la compilazione di una checklist di valutazione salvata in bozza.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare su «Compilazione Checklist (Nuovo)».",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario individuare il disciplinare di interesse.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare sul disciplinare di interesse.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario selezionare l'opzione «Storico».",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È possibile riprendere la compilazione della checklist salvata come bozza.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 6,
+            "supported": 6,
+            "partial": 0,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 0.8,
+          "raw_score_1_5": 4.0,
+          "motivation": "La risposta fornisce una serie di passaggi chiari e specifici per continuare la compilazione della checklist salvata in bozza, ma manca di dettagli su eventuali opzioni o schermate che l'utente potrebbe incontrare, il che potrebbe richiedere alcune assunzioni. Tuttavia, l'utente può comunque agire sulla base delle informazioni fornite."
+        },
+        "relevance": {
+          "score": 0.862544596195221,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 1.0,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 1.0
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 1.0
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 1.0
+              }
+            ],
+            "min_similarity": 1.0,
+            "max_similarity": 1.0,
+            "std_similarity": 0.0
+          }
+        },
+        "context_precision": {
+          "score": 0.7,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "**Checklist Salvata in Bozza**\n\nSe il questionario è stato salvato come bozza, per riprendere la compilazione seguire i seguenti passaggi:\n\n1. Cliccare su «Compilazione Checklist (Nuovo)».\n2. Individu...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "Riprendere la compilazione di una checklist salvata come bozza.",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "Riprendere la compilazione di un Esito di Valutazione salvato in bozza.  \n23",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "Riprendere la compilazione di un Piano di Rientro precedentemente salvato come bozza.",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "Per inserire una checklist, selezionare l'opzione «Compilazione Checklist (Nuovo)». Procedere con la compilazione della Checklist di Valutazione.",
+              "status": "INUTILE",
+              "score": 0.0
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 1.0,
+          "details": {
+            "citations": [],
+            "message": "Nessuna citazione da verificare"
+          }
+        }
+      },
+      "critical_flags": 0,
+      "failed_metrics": [],
+      "status": "EXCELLENT",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_009",
+      "question": "Come faccio a scaricare il report SQNBA?",
+      "timestamp": "2026-03-03T22:10:48.686725",
+      "answer_main": "Per scaricare il report SQNBA, segui questi passaggi:\n\n1. Completa la compilazione del questionario.\n2. Dopo aver salvato il questionario, apparirà un pulsante giallo per la verifica in alto a destra. Clicca su questo pulsante.\n3. Una volta verificato, torna alla sezione «Dashboard».\n4. Clicca su «Report SQNBA» per procedere con il download del report.\n\nIn alternativa, se hai bisogno di visualizzare il report dopo la compilazione, puoi seguire questi passaggi:\n\n1. Accedi a «Trasmissione Checklist (Nuovo)».\n2. Clicca su «Azioni» e poi su «Storico».\n3. Seleziona il controllo di interesse e clicca su «Azioni».\n4. Scorri fino in fondo alla pagina e clicca su «Salva PDF» per scaricare il report.\n\nRicorda che questa modalità di download del report è temporanea; in futuro, il report sarà nuovamente scaricabile direttamente dal cruscotto.",
+      "additional_answers": [
+        "Per scaricare il report SQNBA, segui questi passaggi:\n\n1. Completa la compilazione del questionario.\n2. Dopo aver completato il questionario, clicca su «Report SQNBA» per procedere con il download del report.\n\nIn alternativa, se desideri visualizzare il report dopo la compilazione, puoi seguire questi passaggi:\n\n1. Accedi a «Trasmissione Checklist (Nuovo)».\n2. Clicca su «Azioni» e poi su «Storico».\n3. Seleziona il controllo di interesse e clicca su «Azioni».\n4. Scorri fino in fondo alla pagina e clicca su «Salva PDF» per scaricare il report.\n\n**Nota Bene:** La modalità di download del report tramite «Salva PDF» è temporanea; in futuro, il report sarà nuovamente scaricabile dal cruscotto.",
+        "Per scaricare il report SQNBA, segui questi passaggi:\n\n1. Dopo aver completato la compilazione del questionario, vai alla sezione «Dashboard».\n2. Clicca su «Report SQNBA» per procedere con il download del report.\n\nIn alternativa, se desideri visualizzare il report dopo la compilazione, puoi seguire questi passaggi:\n\n1. Accedi a «Trasmissione Checklist (Nuovo)».\n2. Clicca su «Azioni» e poi su «Storico».\n3. Seleziona il controllo di interesse e clicca su «Azioni».\n4. Scorri fino in fondo alla pagina e clicca su «Salva PDF» per scaricare il report.\n\nRicorda che questa modalità di download del report è temporanea; in futuro, il report sarà nuovamente scaricabile direttamente dal cruscotto."
+      ],
+      "retrieved_chunks": [
+        "[DASHBOARD] Dopo aver completato la compilazione del questionario, per scaricare il report, fare clic su «Report SQNBA». Procedere con il download del report.",
+        "[DASHBOARD] **Report**\n\nAl termine della compilazione, per visualizzare il report, è necessario seguire i seguenti passaggi:\n\n1. Accedere a «Trasmissione Checklist (Nuovo)».\n2. Cliccare su «Azioni» e successivamente su «Storico».\n3. Selezionare il controllo di interesse e cliccare su «Azioni».\n4. Scorrere fino in fondo alla pagina e cliccare su «Salva PDF».\n\n**Nota Bene:** Questa modalità di download del report è temporanea; in futuro, il report sarà nuovamente scaricabile dal cruscotto.",
+        "[DASHBOARD] **14  \nSISTEMA QUESTIONARI**  \n**CARICARE UN QUESTIONARIO**  \nUna volta che il questionario è stato compilato correttamente in tutte le sue parti e si è cliccato sul tasto \"Salva\" situato in fondo alla pagina, apparirà un pulsante giallo per la verifica in alto a destra. Dopo aver selezionato il pulsante giallo, sarà possibile visualizzare il tasto per procedere con il caricamento.  \nI report dei questionari caricati saranno disponibili esclusivamente 48 ore dopo il caricamento nella sezione \"Dashboard\".",
+        "[DASHBOARD] **14  \nSISTEMA QUESTIONARI**  \n**CARICAMENTO DI UN QUESTIONARIO**  \nUna volta che il questionario è stato compilato correttamente in tutte le sue sezioni e si è cliccato sul tasto \"Salva\" situato in fondo alla pagina, apparirà un pulsante giallo per la verifica in alto a destra. Dopo aver selezionato il pulsante giallo, sarà possibile visualizzare il tasto per procedere con il caricamento. I report dei questionari caricati saranno disponibili esclusivamente 48 ore dopo il caricamento nella sezione \"Dashboard\".",
+        "[DASHBOARD] **SISTEMA QUESTIONARI**\n\nÈ possibile caricare un nuovo questionario selezionando l'opzione \"Azioni\" e successivamente \"Carica\". Un questionario si considera caricato quando la data di completamento è valorizzata.\n\n**CARICAMENTO DI UN QUESTIONARIO**\n\nI report relativi ai questionari caricati saranno disponibili esclusivamente 48 ore dopo il caricamento, nella sezione \"Dashboard\"."
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "Guida_Valutatore_23.10.25.pdf",
+          "page_number": 26,
+          "rel_path": "manuali operatori\\Guida_Valutatore_23.10.25.pdf",
+          "sha256": "a8179efc915ad19feec5631c5f2066a697f01234032a6c6196f14eacba60de82"
+        },
+        {
+          "filename": "Nuovo_applicativo_-_Ovicaprini_da_Carne.pdf",
+          "page_number": 16,
+          "rel_path": "manuali Veterinario aziendale\\Nuovo_applicativo_-_Ovicaprini_da_Carne.pdf",
+          "sha256": "b946189f5b95bb9b72174dafb36a1bd82668d3a769517a665f9e8cb12ed6ef15"
+        },
+        {
+          "filename": "Guida_Sistema_Questionari_-_UFFICIALI vetrinari ufficiali.pdf",
+          "page_number": 14,
+          "rel_path": "manuali veterinari ufficiali\\Guida_Sistema_Questionari_-_UFFICIALI vetrinari ufficiali.pdf",
+          "sha256": "ef6b38212c1fd8c299b1362524492101738897eef42e9fa7ef1a93b273e81607"
+        },
+        {
+          "filename": "Guida_Sistema_Questionari_-_Liberi_professionisti.pdf",
+          "page_number": 14,
+          "rel_path": "manuali Veterinario aziendale\\Guida_Sistema_Questionari_-_Liberi_professionisti.pdf",
+          "sha256": "2b5045d8bacbbabb506131acba0eb6539cf6960a29c6430638f117fbc40b69fe"
+        },
+        {
+          "filename": "Guida_Sistema_Questionari_-_UFFICIALI vetrinari ufficiali.pdf",
+          "page_number": 15,
+          "rel_path": "manuali veterinari ufficiali\\Guida_Sistema_Questionari_-_UFFICIALI vetrinari ufficiali.pdf",
+          "sha256": "ef6b38212c1fd8c299b1362524492101738897eef42e9fa7ef1a93b273e81607"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 0.9583333333333334,
+          "details": {
+            "claims": [
+              {
+                "claim": "È necessario completare la compilazione del questionario.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Dopo aver salvato il questionario, apparirà un pulsante giallo per la verifica in alto a destra.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare sul pulsante giallo per la verifica.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Dopo la verifica, è necessario tornare alla sezione «Dashboard».",
+                "status": "PARZIALMENTE_SUPPORTATO",
+                "score": 0.5
+              },
+              {
+                "claim": "È necessario cliccare su «Report SQNBA» per procedere con il download del report.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È possibile visualizzare il report dopo la compilazione.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario accedere a «Trasmissione Checklist (Nuovo)».",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare su «Azioni» e poi su «Storico».",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario selezionare il controllo di interesse e cliccare su «Azioni».",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario scorrere fino in fondo alla pagina e cliccare su «Salva PDF» per scaricare il report.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "La modalità di download del report è temporanea.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "In futuro, il report sarà nuovamente scaricabile direttamente dal cruscotto.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 12,
+            "supported": 11,
+            "partial": 1,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 1.0,
+          "raw_score_1_5": 5.0,
+          "motivation": "La risposta fornisce una guida dettagliata e passo-passo su come scaricare il report SQNBA, coprendo entrambe le modalità di accesso e download. L'utente ha tutte le informazioni necessarie per procedere senza dover consultare ulteriori fonti."
+        },
+        "relevance": {
+          "score": 0.6801396608352661,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 0.9179438749949137,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 0.8802930116653442
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 0.9024653434753418
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 0.9710732698440552
+              }
+            ],
+            "min_similarity": 0.8802930116653442,
+            "max_similarity": 0.9710732698440552,
+            "std_similarity": 0.03864326178650158
+          }
+        },
+        "context_precision": {
+          "score": 0.5,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "[DASHBOARD] Dopo aver completato la compilazione del questionario, per scaricare il report, fare clic su «Report SQNBA». Procedere con il download del report.",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "[DASHBOARD] **Report**\n\nAl termine della compilazione, per visualizzare il report, è necessario seguire i seguenti passaggi:\n\n1. Accedere a «Trasmissione Checklist (Nuovo)».\n2. Cliccare su «Azioni» e ...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "[DASHBOARD] **14  \nSISTEMA QUESTIONARI**  \n**CARICARE UN QUESTIONARIO**  \nUna volta che il questionario è stato compilato correttamente in tutte le sue parti e si è cliccato sul tasto \"Salva\" situato ...",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "[DASHBOARD] **14  \nSISTEMA QUESTIONARI**  \n**CARICAMENTO DI UN QUESTIONARIO**  \nUna volta che il questionario è stato compilato correttamente in tutte le sue sezioni e si è cliccato sul tasto \"Salva\" ...",
+              "status": "INUTILE",
+              "score": 0.0
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "[DASHBOARD] **SISTEMA QUESTIONARI**\n\nÈ possibile caricare un nuovo questionario selezionando l'opzione \"Azioni\" e successivamente \"Carica\". Un questionario si considera caricato quando la data di comp...",
+              "status": "INUTILE",
+              "score": 0.0
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 1.0,
+          "details": {
+            "citations": [],
+            "message": "Nessuna citazione da verificare"
+          }
+        }
+      },
+      "critical_flags": 2,
+      "failed_metrics": [
+        "relevance",
+        "context_precision"
+      ],
+      "status": "MODERATE",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_010",
+      "question": "Per cosa sta BDN?",
+      "timestamp": "2026-03-03T22:11:17.092703",
+      "answer_main": "BDN sta per Banca Dati Nazionale. Si tratta di un sistema informativo nazionale che raccoglie i dati anagrafici e produttivi degli allevamenti, fornendo informazioni sulla biomassa animale utilizzate per i calcoli delle DDDAit e DCDAit [1].",
+      "additional_answers": [
+        "BDN sta per Banca Dati Nazionale. Si tratta di un sistema informativo nazionale che raccoglie i dati anagrafici e produttivi degli allevamenti, fornendo informazioni sulla biomassa animale utilizzate per i calcoli delle DDDAit e DCDAit [1].",
+        "BDN sta per Banca Dati Nazionale, che è un sistema informativo nazionale che raccoglie i dati anagrafici e produttivi degli allevamenti. Fornisce informazioni sulla biomassa animale utilizzate per i calcoli delle DDDAit e DCDAit [1]."
+      ],
+      "retrieved_chunks": [
+        "**Contesto**: \"Base di calcolo ClassyFarm\"\n\n1. **Termine**: RCP (Riassunto delle Caratteristiche del Prodotto)  \n   **Definizione**: Documento ufficiale approvato per ciascun medicinale veterinario, contenente informazioni su dosi, posologie, durata del trattamento e specie target. Rappresenta la base tecnica per la definizione delle DDDAit.  \n   **Categoria**: Regolamentazione farmaci  \n   **Contesto**: Definizione dei parametri nazionali  \n\n2. **Termine**: BDN (Banca Dati Nazionale)  \n   **Definizione**: Sistema informativo nazionale che raccoglie i dati anagrafici e produttivi degli allevamenti. Fornisce informazioni sulla biomassa animale utilizzate per i calcoli delle DDDAit e DCDAit.  \n   **Categoria**: Banche dati  \n   **Contesto**: Riferimento per ClassyFarm e farmacovigilanza  \n\n3. **Termine**: ClassyFarm  \n   **Definizione**: [Definizione da completare]  \n   **Categoria**: [Categoria da completare]  \n   **Contesto**: [Contesto da completare]",
+        "Il documento riguarda il sistema integrato \"ClassyFarm\" e fornisce una guida per l'inserimento della check-list sul benessere dei riproduttori. \n\nPer iniziare la compilazione del controllo, è necessario seguire alcuni passaggi. Innanzitutto, si deve inserire il codice di allevamento. Successivamente, è importante cliccare sulla lente d’ingrandimento, che funge da funzione di ricerca, per cercare l'allevamento nel database nazionale (BDN). \n\nDopo aver effettuato la ricerca, il sistema restituirà un elenco di allevamenti che corrispondono al codice aziendale inserito. A questo punto, è sufficiente selezionare l'allevamento desiderato con un clic. Il sistema provvederà automaticamente a completare i dati anagrafici dell'allevamento utilizzando le informazioni disponibili nel BDN. È importante notare che, durante l'inserimento del codice, non bisogna includere il prefisso \"IT\" o eventuali sottocodici, come ad esempio \"/2\". \n\nInfine, il documento menziona una sezione dedicata alla testata del questionario, che sembra essere numerata con i valori 14, 1, 2 e 3, ma non fornisce ulteriori dettagli su questa parte.",
+        "Il sistema integrato \"ClassyFarm\" offre una guida per l'inserimento della check-list per la valutazione del rischio relativo al taglio della coda. \n\nPer iniziare la compilazione, è necessario seguire alcuni passaggi. Innanzitutto, bisogna inserire il codice di allevamento. Successivamente, si deve cliccare sulla lente d’ingrandimento, che funge da funzione di ricerca, per cercare l'allevamento nel database nazionale (BDN). \n\nUna volta effettuata la ricerca, il sistema restituirà un elenco di allevamenti che corrispondono al codice aziendale inserito. A questo punto, è sufficiente selezionare l'allevamento desiderato con un clic. Il sistema provvederà automaticamente a completare i dati anagrafici dell'allevamento utilizzando le informazioni presenti nel BDN. È importante notare che non bisogna inserire il prefisso \"IT\" o eventuali sottocodici, come ad esempio \"/2\". \n\nInfine, si procederà con la compilazione della testata del questionario, che è suddivisa in diverse sezioni numerate.",
+        "[DASHBOARD] Il testo riguarda le modalità di pagamento per gli allevamenti che aderiscono a specifici sistemi di qualità per il benessere animale. Esistono due livelli di misurazione: il Livello 1, che utilizza l'applicativo ClassyFarm, e il Livello 2, che si basa sul Sistema di qualità nazionale per il benessere animale (SQNBA) e che, per le campagne del 2023 e 2024, è sostituito da un disciplinare di qualità allegato al DM 15 dicembre 2023 n. 690602.\n\nPer entrambi i livelli, il pagamento è prioritariamente concesso al detentore dell'allevamento. Tuttavia, in caso di soccida, il pagamento viene effettuato con priorità al soccidario, a meno che non ci sia un accordo diverso tra le parti coinvolte. Se il bestiame è affidato a un detentore temporaneo per il pascolo, il pagamento sarà comunque eseguito prioritariamente al detentore principale.\n\nI dati necessari per il pagamento dell'eco-schema, che includono informazioni sugli allevamenti, sugli orientamenti produttivi, sui capi animali e sulle UBA premiabili, sono estratti da ClassyFarm e dalla BDN (Banca Dati Nazionale) entro il 31 dicembre dell'anno di domanda. Pertanto, gli agricoltori devono assicurarsi di fornire tali dati entro la stessa data.",
+        "Il testo presenta una serie di normative e decreti relativi alla gestione e al funzionamento del sistema di identificazione e registrazione degli operatori, degli stabilimenti e degli animali. Di seguito, si riassumono i principali documenti normativi:\n\n1. **Legge 31 luglio 2002, n. 179**: Riguarda i sanitari in conformità all'articolo 24.\n   \n2. **Decreto del Ministero della Salute del 7 marzo 2023**: Fornisce un manuale operativo per la gestione e il funzionamento del sistema di identificazione e registrazione degli operatori, degli stabilimenti e degli animali, noto come sistema I&R.\n\n3. **Decreto Legislativo 2 febbraio 2021, n. 27**: Stabilisce disposizioni per l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2017/625, in conformità con l'articolo 12, lettere a), b), c), d) ed e) della legge 4 ottobre 2019, n. 117.\n\n4. **Decreto Legislativo 2 febbraio 2021, n. 32**: Anch'esso riguarda l'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2017/625, specificamente in base all'articolo 12, comma 3, lettera g) della legge 4 ottobre 2019, n. 117.\n\n5. **Decreto Legislativo 7 dicembre 2023, n. 218**: Si occupa dell'adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2019/6.\n\nQuesti documenti normativi sono fondamentali per garantire la conformità alle normative europee e per il corretto funzionamento del sistema di identificazione e registrazione nel settore sanitario e animale."
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "glossario jsonl.txt",
+          "page_number": null,
+          "rel_path": "glossario jsonl.txt",
+          "sha256": "72df9130cf4b9f7c36eac00fb5fc177dfce125356d16506c59e76a3af9249c5b"
+        },
+        {
+          "filename": "Guida_Inserimento_Checklist_Benessere_Suini-Riproduttori_11.12.2023.pdf",
+          "page_number": 11,
+          "rel_path": "manuali Veterinario aziendale\\Guida_Inserimento_Checklist_Benessere_Suini-Riproduttori_11.12.2023.pdf",
+          "sha256": "a20c1626a0185d4023d4843f501e2c20006c199b7c6a3a2a48d3cefdc41ea9e1"
+        },
+        {
+          "filename": "Guida_Inserimento_Checklist_Benessere_Taglio_Coda_Suino_-_11.12.2023.pdf",
+          "page_number": 11,
+          "rel_path": "manuali Veterinario aziendale\\Guida_Inserimento_Checklist_Benessere_Taglio_Coda_Suino_-_11.12.2023.pdf",
+          "sha256": "c4b2e2b75da47baec9415ce7d4223d982623dbc072627670d4829c5cec5d7802"
+        },
+        {
+          "filename": "Circolare AGEA.2024.2664 del 12.01.24 eco-schema 1.pdf",
+          "page_number": 5,
+          "rel_path": "Circolare AGEA.2024.2664 del 12.01.24 eco-schema 1.pdf",
+          "sha256": "0947c0660513b4e539034ba5cb0dd7a649d6c395228da706da85e4ce6b59c123"
+        },
+        {
+          "filename": "Manuale_Check_list_Farmacosorveglianza_rev.1.3c.pdf",
+          "page_number": 6,
+          "rel_path": "moduli veterinario ufficiale\\Manuale_Check_list_Farmacosorveglianza_rev.1.3c.pdf",
+          "sha256": "8c6f3bf81e937b6c0b73a1b812f4af85f153eac5f2c831bec3d4368a10fa6d2f"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 1.0,
+          "details": {
+            "claims": [
+              {
+                "claim": "BDN sta per Banca Dati Nazionale.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "BDN è un sistema informativo nazionale.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "BDN raccoglie i dati anagrafici degli allevamenti.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "BDN raccoglie i dati produttivi degli allevamenti.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "BDN fornisce informazioni sulla biomassa animale.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Le informazioni sulla biomassa animale sono utilizzate per i calcoli delle DDDAit.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Le informazioni sulla biomassa animale sono utilizzate per i calcoli delle DCDAit.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 7,
+            "supported": 7,
+            "partial": 0,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 0.8,
+          "raw_score_1_5": 4.0,
+          "motivation": "La risposta fornisce una definizione chiara di cosa sia BDN e il suo scopo, ma manca di dettagli specifici su come l'utente possa utilizzare queste informazioni o su cosa siano le DDDAit e DCDAit, che potrebbero essere rilevanti per una comprensione completa."
+        },
+        "relevance": {
+          "score": 0.6507675647735596,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 0.9969354867935181,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 1.0000001192092896
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 0.9954031705856323
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 0.9954031705856323
+              }
+            ],
+            "min_similarity": 0.9954031705856323,
+            "max_similarity": 1.0000001192092896,
+            "std_similarity": 0.0021670223630361274
+          }
+        },
+        "context_precision": {
+          "score": 0.7,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "**Contesto**: \"Base di calcolo ClassyFarm\"\n\n1. **Termine**: RCP (Riassunto delle Caratteristiche del Prodotto)  \n   **Definizione**: Documento ufficiale approvato per ciascun medicinale veterinario, c...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "Il documento riguarda il sistema integrato \"ClassyFarm\" e fornisce una guida per l'inserimento della check-list sul benessere dei riproduttori. \n\nPer iniziare la compilazione del controllo, è necessar...",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "Il sistema integrato \"ClassyFarm\" offre una guida per l'inserimento della check-list per la valutazione del rischio relativo al taglio della coda. \n\nPer iniziare la compilazione, è necessario seguire ...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "[DASHBOARD] Il testo riguarda le modalità di pagamento per gli allevamenti che aderiscono a specifici sistemi di qualità per il benessere animale. Esistono due livelli di misurazione: il Livello 1, ch...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "Il testo presenta una serie di normative e decreti relativi alla gestione e al funzionamento del sistema di identificazione e registrazione degli operatori, degli stabilimenti e degli animali. Di segu...",
+              "status": "INUTILE",
+              "score": 0.0
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 0.0,
+          "details": {
+            "citations": [
+              {
+                "citation": "[1]",
+                "found": false
+              }
+            ],
+            "num_citations": 1,
+            "correct": 0,
+            "incorrect": 1
+          }
+        }
+      },
+      "critical_flags": 1,
+      "failed_metrics": [
+        "relevance"
+      ],
+      "status": "GOOD",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_011",
+      "question": "Cosa mi serve per inserire i dati di valutazione del Benessere Animale e della Biosicurezza tramite app?",
+      "timestamp": "2026-03-03T22:11:49.012576",
+      "answer_main": "Per inserire i dati di valutazione del Benessere Animale e della Biosicurezza tramite l'app ClassyFarm 2.0, hai bisogno di:\n\n1. **Credenziali VETINFO**: Puoi ottenerle visitando il sito [www.vetinfo.it](http://www.vetinfo.it).\n2. **Iscrizione all'Elenco Pubblico Nazionale dei Veterinari Aziendali**: Questo è richiesto per i Veterinari Aziendali.\n3. **Formazione per Veterinari Incaricati**: Non è necessaria l'iscrizione all'Elenco FNOVI, ma è obbligatorio aver completato un corso di veterinario aziendale e un percorso di formazione specifico per la specie animale oggetto di valutazione [Doc 1].\n\n⏰ **Nota Temporale**: 16/07/2020",
+      "additional_answers": [
+        "Per inserire i dati di valutazione del Benessere Animale e della Biosicurezza tramite l'app ClassyFarm 2.0, hai bisogno di:\n\n1. **Credenziali VETINFO**: Puoi ottenerle visitando il sito [www.vetinfo.it](http://www.vetinfo.it).\n2. **Iscrizione all'Elenco Pubblico Nazionale dei Veterinari Aziendali**: Questo è richiesto per i Veterinari Aziendali.\n3. **Formazione specifica**: Per i Veterinari Incaricati, è obbligatorio aver completato un corso di veterinario aziendale e un percorso di formazione pertinente alla specie animale oggetto di valutazione, senza necessità di iscrizione all'Elenco FNOVI [Doc 1].\n\n⏰ **Nota Temporale**: 16/07/2020",
+        "Per inserire i dati di valutazione del Benessere Animale e della Biosicurezza tramite l'app ClassyFarm 2.0, hai bisogno di:\n\n1. **Credenziali VETINFO**: Puoi ottenerle visitando il sito [www.vetinfo.it](http://www.vetinfo.it).\n2. **Iscrizione all'Elenco Pubblico Nazionale dei Veterinari Aziendali**: Questo è richiesto per i Veterinari Aziendali.\n3. **Formazione per Veterinari Incaricati**: Non è necessaria l'iscrizione all'Elenco FNOVI, ma è obbligatorio aver completato un corso di veterinario aziendale e un percorso di formazione specifico per la specie animale oggetto di valutazione [Doc 1].\n\n⏰ **Nota Temporale**: 16/07/2020"
+      ],
+      "retrieved_chunks": [
+        "Prima di iniziare a inserire i dati di valutazione del Benessere Animale e della Biosicurezza tramite l'app ClassyFarm 2.0, è necessario seguire alcune indicazioni fondamentali. \n\nInnanzitutto, è indispensabile essere in possesso delle credenziali VETINFO, che possono essere ottenute visitando il sito www.vetinfo.it. \n\nIn secondo luogo, per i Veterinari Aziendali, è richiesto di essere iscritti all'Elenco Pubblico Nazionale dei Veterinari Aziendali, gestito dalla FNOVI. \n\nPer quanto riguarda i Veterinari Incaricati, secondo l'aggiornamento della Nota Ministeriale 0016001-16/07/2020-DGSAF-MDS-P, non è necessaria l'iscrizione all'Elenco FNOVI. Tuttavia, è obbligatorio aver completato un corso di veterinario aziendale e aver seguito un percorso di formazione specifico, che includa argomenti pertinenti alla specie animale oggetto di valutazione.",
+        "**118**\n\n**INSERIMENTO DEI DATI NEL PROGRAMMA CLASSYFARM PER LA VALUTAZIONE DEL BENESSERE NELL'ALLEVAMENTO DEGLI ANIMALI DA REDDITO**\n\n**APPLICAZIONE DEL SISTEMA E INSERIMENTO DEI DATI PER IL CALCOLO DEL LIVELLO DI BENESSERE/INDICE DI RISCHIO**\n\nLa valutazione del benessere animale in allevamento, attraverso le procedure delineate in questo manuale, può essere effettuata utilizzando due modalità: cartacea e informatizzata, tramite tablet o PC. In entrambe le opzioni, si utilizza la check-list per l'allevamento suino da ingrasso, composta da 50 elementi.\n\nI dati devono essere inseriti tramite l'applicativo ClassyFarm, accedendo attraverso VETINFO con le consuete credenziali, previa abilitazione. L'ultima versione di ogni check-list cartacea, il presente manuale e tutta la documentazione necessaria sono disponibili in formato .pdf sul sito https://www.classyfarm.it.\n\nSi ricorda che il caricamento della valutazione del benessere nel sistema deve avvenire utilizzando un...",
+        "**116**\n\n**INSERIMENTO DEI DATI NEL PROGRAMMA CLASSYFARM PER LA VALUTAZIONE DEL BENESSERE NELL'ALLEVAMENTO DEGLI ANIMALI DA REDDITO**\n\n**APPLICAZIONE DEL SISTEMA E INSERIMENTO DEI DATI PER IL CALCOLO DEL LIVELLO DI BENESSERE/INDICE DI RISCHIO**\n\nLa valutazione del benessere animale in allevamento, attraverso le procedure delineate in questo manuale, può essere effettuata utilizzando due modalità: cartacea e informatizzata, tramite tablet o PC. In entrambe le opzioni, si utilizza la check-list per l'allevamento suino da ingrasso e svezzamento, composta da 53 elementi.\n\nI dati devono essere inseriti tramite l'applicativo ClassyFarm, accedendo attraverso VETINFO con le consuete credenziali, previa abilitazione. L'ultima versione di ogni check-list cartacea, il presente manuale e tutta la documentazione necessaria sono disponibili in formato .pdf sul sito https://www.classyfarm.it.\n\nSi ricorda che il caricamento della valutazione del benessere nel sistema deve avvenire utilizzando un...",
+        "Il Nazionale per il Benessere Animale (CReNBA) ha sviluppato un sistema di valutazione e categorizzazione del rischio per il benessere animale e la biosicurezza negli allevamenti, basandosi su normative e conoscenze scientifiche recenti. Questo sistema è attualmente applicabile agli allevamenti di suini e bovini, con l'intenzione di estenderlo anche agli allevamenti di pollo da carne.\n\nIl sistema prevede una raccolta di dati tramite autocontrollo, utilizzando specifiche checklist di autovalutazione. I dati raccolti vengono poi elaborati e validati attraverso una piattaforma informatica chiamata ClassyFarm. \n\nPer garantire la comparabilità tra la valutazione effettuata dal veterinario aziendale, incaricato dall'allevatore e registrata in ClassyFarm, e quella realizzata durante i controlli ufficiali previsti dal Piano Nazionale Benessere Animale, è stata progettata una metodologia che consente di confrontare i risultati delle due valutazioni.",
+        "[ASSISTENZA_TELEFONICA] Il Ministero della salute, con il supporto del CReNBA, ha sviluppato un sistema di valutazione e categorizzazione del rischio per il benessere animale e la biosicurezza negli allevamenti bovini. Questo sistema si basa su diverse fonti, tra cui le normative vigenti in materia di protezione degli animali negli allevamenti, le check-list già utilizzate per i controlli dei servizi veterinari pubblici e i più recenti studi disponibili sull'argomento.\n\nIl sistema è stato reso disponibile per gli allevatori e i veterinari aziendali e prevede una raccolta di dati in autocontrollo attraverso specifiche check-list di autovalutazione. Successivamente, i dati raccolti vengono elaborati e validati tramite una piattaforma informatica chiamata ClassyFarm. L'obiettivo di queste check-list è quello di rendere più agevole, omogenea e validata la verifica delle condizioni di benessere animale negli allevamenti italiani."
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "Guida_Inserimento_Checklist_Benessere_e_biosicurezza_Bovino_11.12.2023.pdf",
+          "page_number": 3,
+          "rel_path": "manuali Veterinario aziendale\\Guida_Inserimento_Checklist_Benessere_e_biosicurezza_Bovino_11.12.2023.pdf",
+          "sha256": "a39f39f4d3f45c6936744cdb1455de4c7771059edba3e6cd7ec4ce640090e183"
+        },
+        {
+          "filename": "Manuale_SUINO_GRASSO_APERTO_2025_.pdf",
+          "page_number": 118,
+          "rel_path": "moduli veterinario aziendale\\suini\\benessere\\Manuale_SUINO_GRASSO_APERTO_2025_.pdf",
+          "sha256": "9b98a21754759fb88159431c5df4a1bfb9400188c17dfeba139f812d910ab997"
+        },
+        {
+          "filename": "Manuale-SUINO-GRASSO-2018-LP-rev.3.pdf",
+          "page_number": 116,
+          "rel_path": "moduli veterinario aziendale\\suini\\benessere\\Manuale-SUINO-GRASSO-2018-LP-rev.3.pdf",
+          "sha256": "ddc420d5632286cdd2dbf8762fed1b6c566adcd8b0e35f854a16e0ab77eed94f"
+        },
+        {
+          "filename": "Manuale-Ufficiale-Broiler-2023_def.pdf",
+          "page_number": 7,
+          "rel_path": "moduli veterinario ufficiale\\Manuale-Ufficiale-Broiler-2023_def.pdf",
+          "sha256": "332620500f115e0226de19848d3bcd4d44ca84532451fdf03087ae3c1631870e"
+        },
+        {
+          "filename": "Manuale-Benessere-e-Biosicurezza-Autocontrollo-BOVINO-DA-CARNE_Classyfarm_REV019-18_01_2020.pdf",
+          "page_number": 9,
+          "rel_path": "moduli veterinario aziendale\\bovini\\Manuale-Benessere-e-Biosicurezza-Autocontrollo-BOVINO-DA-CARNE_Classyfarm_REV019-18_01_2020.pdf",
+          "sha256": "43f6180b34f208ce160eb36ce0eec03830331dbcd89cca68c09fa338138bc08f"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 1.0,
+          "details": {
+            "claims": [
+              {
+                "claim": "È necessario avere le credenziali VETINFO per inserire i dati di valutazione del Benessere Animale e della Biosicurezza tramite l'app ClassyFarm 2.0.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Le credenziali VETINFO possono essere ottenute visitando il sito www.vetinfo.it.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È richiesta l'iscrizione all'Elenco Pubblico Nazionale dei Veterinari Aziendali per i Veterinari Aziendali.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Non è necessaria l'iscrizione all'Elenco FNOVI per i Veterinari Incaricati.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È obbligatorio aver completato un corso di veterinario aziendale.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È obbligatorio aver completato un percorso di formazione specifico per la specie animale oggetto di valutazione.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "La nota temporale è 16/07/2020.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 7,
+            "supported": 7,
+            "partial": 0,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 0.8,
+          "raw_score_1_5": 4.0,
+          "motivation": "La risposta fornisce informazioni dettagliate e specifiche su ciò che è necessario per inserire i dati di valutazione, ma manca di alcuni dettagli minori che potrebbero essere utili, come eventuali requisiti tecnici per l'app o ulteriori informazioni su come completare la formazione. Tuttavia, l'utente può agire sulla base delle informazioni fornite."
+        },
+        "relevance": {
+          "score": 0.7735871076583862,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 0.9910291830698649,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 0.9865437150001526
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 1.0000001192092896
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 0.9865437150001526
+              }
+            ],
+            "min_similarity": 0.9865437150001526,
+            "max_similarity": 1.0000001192092896,
+            "std_similarity": 0.006343409777778632
+          }
+        },
+        "context_precision": {
+          "score": 1.0,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "Prima di iniziare a inserire i dati di valutazione del Benessere Animale e della Biosicurezza tramite l'app ClassyFarm 2.0, è necessario seguire alcune indicazioni fondamentali. \n\nInnanzitutto, è indi...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "**118**\n\n**INSERIMENTO DEI DATI NEL PROGRAMMA CLASSYFARM PER LA VALUTAZIONE DEL BENESSERE NELL'ALLEVAMENTO DEGLI ANIMALI DA REDDITO**\n\n**APPLICAZIONE DEL SISTEMA E INSERIMENTO DEI DATI PER IL CALCOLO ...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "**116**\n\n**INSERIMENTO DEI DATI NEL PROGRAMMA CLASSYFARM PER LA VALUTAZIONE DEL BENESSERE NELL'ALLEVAMENTO DEGLI ANIMALI DA REDDITO**\n\n**APPLICAZIONE DEL SISTEMA E INSERIMENTO DEI DATI PER IL CALCOLO ...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "Il Nazionale per il Benessere Animale (CReNBA) ha sviluppato un sistema di valutazione e categorizzazione del rischio per il benessere animale e la biosicurezza negli allevamenti, basandosi su normati...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "[ASSISTENZA_TELEFONICA] Il Ministero della salute, con il supporto del CReNBA, ha sviluppato un sistema di valutazione e categorizzazione del rischio per il benessere animale e la biosicurezza negli a...",
+              "status": "UTILE",
+              "score": 1.0
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 0.0,
+          "details": {
+            "citations": [
+              {
+                "citation": "- [www.vetinfo.it](http://www.vetinfo.it)",
+                "found": false
+              },
+              {
+                "citation": "- [Doc 1]",
+                "found": false
+              }
+            ],
+            "num_citations": 2,
+            "correct": 0,
+            "incorrect": 2
+          }
+        }
+      },
+      "critical_flags": 0,
+      "failed_metrics": [],
+      "status": "EXCELLENT",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_012",
+      "question": "Come faccio ad associarmi all'allevamento?",
+      "timestamp": "2026-03-03T22:12:38.345230",
+      "answer_main": "Per associarti all'allevamento nel sistema integrato «ClassyFarm», segui questi passaggi:\n\n1. **Scegli il tuo ruolo**: Inizia selezionando il tuo ruolo all'interno del sistema.\n2. **Clicca su \"Selezione Azienda\"**: Dopo aver scelto il tuo ruolo, procedi cliccando su questa opzione.\n3. **Clicca su \"Nuovo Allevamento\"**: Seleziona questa opzione per iniziare il processo di associazione.\n4. **Inserisci il codice dell'allevamento**: Digita il codice dell'allevamento di interesse e poi clicca su \"Verifica\".\n5. **Visualizza i dettagli**: Cliccando su \"Dettagli\", potrai visualizzare le informazioni relative all'allevamento, come la ragione sociale, la partita IVA e l'indirizzo. Nota che se hai un veterinario aziendale, questo passaggio non è necessario.\n6. **Carica i documenti richiesti**: Assicurati di caricare tutti i documenti necessari, che includono:\n   - Documento di identità del veterinario\n   - Documento di identità dell'allevatore\n   - Modulo di autorizzazione, noto come «Modulo di richiesta di associazione».\n7. **Clicca su \"Conferma\"**: Una volta caricati tutti i documenti, clicca su \"Conferma\" per finalizzare il processo di associazione.\n\nSeguendo questi passaggi, potrai completare l'associazione all'allevamento desiderato.",
+      "additional_answers": [
+        "Per associarti all'allevamento nel sistema integrato «ClassyFarm», segui questi passaggi:\n\n1. **Scegli il tuo ruolo**: Inizia selezionando il tuo ruolo all'interno del sistema.\n2. **Clicca su \"Selezione Azienda\"**: Dopo aver scelto il tuo ruolo, procedi cliccando su questa opzione.\n3. **Clicca su \"Nuovo Allevamento\"**: Seleziona questa opzione per iniziare il processo di associazione.\n4. **Inserisci il codice dell'allevamento**: Digita il codice dell'allevamento di interesse e poi clicca su \"Verifica\".\n5. **Visualizza i dettagli**: Cliccando su \"Dettagli\", potrai visualizzare le informazioni relative all'allevamento, come la ragione sociale, la partita IVA e l'indirizzo. Nota che se hai un veterinario aziendale, questo passaggio non è necessario.\n6. **Carica i documenti richiesti**: Assicurati di caricare tutti i documenti necessari, che includono:\n   - Documento di identità del veterinario\n   - Documento di identità dell'allevatore\n   - Modulo di autorizzazione, noto come «Modulo di richiesta di associazione».\n7. **Clicca su \"Conferma\"**: Una volta caricati tutti i documenti, clicca su \"Conferma\" per finalizzare il processo di associazione.\n\nSeguendo questi passaggi, potrai completare l'associazione all'allevamento desiderato.",
+        "Per associarti all'allevamento nel sistema integrato «ClassyFarm», segui questi passaggi:\n\n1. **Scegli il tuo ruolo**: Inizia selezionando il tuo ruolo all'interno del sistema.\n2. **Clicca su \"Selezione Azienda\"**: Dopo aver scelto il tuo ruolo, procedi cliccando su questa opzione.\n3. **Seleziona \"Nuovo Allevamento\"**: Clicca su questa opzione per iniziare il processo di associazione.\n4. **Inserisci il codice dell'allevamento**: Digita il codice dell'allevamento di interesse e poi clicca su \"Verifica\".\n5. **Visualizza i dettagli**: Cliccando su \"Dettagli\", potrai visualizzare le informazioni relative all'allevamento, come la ragione sociale, la partita IVA e l'indirizzo. Nota che se hai un veterinario aziendale, questo passaggio non è necessario.\n6. **Carica i documenti richiesti**: Assicurati di caricare tutti i documenti necessari, che includono:\n   - Documento di identità del veterinario\n   - Documento di identità dell'allevatore\n   - Modulo di autorizzazione, noto come «Modulo di richiesta di associazione».\n7. **Clicca su \"Conferma\"**: Una volta completata la fase di caricamento dei documenti, clicca su \"Conferma\" per finalizzare il processo di associazione.\n\nSeguendo questi passaggi, potrai completare l'associazione all'allevamento desiderato."
+      ],
+      "retrieved_chunks": [
+        "**ISTRUZIONI PER L'ASSOCIAZIONE DI UN ALLEVAMENTO**\n\nPrima di procedere con l'inserimento della checklist, è fondamentale associare l'allevamento di interesse.\n\n1. Cliccare sul pulsante \"Nuovo Allevamento\".\n2. Inserire il codice dell'allevamento, quindi cliccare sul pulsante \"Verifica\" e selezionare l'allevamento da associare.",
+        "Il sistema integrato «ClassyFarm» offre una guida per l'inserimento della check-list sull'app. Per associarsi all'allevamento, è necessario seguire alcuni passaggi. Innanzitutto, bisogna caricare tutti i documenti richiesti, che includono il documento di identità del veterinario, il documento di identità dell'allevatore e il modulo di autorizzazione, noto come «Modulo di richiesta di associazione». Una volta completata questa fase, si deve cliccare su «Conferma» per finalizzare il processo di associazione.",
+        "Il sistema integrato \"ClassyFarm\" offre una guida per l'inserimento della check-list relativa al benessere durante le fasi di svezzamento e ingrasso. Per associarsi all'allevamento, è necessario seguire alcuni passaggi. Innanzitutto, bisogna caricare tutti i documenti richiesti, che includono il documento di identità del veterinario, il documento di identità dell'allevatore e il modulo di autorizzazione, noto come \"Modulo di richiesta di associazione\". Una volta completata questa fase, si deve cliccare su \"Conferma\" per finalizzare il processo di associazione.",
+        "Per associarsi all'allevamento nel sistema integrato «ClassyFarm», seguire questi passaggi:\n\n1. Dopo aver scelto il proprio ruolo, cliccare su «Selezione Azienda».\n2. Procedere cliccando su «Nuovo Allevamento».\n3. Inserire il codice aziendale e poi cliccare su «Verifica».\n4. Cliccando su «Dettagli», è possibile visualizzare le informazioni relative all'allevamento, come la ragione sociale, la partita IVA e l'indirizzo.\n5. Selezionare la checklist che deve essere compilata per l'allevamento scelto. Si noti che, nel caso si disponga di un veterinario aziendale, il passaggio 4 non è necessario.",
+        "Per associarsi all'allevamento nel sistema integrato \"ClassyFarm\" e procedere con l'inserimento della check-list per il benessere dei riproduttori, seguire i seguenti passaggi:\n\n1. Dopo aver scelto il proprio ruolo, cliccare su \"Selezione Azienda\".\n2. Selezionare l'opzione \"Nuovo Allevamento\".\n3. Inserire il codice aziendale e cliccare su \"Verifica\".\n4. Cliccando su \"Dettagli\", sarà possibile visualizzare le informazioni relative all'allevamento, come la ragione sociale, la partita IVA e l'indirizzo.\n5. Infine, selezionare la check-list che deve essere compilata per l'allevamento scelto. Si noti che, nel caso in cui si disponga di un veterinario aziendale, il passaggio 4 non è necessario."
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "Nuovo_applicativo_-_Ovicaprini_da_Carne.pdf",
+          "page_number": 7,
+          "rel_path": "manuali Veterinario aziendale\\Nuovo_applicativo_-_Ovicaprini_da_Carne.pdf",
+          "sha256": "b946189f5b95bb9b72174dafb36a1bd82668d3a769517a665f9e8cb12ed6ef15"
+        },
+        {
+          "filename": "Guida_Inserimento_Checklist_Benessere_e_biosicurezza_Bovino_11.12.2023.pdf",
+          "page_number": 11,
+          "rel_path": "manuali Veterinario aziendale\\Guida_Inserimento_Checklist_Benessere_e_biosicurezza_Bovino_11.12.2023.pdf",
+          "sha256": "a39f39f4d3f45c6936744cdb1455de4c7771059edba3e6cd7ec4ce640090e183"
+        },
+        {
+          "filename": "Guida_Inserimento_Checklist_Benessere_Suini_Svezzamento_-_Ingrasso_11.12.2023.pdf",
+          "page_number": 6,
+          "rel_path": "manuali Veterinario aziendale\\Guida_Inserimento_Checklist_Benessere_Suini_Svezzamento_-_Ingrasso_11.12.2023.pdf",
+          "sha256": "2df5280e6aa70893a36b0251e26003eb2e073dbdbebad699fc0d933eac0bcdcf"
+        },
+        {
+          "filename": "Guida_Inserimento_Checklist_Benessere_Suini_Svezzamento_-_Ingrasso_11.12.2023.pdf",
+          "page_number": 5,
+          "rel_path": "manuali Veterinario aziendale\\Guida_Inserimento_Checklist_Benessere_Suini_Svezzamento_-_Ingrasso_11.12.2023.pdf",
+          "sha256": "2df5280e6aa70893a36b0251e26003eb2e073dbdbebad699fc0d933eac0bcdcf"
+        },
+        {
+          "filename": "Guida_Inserimento_Checklist_Benessere_Suini-Riproduttori_11.12.2023.pdf",
+          "page_number": 5,
+          "rel_path": "manuali Veterinario aziendale\\Guida_Inserimento_Checklist_Benessere_Suini-Riproduttori_11.12.2023.pdf",
+          "sha256": "a20c1626a0185d4023d4843f501e2c20006c199b7c6a3a2a48d3cefdc41ea9e1"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 1.0,
+          "details": {
+            "claims": [
+              {
+                "claim": "È necessario scegliere un ruolo all'interno del sistema.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare su \"Selezione Azienda\".",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare su \"Nuovo Allevamento\" per iniziare il processo di associazione.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario inserire il codice dell'allevamento di interesse.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare su \"Verifica\" dopo aver inserito il codice dell'allevamento.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È possibile visualizzare i dettagli dell'allevamento cliccando su \"Dettagli\".",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "I dettagli dell'allevamento includono la ragione sociale, la partita IVA e l'indirizzo.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Se si ha un veterinario aziendale, il passaggio di visualizzazione dei dettagli non è necessario.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario caricare tutti i documenti richiesti.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "I documenti richiesti includono il documento di identità del veterinario.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "I documenti richiesti includono il documento di identità dell'allevatore.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "I documenti richiesti includono il modulo di autorizzazione, noto come «Modulo di richiesta di associazione».",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare su \"Conferma\" dopo aver caricato tutti i documenti.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Cliccando su \"Conferma\" si finalizza il processo di associazione.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 14,
+            "supported": 14,
+            "partial": 0,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 1.0,
+          "raw_score_1_5": 5.0,
+          "motivation": "La risposta fornisce una guida dettagliata e passo-passo su come associarsi all'allevamento, includendo tutte le informazioni necessarie e i documenti richiesti. L'utente può seguire le istruzioni senza necessità di ulteriori chiarimenti o fonti esterne."
+        },
+        "relevance": {
+          "score": 0.40843719244003296,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 0.9970393379529318,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 0.9999999403953552
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 0.99555903673172
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 0.99555903673172
+              }
+            ],
+            "min_similarity": 0.99555903673172,
+            "max_similarity": 0.9999999403953552,
+            "std_similarity": 0.002093462063435114
+          }
+        },
+        "context_precision": {
+          "score": 1.0,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "**ISTRUZIONI PER L'ASSOCIAZIONE DI UN ALLEVAMENTO**\n\nPrima di procedere con l'inserimento della checklist, è fondamentale associare l'allevamento di interesse.\n\n1. Cliccare sul pulsante \"Nuovo Allevam...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "Il sistema integrato «ClassyFarm» offre una guida per l'inserimento della check-list sull'app. Per associarsi all'allevamento, è necessario seguire alcuni passaggi. Innanzitutto, bisogna caricare tutt...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "Il sistema integrato \"ClassyFarm\" offre una guida per l'inserimento della check-list relativa al benessere durante le fasi di svezzamento e ingrasso. Per associarsi all'allevamento, è necessario segui...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "Per associarsi all'allevamento nel sistema integrato «ClassyFarm», seguire questi passaggi:\n\n1. Dopo aver scelto il proprio ruolo, cliccare su «Selezione Azienda».\n2. Procedere cliccando su «Nuovo All...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "Per associarsi all'allevamento nel sistema integrato \"ClassyFarm\" e procedere con l'inserimento della check-list per il benessere dei riproduttori, seguire i seguenti passaggi:\n\n1. Dopo aver scelto il...",
+              "status": "UTILE",
+              "score": 1.0
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 1.0,
+          "details": {
+            "citations": [],
+            "message": "Nessuna citazione da verificare"
+          }
+        }
+      },
+      "critical_flags": 1,
+      "failed_metrics": [
+        "relevance"
+      ],
+      "status": "GOOD",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_013",
+      "question": "Perché se clicco su Visualizza in una bozza non me lo fa modificare?",
+      "timestamp": "2026-03-03T22:13:01.095114",
+      "answer_main": "Quando clicchi su \"Visualizza\" in una bozza, il pulsante consente esclusivamente di visualizzare le risposte selezionate nel questionario prima del salvataggio. Per continuare la compilazione e apportare modifiche, è necessario cliccare su \"Modifica\" [Doc 1][Doc 2][Doc 3].",
+      "additional_answers": [
+        "Quando clicchi su \"Visualizza\" in una bozza, il pulsante consente esclusivamente di visualizzare le risposte selezionate nel questionario prima del salvataggio. Per continuare la compilazione e apportare modifiche, è necessario cliccare su \"Modifica\" [1][2][3].",
+        "Quando clicchi su \"Visualizza\" in una bozza, il pulsante consente esclusivamente di visualizzare le risposte selezionate nel questionario prima del salvataggio. Per continuare la compilazione, devi cliccare su \"Modifica\" [Doc 1][Doc 2][Doc 3]."
+      ],
+      "retrieved_chunks": [
+        "Il pulsante \"Visualizza\" consente esclusivamente di visualizzare le risposte selezionate nel questionario prima del salvataggio.  \nPer continuare la compilazione, fare clic su \"Modifica\".  \nEsito della valutazione salvato come bozza.",
+        "Il pulsante «Visualizza» permette esclusivamente di visualizzare le risposte selezionate nel questionario prima del salvataggio. \n\nQuestionario salvato come bozza \n(per continuare la compilazione, cliccare su «Modifica») \n14",
+        "Il pulsante \"Visualizza\" consente esclusivamente di visualizzare il questionario.  \nPer continuare la compilazione, è necessario cliccare su \"Modifica\".  \nPiano di Rientro salvato come bozza.",
+        "**3. PRIMA DI ACCEDERE**\n\nPer prevenire eventuali problemi e rallentamenti durante la compilazione dei controlli, si consiglia di:\n\n- utilizzare una versione aggiornata di Google Chrome;\n- svuotare la cache del browser, seguendo le istruzioni disponibili al seguente link: [Cancellare la cache del browser](https://support.google.com/accounts/answer/32050?hl=it&co=GENIE.Platform%3DDesktop).",
+        "Quando si valuta la superficie su cui gli animali si coricano, è importante considerare che, se questa è pulita, il giudizio non potrà superare il livello di \"accettabile\". Questo perché gli animali, in ogni caso, si trovano costretti a sdraiarsi su una superficie bagnata. \n\nAnche nel caso di animali allevati al pascolo o in paddock esterni, dove non hanno accesso a strutture chiuse, è fondamentale effettuare una valutazione del loro livello igienico. Si considera adeguata una situazione in cui ci sia una prevalenza di ambienti asciutti e puliti, con aree bagnate o fangose limitate a zone specifiche, come quelle vicino ai punti di abbeverata. In questo modo, gli animali possono scegliere di coricarsi in spazi che siano puliti, asciutti e confortevoli. \n\nAl contrario, se la maggior parte degli ambienti è molto sporca e paludosa, la situazione igienica risulta inadeguata."
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "page_number": 26,
+          "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+          "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+        },
+        {
+          "filename": "Nuovo_applicativo_-_Ovicaprini_da_Carne.pdf",
+          "page_number": 14,
+          "rel_path": "manuali Veterinario aziendale\\Nuovo_applicativo_-_Ovicaprini_da_Carne.pdf",
+          "sha256": "b946189f5b95bb9b72174dafb36a1bd82668d3a769517a665f9e8cb12ed6ef15"
+        },
+        {
+          "filename": "Guida_PIANO_DI_RIENTRO_-_Veterinari_Aziendali.pdf",
+          "page_number": 10,
+          "rel_path": "manuali Veterinario aziendale\\Guida_PIANO_DI_RIENTRO_-_Veterinari_Aziendali.pdf",
+          "sha256": "a6a2adb273a073c10153453e03d1c71e6a242cf204d64503d076d21c412cec63"
+        },
+        {
+          "filename": "Guida_Sistema_Questionari_-_UFFICIALI vetrinari ufficiali.pdf",
+          "page_number": 3,
+          "rel_path": "manuali veterinari ufficiali\\Guida_Sistema_Questionari_-_UFFICIALI vetrinari ufficiali.pdf",
+          "sha256": "ef6b38212c1fd8c299b1362524492101738897eef42e9fa7ef1a93b273e81607"
+        },
+        {
+          "filename": "Man_ClassyFarm_Ben_Bio_Autocontrollo_Bov.Latte_20250228_def.pdf",
+          "page_number": 102,
+          "rel_path": "moduli veterinario aziendale\\bovini\\Man_ClassyFarm_Ben_Bio_Autocontrollo_Bov.Latte_20250228_def.pdf",
+          "sha256": "660d7db698154138f14fe402a6efa196a623b18891acba4cc7b08b392e6f21a2"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 1.0,
+          "details": {
+            "claims": [
+              {
+                "claim": "Cliccando su \"Visualizza\" in una bozza, il pulsante consente di visualizzare le risposte selezionate nel questionario.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Il pulsante \"Visualizza\" non consente di salvare le risposte.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Per continuare la compilazione e apportare modifiche, è necessario cliccare su \"Modifica\".",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 3,
+            "supported": 3,
+            "partial": 0,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 0.8,
+          "raw_score_1_5": 4.0,
+          "motivation": "La risposta fornisce una spiegazione chiara sul motivo per cui non è possibile modificare la bozza e indica l'azione corretta da intraprendere. Tuttavia, potrebbe essere utile includere ulteriori dettagli su cosa comporta il processo di modifica o su eventuali altre opzioni disponibili."
+        },
+        "relevance": {
+          "score": 0.4767562747001648,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 0.9557222723960876,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 0.9415379762649536
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 0.9913574457168579
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 0.9342713952064514
+              }
+            ],
+            "min_similarity": 0.9342713952064514,
+            "max_similarity": 0.9913574457168579,
+            "std_similarity": 0.02537190024772745
+          }
+        },
+        "context_precision": {
+          "score": 0.6,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "Il pulsante \"Visualizza\" consente esclusivamente di visualizzare le risposte selezionate nel questionario prima del salvataggio.  \nPer continuare la compilazione, fare clic su \"Modifica\".  \nEsito dell...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "Il pulsante «Visualizza» permette esclusivamente di visualizzare le risposte selezionate nel questionario prima del salvataggio. \n\nQuestionario salvato come bozza \n(per continuare la compilazione, cli...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "Il pulsante \"Visualizza\" consente esclusivamente di visualizzare il questionario.  \nPer continuare la compilazione, è necessario cliccare su \"Modifica\".  \nPiano di Rientro salvato come bozza.",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "**3. PRIMA DI ACCEDERE**\n\nPer prevenire eventuali problemi e rallentamenti durante la compilazione dei controlli, si consiglia di:\n\n- utilizzare una versione aggiornata di Google Chrome;\n- svuotare la...",
+              "status": "INUTILE",
+              "score": 0.0
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "Quando si valuta la superficie su cui gli animali si coricano, è importante considerare che, se questa è pulita, il giudizio non potrà superare il livello di \"accettabile\". Questo perché gli animali, ...",
+              "status": "INUTILE",
+              "score": 0.0
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 0.0,
+          "details": {
+            "citations": [
+              {
+                "citation": "Doc 1",
+                "found": false
+              },
+              {
+                "citation": "Doc 2",
+                "found": false
+              },
+              {
+                "citation": "Doc 3",
+                "found": false
+              }
+            ],
+            "num_citations": 3,
+            "correct": 0,
+            "incorrect": 3
+          }
+        }
+      },
+      "critical_flags": 1,
+      "failed_metrics": [
+        "relevance"
+      ],
+      "status": "GOOD",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_014",
+      "question": "Cosa vogliono dire Q1, Q2, Q3, Q4 nei cruscotti?",
+      "timestamp": "2026-03-03T22:13:34.466661",
+      "answer_main": "Nei cruscotti, Q1, Q2, Q3 e Q4 si riferiscono ai quartili, che delimitano il passaggio tra le diverse fasce di dati. Le informazioni specifiche sui quartili non sono dettagliate nel contesto, ma è importante notare che il cruscotto viene aggiornato trimestralmente. Pertanto, selezionando l'anno corrente, i dati potrebbero risultare parziali e riferirsi esclusivamente ai mesi specificati nell'apposito riquadro (ad esempio, 2023 - 9 M = primi nove mesi del 2023) [Doc 2]. \n\nPer ulteriori dettagli, puoi consultare la GUIDA AI CRUSCOTTI INTERATTIVI al seguente link: [www.classyfarm.it](http://www.classyfarm.it).",
+      "additional_answers": [
+        "Nei cruscotti, Q1, Q2, Q3 e Q4 si riferiscono ai quartili, che delimitano il passaggio tra le diverse fasce di dati. Queste soglie sono utilizzate per analizzare e visualizzare i risultati in modo aggregato. È importante notare che il cruscotto viene aggiornato trimestralmente; pertanto, selezionando l'anno corrente, i dati potrebbero risultare parziali e riferirsi esclusivamente ai mesi specificati nell'apposito riquadro (ad esempio, 2023 - 9 M = primi nove mesi del 2023) [Doc 2].",
+        "Nei cruscotti, Q1, Q2, Q3 e Q4 si riferiscono ai quartili, che delimitano il passaggio tra le diverse fasce di dati. Queste soglie sono utilizzate per analizzare e visualizzare i risultati in modo aggregato. È importante notare che il cruscotto viene aggiornato trimestralmente; pertanto, selezionando l'anno corrente, i dati potrebbero risultare parziali e riferirsi esclusivamente ai mesi specificati nell'apposito riquadro (ad esempio, 2023 - 9 M = primi nove mesi del 2023) [Doc 2]."
+      ],
+      "retrieved_chunks": [
+        "Per accedere ai cruscotti, ai risultati e ai report, è importante seguire alcuni passaggi. Se richiesto, sarà necessario abilitare Flash Player per il browser in uso. Per farlo, cliccare su \"Enable or Install\".",
+        "[DASHBOARD] Le soglie che delimitano il passaggio tra i quartili sono indicate di seguito. Si avvisa che il cruscotto viene aggiornato trimestralmente; pertanto, selezionando l'anno corrente, i dati potrebbero risultare parziali e riferirsi esclusivamente ai mesi specificati nell'apposito riquadro (ad esempio, 2023 - 9 M = primi nove mesi del 2023). \n\nFARMACO BIOMASSA - AGGREGATO.",
+        "Ecco un elenco strutturato discorsivo basato sulla tabella fornita:\n\n---\n\n**Comandi Generali dell'App**\n\n1. **Salvataggio delle Risposte**: Le risposte vengono salvate e attivano gli automatismi necessari per il funzionamento dell'app.\n\n2. **Navigazione nel Questionario**: Viene aperto un albero di navigazione che consente di esplorare le diverse sezioni del questionario. Questa funzione è disponibile in una versione contratta sulla destra dello schermo.\n\n3. **Terminazione del Questionario**: È possibile terminare il questionario. Questa opzione appare nell'ultima sezione, una volta che il questionario è stato completato, ovvero quando tutte le sezioni sono state compilate e tutte le domande hanno ricevuto una risposta.\n\n4. **Indicatore di Completamento**: Un segno di spunta verde indica che una sezione è stata completata.\n\n5. **Accesso ai Dati Aziendali**: È possibile accedere ai dati aziendali relativi al questionario.\n\n6. **Ritorno alla Compilazione**: Si può tornare alla fase di compilazione del questionario in qualsiasi momento.\n\n7. **Ritorno alla Home**: È possibile tornare alla pagina di partenza, dove è presente un elenco dei questionari già compilati.\n\n8. **Sezione Completata**: Indica che una specifica sezione del questionario è stata completata.\n\n--- \n\nQuesto formato discorsivo rende più chiari i vari comandi e funzionalità dell'app.",
+        "[DASHBOARD] **PAG**  \nSistema Integrato «ClassyFarm» - Guida per Delegati Operatori - Filiera o Gruppo  \n**CRUSCOTTI - RISULTATI**  \n29  \n\nPer accedere ai cruscotti interattivi:  \n- Accedere a VETINFO  \n- Selezionare ClassyFarm → ClassyFarm 2.0  \n- Scegliere il profilo  \n- Cliccare su Dashboard  \n\n1. Consultare la GUIDA AI CRUSCOTTI INTERATTIVI al seguente link: www.classyfarm.it",
+        "[DASHBOARD] **PAG**  \nSistema Integrato «ClassyFarm» - Guida per Delegati Operatori - Filiera o Gruppo  \n**CRUSCOTTI - RISULTATI**  \n21  \n\nPer accedere ai cruscotti interattivi:  \n- Accedere a VETINFO  \n- Selezionare ClassyFarm → ClassyFarm 2.0  \n- Selezionare il PROFILO  \n- Cliccare su Dashboard  \n\n1. Consultare la GUIDA AI CRUSCOTTI INTERATTIVI al seguente link: www.classyfarm.it"
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "Guida_Inserimento_Checklist_Benessere_e_biosicurezza_Bovino_11.12.2023.pdf",
+          "page_number": 32,
+          "rel_path": "manuali Veterinario aziendale\\Guida_Inserimento_Checklist_Benessere_e_biosicurezza_Bovino_11.12.2023.pdf",
+          "sha256": "a39f39f4d3f45c6936744cdb1455de4c7771059edba3e6cd7ec4ce640090e183"
+        },
+        {
+          "filename": "Guida_cruscotto_Farmaco_Biomassa_12.2023 VU.pdf",
+          "page_number": 3,
+          "rel_path": "manuali veterinari ufficiali\\Guida_cruscotto_Farmaco_Biomassa_12.2023 VU.pdf",
+          "sha256": "43338e953ca73cc92e9d3740361b3c78036e77be5db0c5f9d7ff0b61848421aa"
+        },
+        {
+          "filename": "Guida_Inserimento_Checklist_Benessere_e_biosicurezza_Bovino_11.12.2023.pdf",
+          "page_number": 17,
+          "rel_path": "manuali Veterinario aziendale\\Guida_Inserimento_Checklist_Benessere_e_biosicurezza_Bovino_11.12.2023.pdf",
+          "sha256": "a39f39f4d3f45c6936744cdb1455de4c7771059edba3e6cd7ec4ce640090e183"
+        },
+        {
+          "filename": "ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "page_number": 29,
+          "rel_path": "manuali operatori\\ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "sha256": "61dfe7b9ea27b3508099eda6f2c20ba1690c6fe30674b24e87dd76a6caccd33a"
+        },
+        {
+          "filename": "ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "page_number": 21,
+          "rel_path": "manuali operatori\\ClassyFarm_Linee-guida-accesso-operatore-e-suoi-delegati-min.pdf",
+          "sha256": "61dfe7b9ea27b3508099eda6f2c20ba1690c6fe30674b24e87dd76a6caccd33a"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 1.0,
+          "details": {
+            "claims": [
+              {
+                "claim": "Q1, Q2, Q3 e Q4 si riferiscono ai quartili.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "I quartili delimitano il passaggio tra le diverse fasce di dati.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Il cruscotto viene aggiornato trimestralmente.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Selezionando l'anno corrente, i dati potrebbero risultare parziali.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "I dati potrebbero riferirsi esclusivamente ai mesi specificati nell'apposito riquadro.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "2023 - 9 M si riferisce ai primi nove mesi del 2023.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È possibile consultare la GUIDA AI CRUSCOTTI INTERATTIVI al link www.classyfarm.it.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 7,
+            "supported": 7,
+            "partial": 0,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 0.8,
+          "raw_score_1_5": 4.0,
+          "motivation": "La risposta fornisce una spiegazione chiara su cosa rappresentano Q1, Q2, Q3 e Q4 nei cruscotti, ma manca di dettagli specifici sui quartili e su come interpretarli nel contesto del cruscotto. L'utente potrebbe dover consultare la guida esterna per ulteriori chiarimenti, ma la risposta è comunque utile e informativa."
+        },
+        "relevance": {
+          "score": 0.3565582036972046,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 0.9789294799168905,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 0.9683942794799805
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 0.9683942794799805
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 0.9999998807907104
+              }
+            ],
+            "min_similarity": 0.9683942794799805,
+            "max_similarity": 0.9999998807907104,
+            "std_similarity": 0.01489902334019707
+          }
+        },
+        "context_precision": {
+          "score": 0.1,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "Per accedere ai cruscotti, ai risultati e ai report, è importante seguire alcuni passaggi. Se richiesto, sarà necessario abilitare Flash Player per il browser in uso. Per farlo, cliccare su \"Enable or...",
+              "status": "INUTILE",
+              "score": 0.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "[DASHBOARD] Le soglie che delimitano il passaggio tra i quartili sono indicate di seguito. Si avvisa che il cruscotto viene aggiornato trimestralmente; pertanto, selezionando l'anno corrente, i dati p...",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "Ecco un elenco strutturato discorsivo basato sulla tabella fornita:\n\n---\n\n**Comandi Generali dell'App**\n\n1. **Salvataggio delle Risposte**: Le risposte vengono salvate e attivano gli automatismi neces...",
+              "status": "INUTILE",
+              "score": 0.0
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "[DASHBOARD] **PAG**  \nSistema Integrato «ClassyFarm» - Guida per Delegati Operatori - Filiera o Gruppo  \n**CRUSCOTTI - RISULTATI**  \n29  \n\nPer accedere ai cruscotti interattivi:  \n- Accedere a VETINFO...",
+              "status": "INUTILE",
+              "score": 0.0
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "[DASHBOARD] **PAG**  \nSistema Integrato «ClassyFarm» - Guida per Delegati Operatori - Filiera o Gruppo  \n**CRUSCOTTI - RISULTATI**  \n21  \n\nPer accedere ai cruscotti interattivi:  \n- Accedere a VETINFO...",
+              "status": "INUTILE",
+              "score": 0.0
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 0.0,
+          "details": {
+            "citations": [
+              {
+                "citation": "- [Doc 2]",
+                "found": false
+              },
+              {
+                "citation": "- GUIDA AI CRUSCOTTI INTERATTIVI",
+                "found": false
+              }
+            ],
+            "num_citations": 2,
+            "correct": 0,
+            "incorrect": 2
+          }
+        }
+      },
+      "critical_flags": 2,
+      "failed_metrics": [
+        "relevance",
+        "context_precision"
+      ],
+      "status": "MODERATE",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    },
+    {
+      "question_id": "CF_015",
+      "question": "Cosa mi dice Sintesi risposte nel cruscotto?",
+      "timestamp": "2026-03-03T22:13:52.127296",
+      "answer_main": "Una volta che il questionario è stato compilato correttamente in tutte le sue sezioni e si è cliccato sul tasto \"Salva\" situato in fondo alla pagina, apparirà un pulsante giallo per la verifica in alto a destra. Dopo aver selezionato il pulsante giallo, sarà possibile visualizzare il tasto per procedere con il caricamento. I report dei questionari caricati saranno disponibili esclusivamente 48 ore dopo il caricamento nella sezione \"Dashboard\".",
+      "additional_answers": [
+        "Una volta che il questionario è stato compilato correttamente in tutte le sue sezioni e si è cliccato sul tasto \"Salva\" situato in fondo alla pagina, apparirà un pulsante giallo per la verifica in alto a destra. Dopo aver selezionato il pulsante giallo, sarà possibile visualizzare il tasto per procedere con il caricamento. I report dei questionari caricati saranno disponibili esclusivamente 48 ore dopo il caricamento nella sezione \"Dashboard\".",
+        "Una volta che il questionario è stato compilato correttamente in tutte le sue sezioni e si è cliccato sul tasto \"Salva\" situato in fondo alla pagina, apparirà un pulsante giallo per la verifica in alto a destra. Dopo aver selezionato il pulsante giallo, sarà possibile visualizzare il tasto per procedere con il caricamento. I report dei questionari caricati saranno disponibili esclusivamente 48 ore dopo il caricamento nella sezione \"Dashboard\"."
+      ],
+      "retrieved_chunks": [
+        "La categorizzazione dei requisiti specifici prevede una serie di elementi fondamentali. Per ogni requisito, viene innanzitutto definito il criterio specifico, come ad esempio il numero di addetti che si occupano degli animali. Successivamente, si forniscono i riferimenti normativi, espressi in modo esteso e racchiusi tra virgolette. \n\nIn aggiunta, viene presentata una linea guida sintetica che illustra le modalità di esecuzione della valutazione. Infine, si descrive il livello di conformità, che può variare tra conformità, non conformità o un requisito superiore al livello minimo stabilito.\n\nQuesta sezione funge da sintesi per quanto verrà trattato in modo più dettagliato nel manuale. A essa segue, evidenziata in un apposito box, una domanda relativa al requisito specifico, come ad esempio: “Gli animali sono accuditi da un numero sufficiente di addetti?”. A questa domanda corrispondono diverse risposte che indicano se si è in presenza di conformità, non conformità o un livello ottimale.\n\nÈ importante notare che la sezione dedicata alle evidenze deve essere compilata obbligatoriamente nel caso in cui si riscontri una non conformità.",
+        "[DASHBOARD] **14  \nSISTEMA QUESTIONARI**  \n**CARICAMENTO DI UN QUESTIONARIO**  \nUna volta che il questionario è stato compilato correttamente in tutte le sue sezioni e si è cliccato sul tasto \"Salva\" situato in fondo alla pagina, apparirà un pulsante giallo per la verifica in alto a destra. Dopo aver selezionato il pulsante giallo, sarà possibile visualizzare il tasto per procedere con il caricamento. I report dei questionari caricati saranno disponibili esclusivamente 48 ore dopo il caricamento nella sezione \"Dashboard\".",
+        "[DASHBOARD] **Report**\n\nAl termine della compilazione, per visualizzare il report, è necessario seguire i seguenti passaggi:\n\n1. Accedere a «Trasmissione Checklist (Nuovo)».\n2. Cliccare su «Azioni» e successivamente su «Storico».\n3. Selezionare il controllo di interesse e cliccare su «Azioni».\n4. Scorrere fino in fondo alla pagina e cliccare su «Salva PDF».\n\n**Nota Bene:** Questa modalità di download del report è temporanea; in futuro, il report sarà nuovamente scaricabile dal cruscotto.",
+        "[DASHBOARD] **8  \nDashboard: Cruscotto per la verifica dei prerequisiti**  \nPer accedere al cruscotto interattivo, selezionare l'opzione «Dashboard».",
+        "[DASHBOARD] **INDICE**\n\n• Accesso a ClassyFarm  \npagina 3  \n\n• Cruscotto per la verifica dei prerequisiti (Dashboard)  \npagina 7  \n\n• Compilazione della checklist di valutazione  \npagina 11  \n\n• Ripresa della compilazione di una checklist salvata in bozza  \npagina 19  \n\n• Consultazione delle checklist compilate  \npagina 23  \n\n• Report  \npagina 25"
+      ],
+      "chunks_metadata": [
+        {
+          "filename": "Guida_Sistema_Questionari_-_Liberi_professionisti.pdf",
+          "page_number": 14,
+          "rel_path": "manuali Veterinario aziendale\\Guida_Sistema_Questionari_-_Liberi_professionisti.pdf",
+          "sha256": "2b5045d8bacbbabb506131acba0eb6539cf6960a29c6430638f117fbc40b69fe"
+        },
+        {
+          "filename": "Nuovo_applicativo_-_Ovicaprini_da_Carne.pdf",
+          "page_number": 16,
+          "rel_path": "manuali Veterinario aziendale\\Nuovo_applicativo_-_Ovicaprini_da_Carne.pdf",
+          "sha256": "b946189f5b95bb9b72174dafb36a1bd82668d3a769517a665f9e8cb12ed6ef15"
+        },
+        {
+          "filename": "Guida_Valutatore_23.10.25.pdf",
+          "page_number": 8,
+          "rel_path": "manuali operatori\\Guida_Valutatore_23.10.25.pdf",
+          "sha256": "a8179efc915ad19feec5631c5f2066a697f01234032a6c6196f14eacba60de82"
+        },
+        {
+          "filename": "Guida_Valutatore_23.10.25.pdf",
+          "page_number": 2,
+          "rel_path": "manuali operatori\\Guida_Valutatore_23.10.25.pdf",
+          "sha256": "a8179efc915ad19feec5631c5f2066a697f01234032a6c6196f14eacba60de82"
+        }
+      ],
+      "num_chunks": 5,
+      "metrics": {
+        "groundedness": {
+          "score": 1.0,
+          "details": {
+            "claims": [
+              {
+                "claim": "Il questionario deve essere compilato correttamente in tutte le sue sezioni.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "È necessario cliccare sul tasto \"Salva\" situato in fondo alla pagina.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Apparirà un pulsante giallo per la verifica in alto a destra.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "Dopo aver selezionato il pulsante giallo, sarà possibile visualizzare il tasto per procedere con il caricamento.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "I report dei questionari caricati saranno disponibili esclusivamente 48 ore dopo il caricamento.",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              },
+              {
+                "claim": "I report saranno disponibili nella sezione \"Dashboard\".",
+                "status": "SUPPORTATO",
+                "score": 1.0
+              }
+            ],
+            "num_claims": 6,
+            "supported": 6,
+            "partial": 0,
+            "unsupported": 0
+          }
+        },
+        "self_contained": {
+          "score": 0.8,
+          "raw_score_1_5": 4.0,
+          "motivation": "La risposta fornisce informazioni dettagliate sui passaggi necessari per visualizzare i report nel cruscotto, ma manca di chiarire cosa si intenda esattamente per \"Sintesi risposte\" e come questa si relazioni ai passaggi descritti. L'utente può agire, ma potrebbe necessitare di ulteriori chiarimenti."
+        },
+        "relevance": {
+          "score": 0.22040098905563354,
+          "method": "embedding_similarity"
+        },
+        "consistency": {
+          "score": 1.0,
+          "details": {
+            "num_responses": 3,
+            "num_pairs": 3,
+            "pairwise_similarities": [
+              {
+                "pair": "R1-R2",
+                "similarity": 1.0
+              },
+              {
+                "pair": "R1-R3",
+                "similarity": 1.0
+              },
+              {
+                "pair": "R2-R3",
+                "similarity": 1.0
+              }
+            ],
+            "min_similarity": 1.0,
+            "max_similarity": 1.0,
+            "std_similarity": 0.0
+          }
+        },
+        "context_precision": {
+          "score": 0.3,
+          "chunk_evaluations": [
+            {
+              "chunk_index": 0,
+              "chunk_preview": "La categorizzazione dei requisiti specifici prevede una serie di elementi fondamentali. Per ogni requisito, viene innanzitutto definito il criterio specifico, come ad esempio il numero di addetti che ...",
+              "status": "UTILE",
+              "score": 1.0
+            },
+            {
+              "chunk_index": 1,
+              "chunk_preview": "[DASHBOARD] **14  \nSISTEMA QUESTIONARI**  \n**CARICAMENTO DI UN QUESTIONARIO**  \nUna volta che il questionario è stato compilato correttamente in tutte le sue sezioni e si è cliccato sul tasto \"Salva\" ...",
+              "status": "INUTILE",
+              "score": 0.0
+            },
+            {
+              "chunk_index": 2,
+              "chunk_preview": "[DASHBOARD] **Report**\n\nAl termine della compilazione, per visualizzare il report, è necessario seguire i seguenti passaggi:\n\n1. Accedere a «Trasmissione Checklist (Nuovo)».\n2. Cliccare su «Azioni» e ...",
+              "status": "INUTILE",
+              "score": 0.0
+            },
+            {
+              "chunk_index": 3,
+              "chunk_preview": "[DASHBOARD] **8  \nDashboard: Cruscotto per la verifica dei prerequisiti**  \nPer accedere al cruscotto interattivo, selezionare l'opzione «Dashboard».",
+              "status": "INUTILE",
+              "score": 0.0
+            },
+            {
+              "chunk_index": 4,
+              "chunk_preview": "[DASHBOARD] **INDICE**\n\n• Accesso a ClassyFarm  \npagina 3  \n\n• Cruscotto per la verifica dei prerequisiti (Dashboard)  \npagina 7  \n\n• Compilazione della checklist di valutazione  \npagina 11  \n\n• Ripre...",
+              "status": "PARZIALMENTE_UTILE",
+              "score": 0.5
+            }
+          ]
+        },
+        "citation_accuracy": {
+          "score": 1.0,
+          "details": {
+            "citations": [],
+            "message": "Nessuna citazione da verificare"
+          }
+        }
+      },
+      "critical_flags": 2,
+      "failed_metrics": [
+        "relevance",
+        "context_precision"
+      ],
+      "status": "MODERATE",
+      "thresholds_used": {
+        "groundedness": 0.85,
+        "self_contained": 0.7,
+        "relevance": 0.7,
+        "consistency": 0.75,
+        "context_precision": 0.6
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "question": "Cosa vogliono dire Q1, Q2, Q3 e Q4 nel cruscotto?",
+  "normalized": {
+    "normalized_text": "cosa vogliono dire q1, q2, q3 e q4 nel cruscotto?",
+    "canonical_concepts": [
+      "DASHBOARD"
+    ]
+  },
+  "retrieved_docs_count": 8,
+  "retrieved_docs_metadata": [
+    {
+      "filename": "Guida_cruscotto_Programmazione_2025_-_ultimo_aggiornamento VU.pdf",
+      "page": 8,
+      "category": null,
+      "canonical": "DASHBOARD",
+      "preview": "[DASHBOARD] **www.classyfarm.it**  \n**Andamento storico dei controlli e relativi esiti**  \n- Modifica delle schermate del cruscotto  \n- Ripristino dei filtri applicati  \n- Accesso alla guida del crusc"
+    },
+    {
+      "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+      "page": 12,
+      "category": null,
+      "canonical": "DASHBOARD",
+      "preview": "[DASHBOARD] **12  \nCruscotto di Visualizzazione**  \nDopo 48 ore, sarà possibile accedere al cruscotto interattivo: selezionare \"Dashboard\"."
+    },
+    {
+      "filename": "Guida_Valutatore_23.10.25.pdf",
+      "page": 8,
+      "category": null,
+      "canonical": "DASHBOARD",
+      "preview": "[DASHBOARD] **8  \nDashboard: Cruscotto per la verifica dei prerequisiti**  \nPer accedere al cruscotto interattivo, selezionare l'opzione «Dashboard»."
+    },
+    {
+      "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+      "page": 16,
+      "category": null,
+      "canonical": "DASHBOARD",
+      "preview": "[DASHBOARD] **16**  \nVisualizzazione a schermo intero della tabella  \nDashboard: Cruscotto di Visualizzazione  \nPossibilità di esportare i dati in Excel."
+    },
+    {
+      "filename": "Guida_cruscotto_Farmaco_Biomassa_12.2023 VU.pdf",
+      "page": 3,
+      "category": null,
+      "canonical": "DASHBOARD",
+      "preview": "[DASHBOARD] Le soglie che delimitano il passaggio tra i quartili sono indicate di seguito. Si avvisa che il cruscotto viene aggiornato trimestralmente; pertanto, selezionando l'anno corrente, i dati p"
+    },
+    {
+      "filename": "Guida_Valutatore_23.10.25.pdf",
+      "page": 24,
+      "category": null,
+      "canonical": "DASHBOARD",
+      "preview": "[DASHBOARD] **Dashboard: Consultazione delle Checklist Compilate**\n\nÈ possibile visualizzare le checklist compilate dal Valutatore direttamente dal cruscotto, in formato tabellare. \n\n1. \n2."
+    },
+    {
+      "filename": "Nuovo_applicativo_-_Ovicaprini_da_Carne.pdf",
+      "page": 17,
+      "category": null,
+      "canonical": "DASHBOARD",
+      "preview": "[DASHBOARD] **Punteggi del Questionario**\n\nNell'ultima pagina del file PDF saranno riportati tutti i punteggi relativi a:\n\n- Totale AREA – BIOSICUREZZA\n- Totale AREA A - MANAGEMENT AZIENDALE E PERSONA"
+    },
+    {
+      "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+      "page": 14,
+      "category": null,
+      "canonical": "DASHBOARD",
+      "preview": "[DASHBOARD] **14  \nDashboard: Cruscotto di Visualizzazione**  \nAzienda già associata al Valutatore.  \nSarà possibile visualizzare, tramite il cruscotto, tutti gli allevamenti associati nella sezione \""
+    }
+  ],
+  "result": {
+    "answer": "[DASHBOARD] Le soglie che delimitano il passaggio tra i quartili sono indicate di seguito. Si avvisa che il cruscotto viene aggiornato trimestralmente; pertanto, selezionando l'anno corrente, i dati potrebbero risultare parziali e riferirsi esclusivamente ai mesi specificati nell'apposito riquadro (ad esempio, 2023 - 9 M = primi nove mesi del 2023).",
+    "sources": [
+      {
+        "filename": "Guida_cruscotto_Programmazione_2025_-_ultimo_aggiornamento VU.pdf",
+        "page_number": 8,
+        "rel_path": "manuali veterinari ufficiali\\Guida_cruscotto_Programmazione_2025_-_ultimo_aggiornamento VU.pdf",
+        "sha256": "dacc62f97ef19d95824f17f3ffb633870472cd814b7f331dcec9c7b00a3c2086"
+      },
+      {
+        "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+        "page_number": 12,
+        "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+        "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+      },
+      {
+        "filename": "Guida_Valutatore_23.10.25.pdf",
+        "page_number": 8,
+        "rel_path": "manuali operatori\\Guida_Valutatore_23.10.25.pdf",
+        "sha256": "a8179efc915ad19feec5631c5f2066a697f01234032a6c6196f14eacba60de82"
+      },
+      {
+        "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+        "page_number": 16,
+        "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+        "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+      },
+      {
+        "filename": "Guida_cruscotto_Farmaco_Biomassa_12.2023 VU.pdf",
+        "page_number": 3,
+        "rel_path": "manuali veterinari ufficiali\\Guida_cruscotto_Farmaco_Biomassa_12.2023 VU.pdf",
+        "sha256": "43338e953ca73cc92e9d3740361b3c78036e77be5db0c5f9d7ff0b61848421aa"
+      },
+      {
+        "filename": "Guida_Valutatore_23.10.25.pdf",
+        "page_number": 24,
+        "rel_path": "manuali operatori\\Guida_Valutatore_23.10.25.pdf",
+        "sha256": "a8179efc915ad19feec5631c5f2066a697f01234032a6c6196f14eacba60de82"
+      },
+      {
+        "filename": "Nuovo_applicativo_-_Ovicaprini_da_Carne.pdf",
+        "page_number": 17,
+        "rel_path": "manuali Veterinario aziendale\\Nuovo_applicativo_-_Ovicaprini_da_Carne.pdf",
+        "sha256": "b946189f5b95bb9b72174dafb36a1bd82668d3a769517a665f9e8cb12ed6ef15"
+      },
+      {
+        "filename": "Guida_Organismo_di_Certificatore_02-10-25.pdf",
+        "page_number": 14,
+        "rel_path": "manuali operatori\\Guida_Organismo_di_Certificatore_02-10-25.pdf",
+        "sha256": "70217be9c63881f555779b015ab9f4fd165e4eb763af25ee9537bc73383bf1b1"
+      }
+    ],
+    "latency": 0.709
+  }
+}

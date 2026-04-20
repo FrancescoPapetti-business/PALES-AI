@@ -1,0 +1,244 @@
+{"question_id": "001", "question": "Qual è la definizione di operatore?", "faithfulness": 1.0, "answer_relevancy": 0.6518, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.591}
+{"question_id": "002", "question": "Qual è la definizione di delegato?", "faithfulness": 0.5714, "answer_relevancy": 0.6091, "context_precision": null, "context_recall": 0.0, "answer_correctness": 0.3568}
+{"question_id": "003", "question": "Come richiedo il profilo da operatore?", "faithfulness": 1.0, "answer_relevancy": 0.7712, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.3535}
+{"question_id": "004", "question": "Come seleziono l’azienda?", "faithfulness": 1.0, "answer_relevancy": 0.8331, "context_precision": null, "context_recall": 0.5, "answer_correctness": 0.7614}
+{"question_id": "005", "question": "Non riesco a visualizzare il cruscotto, cosa devo fare?", "faithfulness": 1.0, "answer_relevancy": 0.5545, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.9542}
+{"question_id": "006", "question": "Come faccio ad associare un valutatore?", "faithfulness": 1.0, "answer_relevancy": 0.7198, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.7929}
+{"question_id": "007", "question": "Come faccio a finire un esito di valutazione che non avevo terminato?", "faithfulness": 0.8889, "answer_relevancy": 0.8186, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.885}
+{"question_id": "008", "question": "Come faccio a continuare una compilazione di checklist di valutazione salvata in bozza?", "faithfulness": 0.8333, "answer_relevancy": 0.6434, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.7568}
+{"question_id": "009", "question": "Come faccio a scaricare il report SQNBA?", "faithfulness": 1.0, "answer_relevancy": 0.5341, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.1641}
+{"question_id": "010", "question": "Cosa si intende per OdC?", "faithfulness": 0.6667, "answer_relevancy": 0.0, "context_precision": null, "context_recall": 0.0, "answer_correctness": 0.1569}
+{"question_id": "011", "question": "Cosa mi serve per inserire i dati di valutazione del Benessere Animale e della Biosicurezza tramite app?", "faithfulness": 0.9091, "answer_relevancy": 0.6338, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.3526}
+{"question_id": "012", "question": "Come faccio ad associarmi all’allevamento?", "faithfulness": 0.8824, "answer_relevancy": 0.7269, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.9645}
+{"question_id": "013", "question": "Perché se clicco su \"Visualizza\" in una bozza non me lo fa modificare?", "faithfulness": 0.5, "answer_relevancy": 0.6604, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.5447}
+{"question_id": "014", "question": "Cosa vogliono dire Q1, Q2, Q3, Q4 nei cruscotti?", "faithfulness": 1.0, "answer_relevancy": 0.0, "context_precision": null, "context_recall": 0.4, "answer_correctness": 0.1338}
+{"question_id": "015", "question": "Cosa mi dice \"Sintesi risposte\" nel cruscotto?", "faithfulness": 1.0, "answer_relevancy": 0.5576, "context_precision": null, "context_recall": 0.0, "answer_correctness": 0.141}
+{"question_id": "016", "question": "Che codice devo inserire per poter compilare un controllo di farmacosorveglianza?", "faithfulness": 1.0, "answer_relevancy": 0.5999, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.5167}
+{"question_id": "017", "question": "Come faccio a modificare la data delle prescrizioni in un controllo già compilato?", "faithfulness": 0.9091, "answer_relevancy": 0.9843, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.6376}
+{"question_id": "018", "question": "Sto creando un questionario, ho inserito il codice dell’allevamento e ho cliccato \"Cerca\": cosa devo fare per continuare?", "faithfulness": 0.6667, "answer_relevancy": 0.8136, "context_precision": null, "context_recall": 0.5, "answer_correctness": 0.5992}
+{"question_id": "019", "question": "Perché non riesco a eliminare un questionario che ho creato?", "faithfulness": 0.6, "answer_relevancy": 1.0, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.4554}
+{"question_id": "020", "question": "Quali sono considerati principi attivi critici nell’ambito della DDDAit?", "faithfulness": 0.8333, "answer_relevancy": 0.9343, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.2681}
+{"question_id": "021", "question": "Per cosa sta BDN?", "faithfulness": 1.0, "answer_relevancy": 0.7971, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.4991}
+{"question_id": "022", "question": "Quali sono le aree in cui vengono divisi gli elementi di valutazione della check-list ufficiale?", "faithfulness": 0.1429, "answer_relevancy": 0.8851, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.7632}
+{"question_id": "023", "question": "Perché i liquami rappresentano una fonte di rischio?", "faithfulness": 1.0, "answer_relevancy": 0.7932, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.8015}
+{"question_id": "024", "question": "In caso di soccida chi può fare richiesta di abilitazione con il ruolo di Operatore?", "faithfulness": 0.75, "answer_relevancy": 0.604, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.3578}
+{"question_id": "025", "question": "Quale partita IVA deve essere indicata?", "faithfulness": 1.0, "answer_relevancy": 0.7, "context_precision": null, "context_recall": 0.0, "answer_correctness": 0.1481}
+{"question_id": "026", "question": "Come faccio ad associare il mio veterinario?", "faithfulness": 1.0, "answer_relevancy": 0.6793, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.3515}
+{"question_id": "027", "question": "Qual è l’email del Ministero a cui inviare le deleghe?", "faithfulness": 0.0, "answer_relevancy": 0.9792, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.3439}
+{"question_id": "028", "question": "Quanto tempo dovrò attendere per l’abilitazione?", "faithfulness": 0.3333, "answer_relevancy": 0.2658, "context_precision": null, "context_recall": 0.0, "answer_correctness": 0.0921}
+{"question_id": "029", "question": "Ho ricevuto l’e-mail di avvenuta abilitazione ma non la password, potete inviarmela?", "faithfulness": 0.3333, "answer_relevancy": 0.4416, "context_precision": null, "context_recall": 0.0, "answer_correctness": 0.1777}
+{"question_id": "030", "question": "Vorrei informazioni riguardo i contributi PAC?", "faithfulness": 0.8, "answer_relevancy": 0.1516, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.0973}
+{"question_id": "031", "question": "Come richiedere l’accesso?", "faithfulness": 0.9091, "answer_relevancy": 0.6458, "context_precision": null, "context_recall": 0.3333, "answer_correctness": 0.1599}
+{"question_id": "032", "question": "Dove trovo gli allevamenti che hanno effettuato l’autocontrollo per il taglio coda?", "faithfulness": 0.75, "answer_relevancy": 0.967, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.1658}
+{"question_id": "033", "question": "Come posso scaricare l’elenco degli allevamenti controllati/controllabili?", "faithfulness": 0.8, "answer_relevancy": 0.6802, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.5172}
+{"question_id": "044", "question": "Perché non riesco a trovare l’allevamento quando compilo una CL?", "faithfulness": 1.0, "answer_relevancy": 0.7859, "context_precision": null, "context_recall": 0.5, "answer_correctness": 0.1771}
+{"question_id": "035", "question": "Dove posso vedere le CL caricate dai colleghi?", "faithfulness": 1.0, "answer_relevancy": 0.1696, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.0952}
+{"question_id": "036", "question": "È necessario compilare una nuova CL al momento della verifica della prescrizione?", "faithfulness": 0.6667, "answer_relevancy": 0.8606, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.3327}
+{"question_id": "037", "question": "Per quanto riguarda gli allevamenti con equidi non DPA o a indirizzo misto, dove devono essere inserite le CL?", "faithfulness": 0.25, "answer_relevancy": 0.0, "context_precision": null, "context_recall": 0.0, "answer_correctness": 0.151}
+{"question_id": "038", "question": "Qual è la differenza tra veterinario incaricato ed aziendale?", "faithfulness": 0.75, "answer_relevancy": 0.9678, "context_precision": null, "context_recall": 0.0, "answer_correctness": 0.6599}
+{"question_id": "039", "question": "Perché non vedo la CL in Dashboard?", "faithfulness": 1.0, "answer_relevancy": 0.4, "context_precision": null, "context_recall": 0.5, "answer_correctness": 0.1158}
+{"question_id": "040", "question": "Perché esce la scritta \"Errore\" quando cerco un allevamento con la app?", "faithfulness": 0.625, "answer_relevancy": 0.0, "context_precision": null, "context_recall": 0.0, "answer_correctness": 0.1078}
+{"question_id": "041", "question": "Perché non riesco ad associare l’azienda?", "faithfulness": 0.4444, "answer_relevancy": 0.7742, "context_precision": 0.41, "context_recall": 0.0, "answer_correctness": 0.1356}
+{"question_id": "042", "question": "Come faccio a cancellare una CL?", "faithfulness": 1.0, "answer_relevancy": 0.5393, "context_precision": null, "context_recall": 0.0, "answer_correctness": 0.1595}
+{"question_id": "043", "question": "Come faccio a modificare una CL?", "faithfulness": 0.8, "answer_relevancy": 0.4172, "context_precision": null, "context_recall": 0.0, "answer_correctness": 0.1617}
+{"question_id": "044", "question": "Perché non riesco a trovare l’allevamento quando compilo una CL?", "faithfulness": 0.9231, "answer_relevancy": 0.0, "context_precision": null, "context_recall": 0.5, "answer_correctness": 0.1497}
+{"question_id": "045", "question": "A chi devo inviare l’associazione Operatore–Veterinario?", "faithfulness": 0.5, "answer_relevancy": 0.617, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.1792}
+{"question_id": "046", "question": "Come devono essere i pavimenti delle stalle dei suini?", "faithfulness": 1.0, "answer_relevancy": 0.86, "context_precision": null, "context_recall": 0.75, "answer_correctness": 0.9703}
+{"question_id": "047", "question": "Come devo progettare le strutture di stabulazione delle galline?", "faithfulness": 1.0, "answer_relevancy": 0.9146, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.2453}
+{"question_id": "048", "question": "Come faccio a salvare la checklist che ho compilato?", "faithfulness": 0.8182, "answer_relevancy": 0.8866, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.96}
+{"question_id": "049", "question": "In che strutture è consentito l'utilizzo di educatori elettrici?", "faithfulness": 1.0, "answer_relevancy": 0.7429, "context_precision": null, "context_recall": 1.0, "answer_correctness": 0.7107}
+{"question_id": "050", "question": "Qual è la definizione di operatore ai sensi del Regolamento UE 429/2016?", "faithfulness": 1.0, "answer_relevancy": 0.9248, "context_precision": 0.127, "context_recall": 1.0, "answer_correctness": 0.9889}
+{"question_id": "051", "question": "Dove trovo la sezione dell'operatore e dei suoi delegati?", "faithfulness": 1.0, "answer_relevancy": 0.9039, "context_precision": 0.8767, "context_recall": 1.0, "answer_correctness": 0.4979}
+{"question_id": "052", "question": "Come si accede ai cruscotti interattivi di ClassyFarm?", "faithfulness": 1.0, "answer_relevancy": 0.609, "context_precision": 0.9838, "context_recall": 1.0, "answer_correctness": 0.8724}
+{"question_id": "053", "question": "Cosa devo fare per nominare un delegato da singolo operatore?", "faithfulness": 1.0, "answer_relevancy": 0.9075, "context_precision": 0.9139, "context_recall": 1.0, "answer_correctness": 0.6561}
+{"question_id": "054", "question": "Come posso selezionare il veterinario aziendale in ClassyFarm?", "faithfulness": 1.0, "answer_relevancy": 0.8924, "context_precision": 0.7231, "context_recall": 1.0, "answer_correctness": 0.8791}
+{"question_id": "055", "question": "Come accedo all'area riservata di Vetinfo?", "faithfulness": 1.0, "answer_relevancy": 0.9131, "context_precision": 0.3464, "context_recall": 1.0, "answer_correctness": 0.6401}
+{
+  "statistical_summary": {
+    "total_questions": 55,
+    "source_report": "ragas_report_20260211_192705.csv",
+    "timestamp": "2026-02-11T19:29:04.261354",
+    "faithfulness": {
+      "mean": 0.8156,
+      "median": 0.9091,
+      "mode": 1.0,
+      "std": 0.2507,
+      "variance": 0.0629,
+      "min": 0.0,
+      "max": 1.0,
+      "range": 1.0,
+      "q1": 0.7083,
+      "q3": 1.0,
+      "iqr": 0.2917,
+      "outliers_low_count": 3,
+      "outliers_high_count": 0,
+      "outliers_low": [
+        "022",
+        "027",
+        "037"
+      ],
+      "outliers_high": []
+    },
+    "answer_relevancy": {
+      "mean": 0.6495,
+      "median": 0.7,
+      "mode": 0.0,
+      "std": 0.2849,
+      "variance": 0.0812,
+      "min": 0.0,
+      "max": 1.0,
+      "range": 1.0,
+      "q1": 0.556,
+      "q3": 0.8729,
+      "iqr": 0.3168,
+      "outliers_low_count": 5,
+      "outliers_high_count": 0,
+      "outliers_low": [
+        "010",
+        "014",
+        "037",
+        "040",
+        "044"
+      ],
+      "outliers_high": []
+    },
+    "context_precision": {
+      "mean": 0.6259,
+      "median": 0.7231,
+      "mode": 0.127,
+      "std": 0.3309,
+      "variance": 0.1095,
+      "min": 0.127,
+      "max": 0.9838,
+      "range": 0.8568,
+      "q1": 0.3782,
+      "q3": 0.8953,
+      "iqr": 0.5171,
+      "outliers_low_count": 0,
+      "outliers_high_count": 0,
+      "outliers_low": [],
+      "outliers_high": []
+    },
+    "context_recall": {
+      "mean": 0.7088,
+      "median": 1.0,
+      "mode": 1.0,
+      "std": 0.4184,
+      "variance": 0.175,
+      "min": 0.0,
+      "max": 1.0,
+      "range": 1.0,
+      "q1": 0.45,
+      "q3": 1.0,
+      "iqr": 0.55,
+      "outliers_low_count": 0,
+      "outliers_high_count": 0,
+      "outliers_low": [],
+      "outliers_high": []
+    },
+    "answer_correctness": {
+      "mean": 0.4492,
+      "median": 0.3568,
+      "mode": 0.0921,
+      "std": 0.2967,
+      "variance": 0.088,
+      "min": 0.0921,
+      "max": 0.9889,
+      "range": 0.8969,
+      "q1": 0.1608,
+      "q3": 0.6853,
+      "iqr": 0.5245,
+      "outliers_low_count": 0,
+      "outliers_high_count": 0,
+      "outliers_low": [],
+      "outliers_high": []
+    },
+    "correlations": {
+      "faithfulness_vs_answer_relevancy": 0.1036,
+      "faithfulness_vs_context_precision": 0.2876,
+      "faithfulness_vs_context_recall": 0.2715,
+      "faithfulness_vs_answer_correctness": 0.2403,
+      "answer_relevancy_vs_context_precision": -0.392,
+      "answer_relevancy_vs_context_recall": 0.4766,
+      "answer_relevancy_vs_answer_correctness": 0.5446,
+      "context_precision_vs_context_recall": 0.2876,
+      "context_precision_vs_answer_correctness": 0.0178,
+      "context_recall_vs_answer_correctness": 0.5096
+    },
+    "critical_questions": [
+      {
+        "question_id": "037",
+        "question": "Per quanto riguarda gli allevamenti con equidi non DPA o a indirizzo misto, dove devono essere inserite le CL?",
+        "reason": "Low faithfulness (0.25); Low answer_relevancy (0.00)",
+        "affected_metrics": [
+          "faithfulness",
+          "answer_relevancy"
+        ],
+        "severity": "high"
+      },
+      {
+        "question_id": "010",
+        "question": "Cosa si intende per OdC?",
+        "reason": "Low answer_relevancy (0.00)",
+        "affected_metrics": [
+          "answer_relevancy"
+        ],
+        "severity": "medium"
+      },
+      {
+        "question_id": "014",
+        "question": "Cosa vogliono dire Q1, Q2, Q3, Q4 nei cruscotti?",
+        "reason": "Low answer_relevancy (0.00)",
+        "affected_metrics": [
+          "answer_relevancy"
+        ],
+        "severity": "medium"
+      },
+      {
+        "question_id": "022",
+        "question": "Quali sono le aree in cui vengono divisi gli elementi di valutazione della check-list ufficiale?",
+        "reason": "Low faithfulness (0.14)",
+        "affected_metrics": [
+          "faithfulness"
+        ],
+        "severity": "medium"
+      },
+      {
+        "question_id": "027",
+        "question": "Qual è l’email del Ministero a cui inviare le deleghe?",
+        "reason": "Low faithfulness (0.00)",
+        "affected_metrics": [
+          "faithfulness"
+        ],
+        "severity": "medium"
+      },
+      {
+        "question_id": "040",
+        "question": "Perché esce la scritta \"Errore\" quando cerco un allevamento con la app?",
+        "reason": "Low answer_relevancy (0.00)",
+        "affected_metrics": [
+          "answer_relevancy"
+        ],
+        "severity": "medium"
+      },
+      {
+        "question_id": "044",
+        "question": "Perché non riesco a trovare l’allevamento quando compilo una CL?",
+        "reason": "Low answer_relevancy (0.00)",
+        "affected_metrics": [
+          "answer_relevancy"
+        ],
+        "severity": "medium"
+      }
+    ],
+    "health_score": {
+      "overall_score": 2.99,
+      "rating": "poor",
+      "breakdown": {
+        "base_score": 38.99,
+        "outlier_penalty": 16,
+        "critical_penalty": 20
+      }
+    }
+  }
+}

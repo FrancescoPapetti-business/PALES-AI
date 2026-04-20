@@ -1,0 +1,120 @@
+{
+  "question": "in quante aree vengono divisi gli elementi di valutazione della chek-list ufficiale?",
+  "normalized": {
+    "normalized_text": "in quante aree vengono divisi gli elementi di valutazione della chek-list ufficiale?",
+    "canonical_concepts": []
+  },
+  "retrieved_docs_count": 8,
+  "retrieved_docs_metadata": [
+    {
+      "filename": "Man-ClassyFarm-Ben-Autocontrollo_Coniglio_sett2025def.pdf",
+      "page": 18,
+      "category": null,
+      "canonical": "",
+      "preview": "Il testo riguarda un elemento di valutazione che è attualmente in fase di revisione. Per facilitare la nuova stima della numerosità accettabile di addetti, si raccomanda che il valutatore compili la v"
+    },
+    {
+      "filename": "Vitelli__Benessere_Manuale.pdf",
+      "page": 18,
+      "category": null,
+      "canonical": "",
+      "preview": "Il testo discute la possibilità di effettuare valutazioni a campione all'interno delle diverse categorie di animali, come ad esempio quelli di età differente. Questa pratica è particolarmente utile qu"
+    },
+    {
+      "filename": "Manuale_Check_list_Farmacosorveglianza_rev.1.3c.pdf",
+      "page": 4,
+      "category": null,
+      "canonical": "",
+      "preview": "La nuova check-list di farmacovigilanza, contenuta nel manuale operativo 1.3, ha come obiettivo principale quello di semplificare il sistema dei controlli ufficiali a livello nazionale, perseguendo al"
+    },
+    {
+      "filename": "Manuale_SUINO_GRASSO_APERTO_2025_.pdf",
+      "page": 10,
+      "category": null,
+      "canonical": "",
+      "preview": "Dalla normativa vigente, il livello ottenuto dal questionario compilato dal veterinario ufficiale corrisponde a un livello \"superiore ai requisiti previsti\". \n\nPer il valutatore, sarà sufficiente sele"
+    },
+    {
+      "filename": "Manuale-SUINO-GRASSO-2018-LP-rev.3.pdf",
+      "page": 9,
+      "category": null,
+      "canonical": "",
+      "preview": "Dalla normativa vigente, il livello ottenuto dal questionario compilato dal veterinario ufficiale corrisponde a un livello \"superiore ai requisiti previsti\". \n\nPer il valutatore, sarà sufficiente sele"
+    },
+    {
+      "filename": "Guida_Valutatore_23.10.25.pdf",
+      "page": 13,
+      "category": null,
+      "canonical": "",
+      "preview": "Selezionare il questionario di interesse, fare clic sull'icona e successivamente su «Compila». \n\nPiani di Controllo disponibili: \nOgni Valutatore avrà accesso esclusivamente ai Piani di Controllo asso"
+    },
+    {
+      "filename": "Manuale-PECORA-DA-LATTE-Classyfarm-autocontrollo-23.03.2023_def.pdf",
+      "page": 168,
+      "category": null,
+      "canonical": "",
+      "preview": "168\n\n▪ la distribuzione del numero di risposte classificate come “insufficienti”, “accettabili” e “ottimali”;  \n▪ i punti critici identificati (elementi di verifica con valutazione insufficiente);  \n▪"
+    },
+    {
+      "filename": "Guida_Inserimento_Checklist_Benessere_Taglio_Coda_Suino_-_11.12.2023.pdf",
+      "page": 14,
+      "category": null,
+      "canonical": "",
+      "preview": "Il sistema integrato \"ClassyFarm\" fornisce una guida per l'inserimento della check-list per la valutazione del rischio relativo al taglio della coda. \n\nPer la compilazione del controllo, è necessario "
+    }
+  ],
+  "result": {
+    "answer": "Gli elementi di valutazione della check-list ufficiale sono divisi in tre aree, denominate A, B e C, che si riferiscono a indicazioni normative cogenti [3].",
+    "sources": [
+      {
+        "filename": "Man-ClassyFarm-Ben-Autocontrollo_Coniglio_sett2025def.pdf",
+        "page_number": 18,
+        "rel_path": "moduli veterinario aziendale\\conigli\\Man-ClassyFarm-Ben-Autocontrollo_Coniglio_sett2025def.pdf",
+        "sha256": "df4f6f2d470e4153a30832ccbe37b84e71f0597bd021e109c7010bc71bfe10d5"
+      },
+      {
+        "filename": "Vitelli__Benessere_Manuale.pdf",
+        "page_number": 18,
+        "rel_path": "moduli veterinario ufficiale\\Vitelli__Benessere_Manuale.pdf",
+        "sha256": "e38ba19292f091ea7c247b16a55c2fefa0558384bb72794fb07df9b0a43eef64"
+      },
+      {
+        "filename": "Manuale_Check_list_Farmacosorveglianza_rev.1.3c.pdf",
+        "page_number": 4,
+        "rel_path": "moduli veterinario ufficiale\\Manuale_Check_list_Farmacosorveglianza_rev.1.3c.pdf",
+        "sha256": "8c6f3bf81e937b6c0b73a1b812f4af85f153eac5f2c831bec3d4368a10fa6d2f"
+      },
+      {
+        "filename": "Manuale_SUINO_GRASSO_APERTO_2025_.pdf",
+        "page_number": 10,
+        "rel_path": "moduli veterinario aziendale\\suini\\benessere\\Manuale_SUINO_GRASSO_APERTO_2025_.pdf",
+        "sha256": "9b98a21754759fb88159431c5df4a1bfb9400188c17dfeba139f812d910ab997"
+      },
+      {
+        "filename": "Manuale-SUINO-GRASSO-2018-LP-rev.3.pdf",
+        "page_number": 9,
+        "rel_path": "moduli veterinario aziendale\\suini\\benessere\\Manuale-SUINO-GRASSO-2018-LP-rev.3.pdf",
+        "sha256": "ddc420d5632286cdd2dbf8762fed1b6c566adcd8b0e35f854a16e0ab77eed94f"
+      },
+      {
+        "filename": "Guida_Valutatore_23.10.25.pdf",
+        "page_number": 13,
+        "rel_path": "manuali operatori\\Guida_Valutatore_23.10.25.pdf",
+        "sha256": "a8179efc915ad19feec5631c5f2066a697f01234032a6c6196f14eacba60de82"
+      },
+      {
+        "filename": "Manuale-PECORA-DA-LATTE-Classyfarm-autocontrollo-23.03.2023_def.pdf",
+        "page_number": 168,
+        "rel_path": "moduli veterinario aziendale\\ovini e caprini\\Manuale-PECORA-DA-LATTE-Classyfarm-autocontrollo-23.03.2023_def.pdf",
+        "sha256": "0f2bcefa9007dcf818b70480b2cf3b1821fff1fd328b0a123159d4cfd79e0bcc"
+      },
+      {
+        "filename": "Guida_Inserimento_Checklist_Benessere_Taglio_Coda_Suino_-_11.12.2023.pdf",
+        "page_number": 14,
+        "rel_path": "manuali Veterinario aziendale\\Guida_Inserimento_Checklist_Benessere_Taglio_Coda_Suino_-_11.12.2023.pdf",
+        "sha256": "c4b2e2b75da47baec9415ce7d4223d982623dbc072627670d4829c5cec5d7802"
+      }
+    ],
+    "latency": 3.516
+  }
+}

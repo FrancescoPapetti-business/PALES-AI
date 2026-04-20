@@ -1,0 +1,81 @@
+{
+  "simple": [
+    {
+      "id": "Q010",
+      "latency": 4.002,
+      "answer_length": 56,
+      "keyword_coverage": 0.0,
+      "sources": 5
+    },
+    {
+      "id": "Q014",
+      "latency": 1.389,
+      "answer_length": 56,
+      "keyword_coverage": 0.0,
+      "sources": 5
+    },
+    {
+      "id": "Q021",
+      "latency": 1.764,
+      "answer_length": 41,
+      "keyword_coverage": 1.0,
+      "sources": 5
+    },
+    {
+      "id": "Q028",
+      "latency": 2.009,
+      "answer_length": 56,
+      "keyword_coverage": 0.0,
+      "sources": 5
+    },
+    {
+      "id": "Q009",
+      "latency": 1.51,
+      "answer_length": 166,
+      "keyword_coverage": 0.6666666666666666,
+      "sources": 5
+    }
+  ],
+  "current": [
+    {
+      "id": "Q010",
+      "latency": 9.064,
+      "answer_length": 392,
+      "keyword_coverage": 0.5,
+      "sources": 6,
+      "mode": "unknown"
+    },
+    {
+      "id": "Q014",
+      "latency": 1.641,
+      "answer_length": 351,
+      "keyword_coverage": 0.6666666666666666,
+      "sources": 4,
+      "mode": "unknown"
+    },
+    {
+      "id": "Q021",
+      "latency": 3.972,
+      "answer_length": 259,
+      "keyword_coverage": 1.0,
+      "sources": 13,
+      "mode": "unknown"
+    },
+    {
+      "id": "Q028",
+      "latency": 4.158,
+      "answer_length": 124,
+      "keyword_coverage": 0.3333333333333333,
+      "sources": 12,
+      "mode": "unknown"
+    },
+    {
+      "id": "Q009",
+      "latency": 1.18,
+      "answer_length": 702,
+      "keyword_coverage": 0.3333333333333333,
+      "sources": 8,
+      "mode": "unknown"
+    }
+  ]
+}

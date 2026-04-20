@@ -1,0 +1,187 @@
+{"question_id": "001", "question": "Qual è la definizione di operatore?", "faithfulness": 1.0, "answer_relevancy": 0.6518, "context_precision": 0.95, "context_recall": 1.0, "answer_correctness": 0.8702}
+{"question_id": "002", "question": "Qual è la definizione di delegato?", "faithfulness": 1.0, "answer_relevancy": 0.5568, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.5254}
+{"question_id": "003", "question": "Come richiedo il profilo da operatore?", "faithfulness": 1.0, "answer_relevancy": 0.8789, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.8948}
+{"question_id": "004", "question": "Come seleziono l’azienda?", "faithfulness": 0.9286, "answer_relevancy": 0.8332, "context_precision": 0.45, "context_recall": 0.5, "answer_correctness": 0.6987}
+{"question_id": "005", "question": "Non riesco a visualizzare il cruscotto, cosa devo fare?", "faithfulness": 1.0, "answer_relevancy": 0.5544, "context_precision": 0.95, "context_recall": 1.0, "answer_correctness": 0.9542}
+{"question_id": "006", "question": "Come faccio ad associare un valutatore?", "faithfulness": 1.0, "answer_relevancy": 0.7017, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.6246}
+{"question_id": "007", "question": "Come faccio a finire un esito di valutazione che non avevo terminato?", "faithfulness": 0.7778, "answer_relevancy": 0.6398, "context_precision": 0.8875, "context_recall": 1.0, "answer_correctness": 0.8854}
+{"question_id": "008", "question": "Come faccio a continuare una compilazione di checklist di valutazione salvata in bozza?", "faithfulness": 1.0, "answer_relevancy": 0.6555, "context_precision": 1.0, "context_recall": 0.5, "answer_correctness": 0.6958}
+{"question_id": "009", "question": "Come faccio a scaricare il report SQNBA?", "faithfulness": 1.0, "answer_relevancy": 0.9765, "context_precision": 1.0, "context_recall": 0.3333, "answer_correctness": 0.385}
+{"question_id": "021", "question": "Per cosa sta BDN?", "faithfulness": 1.0, "answer_relevancy": 0.7971, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.4466}
+{"question_id": "011", "question": "Cosa mi serve per inserire i dati di valutazione del Benessere Animale e della Biosicurezza tramite app?", "faithfulness": 0.9, "answer_relevancy": 0.6337, "context_precision": 1.0, "context_recall": 0.0, "answer_correctness": 0.1758}
+{"question_id": "012", "question": "Come faccio ad associarmi all’allevamento?", "faithfulness": 0.3077, "answer_relevancy": 0.7269, "context_precision": 1.0, "context_recall": 0.6667, "answer_correctness": 0.9651}
+{"question_id": "013", "question": "Perché se clicco su \"Visualizza\" in una bozza non me lo fa modificare?", "faithfulness": 1.0, "answer_relevancy": 0.8493, "context_precision": 1.0, "context_recall": 1.0, "answer_correctness": 0.5932}
+{"question_id": "014", "question": "Cosa vogliono dire Q1, Q2, Q3, Q4 nei cruscotti?", "faithfulness": 0.7778, "answer_relevancy": 0.9588, "context_precision": 0.0, "context_recall": 0.6667, "answer_correctness": 0.4918}
+{"question_id": "015", "question": "Cosa mi dice \"Sintesi risposte\" nel cruscotto?", "faithfulness": 1.0, "answer_relevancy": 0.2551, "context_precision": 0.0, "context_recall": 0.0, "answer_correctness": 0.1254}
+{
+  "statistical_summary": {
+    "total_questions": 15,
+    "source_report": "ragas_report_20260304_103447.csv",
+    "timestamp": "2026-03-04T10:40:39.217860",
+    "faithfulness": {
+      "mean": 0.9128,
+      "median": 1.0,
+      "mode": 1.0,
+      "std": 0.185,
+      "variance": 0.0342,
+      "min": 0.3077,
+      "max": 1.0,
+      "range": 0.6923,
+      "q1": 0.9143,
+      "q3": 1.0,
+      "iqr": 0.0857,
+      "outliers_low_count": 3,
+      "outliers_high_count": 0,
+      "outliers_low": [
+        "007",
+        "012",
+        "014"
+      ],
+      "outliers_high": []
+    },
+    "answer_relevancy": {
+      "mean": 0.7113,
+      "median": 0.7017,
+      "mode": 0.2551,
+      "std": 0.1843,
+      "variance": 0.034,
+      "min": 0.2551,
+      "max": 0.9765,
+      "range": 0.7214,
+      "q1": 0.6367,
+      "q3": 0.8412,
+      "iqr": 0.2045,
+      "outliers_low_count": 1,
+      "outliers_high_count": 0,
+      "outliers_low": [
+        "015"
+      ],
+      "outliers_high": []
+    },
+    "context_precision": {
+      "mean": 0.8158,
+      "median": 1.0,
+      "mode": 1.0,
+      "std": 0.3597,
+      "variance": 0.1294,
+      "min": 0.0,
+      "max": 1.0,
+      "range": 1.0,
+      "q1": 0.9187,
+      "q3": 1.0,
+      "iqr": 0.0812,
+      "outliers_low_count": 3,
+      "outliers_high_count": 0,
+      "outliers_low": [
+        "004",
+        "014",
+        "015"
+      ],
+      "outliers_high": []
+    },
+    "context_recall": {
+      "mean": 0.7111,
+      "median": 1.0,
+      "mode": 1.0,
+      "std": 0.3698,
+      "variance": 0.1368,
+      "min": 0.0,
+      "max": 1.0,
+      "range": 1.0,
+      "q1": 0.5,
+      "q3": 1.0,
+      "iqr": 0.5,
+      "outliers_low_count": 0,
+      "outliers_high_count": 0,
+      "outliers_low": [],
+      "outliers_high": []
+    },
+    "answer_correctness": {
+      "mean": 0.6221,
+      "median": 0.6246,
+      "mode": 0.1254,
+      "std": 0.2679,
+      "variance": 0.0718,
+      "min": 0.1254,
+      "max": 0.9651,
+      "range": 0.8397,
+      "q1": 0.4692,
+      "q3": 0.8778,
+      "iqr": 0.4086,
+      "outliers_low_count": 0,
+      "outliers_high_count": 0,
+      "outliers_low": [],
+      "outliers_high": []
+    },
+    "correlations": {
+      "faithfulness_vs_answer_relevancy": -0.1066,
+      "faithfulness_vs_context_precision": 0.0489,
+      "faithfulness_vs_context_recall": 0.0654,
+      "faithfulness_vs_answer_correctness": -0.3284,
+      "answer_relevancy_vs_context_precision": 0.1729,
+      "answer_relevancy_vs_context_recall": 0.2475,
+      "answer_relevancy_vs_answer_correctness": 0.1917,
+      "context_precision_vs_context_recall": 0.4351,
+      "context_precision_vs_answer_correctness": 0.3901,
+      "context_recall_vs_answer_correctness": 0.6887
+    },
+    "critical_questions": [
+      {
+        "question_id": "014",
+        "question": "Cosa vogliono dire Q1, Q2, Q3, Q4 nei cruscotti?",
+        "reason": "Low faithfulness (0.78); Low context_precision (0.00)",
+        "affected_metrics": [
+          "faithfulness",
+          "context_precision"
+        ],
+        "severity": "high"
+      },
+      {
+        "question_id": "015",
+        "question": "Cosa mi dice \"Sintesi risposte\" nel cruscotto?",
+        "reason": "Low answer_relevancy (0.26); Low context_precision (0.00)",
+        "affected_metrics": [
+          "answer_relevancy",
+          "context_precision"
+        ],
+        "severity": "high"
+      },
+      {
+        "question_id": "004",
+        "question": "Come seleziono l’azienda?",
+        "reason": "Low context_precision (0.45)",
+        "affected_metrics": [
+          "context_precision"
+        ],
+        "severity": "medium"
+      },
+      {
+        "question_id": "007",
+        "question": "Come faccio a finire un esito di valutazione che non avevo terminato?",
+        "reason": "Low faithfulness (0.78)",
+        "affected_metrics": [
+          "faithfulness"
+        ],
+        "severity": "medium"
+      },
+      {
+        "question_id": "012",
+        "question": "Come faccio ad associarmi all’allevamento?",
+        "reason": "Low faithfulness (0.31)",
+        "affected_metrics": [
+          "faithfulness"
+        ],
+        "severity": "medium"
+      }
+    ],
+    "health_score": {
+      "overall_score": 16.28,
+      "rating": "poor",
+      "breakdown": {
+        "base_score": 45.28,
+        "outlier_penalty": 14,
+        "critical_penalty": 15
+      }
+    }
+  }
+}

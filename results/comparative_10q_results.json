@@ -1,0 +1,146 @@
+{
+  "simple": [
+    {
+      "id": "Q003",
+      "latency": 5.17,
+      "answer_length": 260,
+      "keyword_coverage": 0.6666666666666666,
+      "has_answer": true
+    },
+    {
+      "id": "Q006",
+      "latency": 9.47,
+      "answer_length": 577,
+      "keyword_coverage": 0.5,
+      "has_answer": true
+    },
+    {
+      "id": "Q008",
+      "latency": 4.5,
+      "answer_length": 294,
+      "keyword_coverage": 0.6666666666666666,
+      "has_answer": true
+    },
+    {
+      "id": "Q009",
+      "latency": 1.74,
+      "answer_length": 56,
+      "keyword_coverage": 0.0,
+      "has_answer": false
+    },
+    {
+      "id": "Q021",
+      "latency": 6.17,
+      "answer_length": 41,
+      "keyword_coverage": 1.0,
+      "has_answer": false
+    },
+    {
+      "id": "Q012",
+      "latency": 9.41,
+      "answer_length": 735,
+      "keyword_coverage": 0.6666666666666666,
+      "has_answer": true
+    },
+    {
+      "id": "Q014",
+      "latency": 4.75,
+      "answer_length": 576,
+      "keyword_coverage": 0.5,
+      "has_answer": true
+    },
+    {
+      "id": "Q017",
+      "latency": 3.44,
+      "answer_length": 530,
+      "keyword_coverage": 1.0,
+      "has_answer": true
+    },
+    {
+      "id": "Q046",
+      "latency": 6.41,
+      "answer_length": 698,
+      "keyword_coverage": 0.6666666666666666,
+      "has_answer": true
+    },
+    {
+      "id": "Q050",
+      "latency": 4.72,
+      "answer_length": 261,
+      "keyword_coverage": 1.0,
+      "has_answer": true
+    }
+  ],
+  "current": [
+    {
+      "id": "Q003",
+      "latency": 9.057,
+      "answer_length": 1142,
+      "keyword_coverage": 1.0,
+      "has_answer": true
+    },
+    {
+      "id": "Q006",
+      "latency": 5.078,
+      "answer_length": 750,
+      "keyword_coverage": 1.0,
+      "has_answer": true
+    },
+    {
+      "id": "Q008",
+      "latency": 4.201,
+      "answer_length": 466,
+      "keyword_coverage": 1.0,
+      "has_answer": true
+    },
+    {
+      "id": "Q009",
+      "latency": 0.545,
+      "answer_length": 702,
+      "keyword_coverage": 0.6666666666666666,
+      "has_answer": true
+    },
+    {
+      "id": "Q021",
+      "latency": 3.007,
+      "answer_length": 134,
+      "keyword_coverage": 1.0,
+      "has_answer": true
+    },
+    {
+      "id": "Q012",
+      "latency": 10.182,
+      "answer_length": 1243,
+      "keyword_coverage": 1.0,
+      "has_answer": true
+    },
+    {
+      "id": "Q014",
+      "latency": 0.5,
+      "answer_length": 351,
+      "keyword_coverage": 1.0,
+      "has_answer": true
+    },
+    {
+      "id": "Q017",
+      "latency": 4.346,
+      "answer_length": 701,
+      "keyword_coverage": 1.0,
+      "has_answer": true
+    },
+    {
+      "id": "Q046",
+      "latency": 15.279,
+      "answer_length": 2177,
+      "keyword_coverage": 1.0,
+      "has_answer": true
+    },
+    {
+      "id": "Q050",
+      "latency": 3.302,
+      "answer_length": 311,
+      "keyword_coverage": 1.0,
+      "has_answer": true
+    }
+  ]
+}
