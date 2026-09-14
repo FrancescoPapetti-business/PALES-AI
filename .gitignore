@@ -1,12 +1,12 @@
-# --- SEGRETI E CONFIGURAZIONI ---
+# --- SECRETS AND LOCAL CONFIGURATION ---
 .env
 *.env
-.env.example
+!.env.example
 config.json
 credentials.json
 secrets.py
 
-# --- AMBIENTI VIRTUALI ---
+# --- PYTHON ENVIRONMENTS AND CACHE ---
 venv/
 .venv/
 env/
@@ -14,41 +14,44 @@ bin/
 lib/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# --- DATI E INDICI (RAG) ---
-# Escludi i documenti PDF originali se sono pesanti o riservati
-data/raw/
-# Escludi l'indice vettoriale locale (es. ChromaDB, FAISS)
+# --- GENERATED RAG DATA AND INDEXES ---
+# Local vector stores, SQLite databases, generated datasets, and rebuild outputs.
 storage/
 vector_db/
 *.db
-
-# --- SISTEMA E IDE ---
-.DS_Store
-.vscode/
-.idea/
-*.log
-# --- WEB SCRAPING CACHE ---
-# File HTML scaricati (riproducibili, non committare)
-data/web_cache/
-# PDF scaricati automaticamente dal web
-data/pdf_input/web_downloaded/
-
-# --- INDICI GENERATI (ricostruibili) ---
 data/vector_store/
 data/palesai.db
 data/datasets/
 
-# NOTA: data/master_faq/ e data/faq_input/ vanno COMMITTATI (fonti primarie)
+# Public source documents under data/pdf_input, data/master_faq, and data/faq_input
+# are intentionally versioned for portfolio reproducibility.
 
-# --- NODE ---
+# --- WEB SCRAPING CACHE ---
+data/web_cache/
+data/pdf_input/web_downloaded/
+
+# --- NODE / NEXT.JS ---
 node_modules/
 .next/
 frontend/node_modules/
 frontend/.next/
+frontend/out/
 
-# --- LOG ---
+# --- LOGS AND LOCAL OUTPUTS ---
 logs/
+*.log
+*.tmp
+*.zip
 
-# --- CLAUDE ---
+# --- SYSTEM AND IDE FILES ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- TOOL-SPECIFIC LOCAL FILES ---
 .claude/
